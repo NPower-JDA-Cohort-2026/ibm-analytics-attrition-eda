@@ -49,9 +49,6 @@ The framing is deliberately **diagnostic rather than predictive**. The primary q
 | **Missing values** | None                                                                                                                                                |
 | **License**        | Kaggle lists the dataset under an open database licence; confirm the current terms on the dataset page before redistributing the raw file           |
 
-> [!NOTE]
-> The dataset is **not redistributed in this repository**. Download it from Kaggle into `data/raw/` — see [Getting Started](#getting-started).
-
 ### Class balance
 
 `Attrition = Yes` accounts for **237 of 1,470** employees, an overall rate of **≈16.1%**. This imbalance matters for two reasons that shape everything downstream:
@@ -319,6 +316,7 @@ Optional, and secondary to the EDA. If included, the point is **interpretability
 
 | Phase | Deliverable                                                                       | Status     |
 | :---- | :-------------------------------------------------------------------------------- | :--------- |
+| 00    | Understanding IBM HR Analytics Employee Attrition Dataset                         | ⏳ Planned |
 | 01    | Data acquisition and profiling — dtypes, constants, distributions, quality checks | ⏳ Planned |
 | 02    | Cleaning and feature prep — drop constants, decode ordinals, derive tenure bands  | ⏳ Planned |
 | 03    | Univariate exploration — distributions and category frequencies                   | ⏳ Planned |
@@ -338,7 +336,7 @@ Planned layout; directories appear as each phase lands.
 ```
 ibm-analytics-attrition-eda/
 ├── data/
-│   ├── raw/                  # Kaggle CSV — gitignored, not redistributed
+│   ├── raw/                  # IBM HR Analytics Employee Attrition & Performance CSV file
 │   └── processed/            # Cleaned, decoded outputs
 ├── notebooks/
 │   ├── 00-understanding-data.ipynb
@@ -373,15 +371,244 @@ source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-**Get the data.** The CSV is not committed. Either download it manually from the [Kaggle dataset page](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data) into `data/raw/`, or use the Kaggle CLI:
+Notebooks are numerically prefixed and intended to be run in order.
 
-**Run the analysis.**
+---
 
-```bash
-jupyter lab
+## Run in Google Colab
+
+No local install, no virtual environment, no VS Code. Colab gives every team member the same Python environment in the browser, which makes it the fastest way to read, run, or review a notebook — and the easiest way to help a teammate who is stuck on a setup problem.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NPower-JDA-Cohort-2026/ibm-analytics-attrition-eda/blob/main/notebooks/00-understanding-data.ipynb)
+
+### Open a notebook
+
+**Option A — the badge.** Click the badge above. It opens `00-understanding-data.ipynb` from the `main` branch directly.
+
+**Option B — the URL pattern.** Any notebook in the repository can be opened by swapping the filename:
+
+```
+https://colab.research.google.com/github/NPower-JDA-Cohort-2026/ibm-analytics-attrition-eda/blob/main/notebooks/<NOTEBOOK-NAME>.ipynb
 ```
 
-Notebooks are numerically prefixed and intended to be run in order — later ones read the cleaned outputs written by `02`.
+**Option C — the Colab file picker.** In Colab, go to **File → Open notebook → GitHub**, paste `NPower-JDA-Cohort-2026/ibm-analytics-attrition-eda`, and pick the notebook from the list. Tick **Include private repos** and authorise GitHub if the repository is not public for you yet.
+
+> [!IMPORTANT]
+> Opening a notebook this way gives you a **scratch copy**. Editing it does **not** change the repository, and closing the tab loses your work unless you save it. Use **File → Save a copy in Drive** to keep it, or see [Saving your work back to GitHub](#saving-your-work-back-to-github) below.
+
+### Install the dependencies
+
+Colab ships with pandas, NumPy, Matplotlib, and seaborn already installed, so most notebooks run as-is. To match the exact versions this project was built against, run this as the first cell:
+
+```python
+!pip install -q -r https://raw.githubusercontent.com/NPower-JDA-Cohort-2026/ibm-analytics-attrition-eda/main/requirements.txt
+```
+
+If that pull is slow or a pin conflicts with Colab's preinstalled stack, install only what the notebooks actually import:
+
+```python
+!pip install -q pandas numpy matplotlib seaborn plotly
+```
+
+### Get the data into the session
+
+Colab runtime starts empty. Pick one of the two routes below.
+
+**1 · Manual upload — simplest, fine for a one-off session.**
+
+```python
+from google.colab import files
+import pathlib
+
+pathlib.Path("data/raw").mkdir(parents=True, exist_ok=True)
+uploaded = files.upload()          # choose WA_Fn-UseC_-HR-Employee-Attrition.csv
+
+for name in uploaded:
+    pathlib.Path(name).rename(f"data/raw/{name}")
+```
+
+**2 · Google Drive — best if you will run notebooks more than once.** Upload the CSV to your Drive once, then mount it in every session:
+
+```python
+from google.colab import drive
+import pathlib, shutil
+
+drive.mount("/content/drive")
+
+pathlib.Path("data/raw").mkdir(parents=True, exist_ok=True)
+shutil.copy(
+    "/content/drive/MyDrive/ibm-hr-attrition/WA_Fn-UseC_-HR-Employee-Attrition.csv",
+    "data/raw/",
+)
+```
+
+### Keep the file paths working
+
+Notebooks read the data with a relative path such as `data/raw/WA_Fn-UseC_-HR-Employee-Attrition.csv`. Locally that resolves because the notebook lives in `notebooks/`; in Colab the working directory is `/content`. The snippets above already write to `/content/data/raw/`, which is why they use `data/raw` and not `../data/raw`. If a notebook fails with `FileNotFoundError`, check where the file actually landed:
+
+```python
+import os
+print(os.getcwd())
+!ls -R data
+```
+
+### Saving your work back to GitHub
+
+Colab can commit for you: **File → Save a copy in GitHub**. It asks for the repository, the branch, and a commit message, and it pushes the notebook as one commit.
+
+Two rules for the team when using it:
+
+- **Never save to `main` from Colab.** Type a feature branch name in the branch field — Colab creates it if it does not exist. See [Team Git Workflow](#team-git-workflow).
+- **Write the commit message properly.** The dialog is a normal commit message box, so the [Conventional Commits](#commit-message-convention) format applies there too.
+
+> [!TIP]
+> Colab notebooks carry heavy execution metadata and can generate large, unreviewable diffs. Before saving back to GitHub, **Runtime → Restart and run all** so the outputs are clean and in order, and mention in the commit body that the notebook was run top to bottom.
+
+### What Colab will not do for you
+
+| Limitation                   | What it means for this project                                                                                  |
+| :--------------------------- | :-------------------------------------------------------------------------------------------------------------- |
+| Runtime is temporary         | Files, installs, and the mounted CSV vanish when the session disconnects — re-run the setup cells each time     |
+| Idle disconnect              | Long unattended runs get dropped; keep notebooks quick and restartable                                          |
+| No project virtual env       | Package versions are Colab's unless you pin them with the `requirements.txt` cell above                         |
+| Excel dashboards do not open | Phase 07's Excel workbook needs a desktop spreadsheet application                                               |
+| Dash / Streamlit apps        | Runnable only with a tunnel workaround; treat the local environment as the supported path for `dashboards/app/` |
+
+---
+
+## Team Git Workflow
+
+### The loop
+
+**1 · Update `main` before starting.** - Before starting new work, make sure your local main is up to date.
+
+```bash
+git switch main
+git pull origin main
+```
+
+`--rebase` replays your local commits on top of the remote instead of manufacturing a "Merge branch 'main'" commit, which keeps the shared history readable.
+
+**2 · Branch for your work.** Do not commit directly to `main`.
+
+```bash
+git switch -c feat/04-attrition-by-segment
+```
+
+Branch naming mirrors the commit types below: `feat/…`, `fix/…`, `docs/…`, `chore/…`. Include the notebook or phase number when the work maps to one.
+
+**3 · Make your change on your branch.** Keep each branch focused on one task.
+
+For example:
+
+Good: Add attrition analysis by job role
+Avoid: Add attrition analysis + redesign README + update dependencies
+
+**4 · Stage the files you want to commit.** Add only the files related to your task.
+
+```bash
+git add notebooks/04-attrition-by-segment.ipynb
+git add reports/figures/attrition-by-role.png
+
+git diff --staged        # last look at exactly what will be committed
+```
+
+**5 · Commit with a real message.** Format and rationale in [Commit Message Convention](#commit-message-convention).
+
+```bash
+git commit -m "feat(04): add attrition rate by job role and level"
+```
+
+Commit in small, working steps. Several focused commits are easier to review — and to revert.
+
+**6 · Pull once more, then push.** Someone almost certainly pushed while you were working.
+
+```bash
+git pull origin main
+git push -u origin feat/04-attrition-by-segment
+```
+
+**7 · Open a pull request** against `main`, describe what changed. Merge after approval, then clean up:
+
+```bash
+git switch main
+git pull origin main
+git branch -d feat/04-attrition-by-segment
+```
+
+### When something goes wrong
+
+| Situation                             | Command                                                                                      |
+| :------------------------------------ | :------------------------------------------------------------------------------------------- |
+| Push rejected — remote has new work   | `git pull --rebase origin main`, resolve, then push again                                    |
+| Staged a file by mistake              | `git restore --staged <file>` — unstages it, keeps your edits                                |
+| Discard uncommitted edits to a file   | `git restore <file>` — **destructive**, the edits are gone                                   |
+| Wrong commit message, not pushed yet  | `git commit --amend -m "<correct message>"`                                                  |
+| Undo the last commit, keep the work   | `git reset --soft HEAD~1`                                                                    |
+| Need to switch branches mid-change    | `git stash` → switch → `git stash pop`                                                       |
+| Notebook conflict you cannot untangle | Keep one version: `git checkout --theirs <notebook>` or `--ours`, re-run it, commit, explain |
+
+---
+
+## Commit Message Convention
+
+This project follows [Conventional Commits](https://www.conventionalcommits.org/). The point is not ceremony — it is that `git log --oneline` becomes a readable changelog, and a reviewer can tell what a commit does before opening it.
+
+```
+<type>(<scope>): <short summary in the imperative mood>
+
+<optional body — why the change was made, not what it did>
+```
+
+Rules that make the format worth following:
+
+- **Type is lower-case and required.** Scope is optional but strongly encouraged — use the notebook number (`04`), the directory (`dashboards`), or the area (`readme`).
+- **Summary is imperative and under ~72 characters.** "add segment rates", not "added" or "adds".
+- **No trailing period.** No capital letter after the colon.
+- **One logical change per commit.** If the summary needs "and", split it.
+- **Use the body for the _why_.** The diff already shows what changed; it cannot show what you were thinking.
+
+### Types used by this team
+
+| Type       | Use it for                                                   | Example                                                         |
+| :--------- | :----------------------------------------------------------- | :-------------------------------------------------------------- |
+| `feat`     | New analysis, notebook, chart, KPI, or dashboard view        | `feat(05): add overtime attrition lift with baseline reference` |
+| `fix`      | Correcting a wrong result, broken code, or bad calculation   | `fix(04): use segment denominator instead of total headcount`   |
+| `docs`     | README, findings write-up, markdown cells, docstrings        | `docs(readme): add Google Colab setup instructions`             |
+| `refactor` | Restructuring code with no change to the output              | `refactor(02): extract ordinal decoding into a helper function` |
+| `style`    | Formatting, palette, labels, layout — nothing behavioural    | `style(06): apply colour-vision-safe palette to role charts`    |
+| `chore`    | Dependencies, `.gitignore`, repo scaffolding, housekeeping   | `chore: pin pandas to 3.0.5 in requirements.txt`                |
+| `data`     | Data acquisition, cleaning outputs, schema or codebook edits | `data(02): drop constant columns and write processed snapshot`  |
+| `test`     | Validation checks and assertions on the analysis             | `test(04): assert segment rates sum to the overall baseline`    |
+| `perf`     | Making something meaningfully faster                         | `perf(03): vectorise tenure banding instead of iterating rows`  |
+| `revert`   | Undoing a previous commit                                    | `revert: feat(08) flight-risk score prototype`                  |
+
+### Worked examples
+
+Good — scoped, imperative, one idea, and the body carries the reasoning:
+
+```
+feat(05): add within-role pay gap dumbbell chart
+
+Company-wide income comparison confounds pay with seniority, so the
+gap is computed inside each JobRole x JobLevel cell. Cells with fewer
+than 20 employees are flagged rather than plotted.
+```
+
+```
+fix(04): correct attrition rate denominator for job role
+
+Rates were dividing by total headcount instead of the role's own
+headcount, which understated every role. Sales Representative moves
+from 6.5% to 39.8%.
+```
+
+```
+docs(readme): document Colab data-loading routes
+```
+
+> [!TIP]
+> Before committing, read your message back as the sentence _"This commit will \_\_\_."_ If it does not complete that sentence, rewrite it.
 
 ---
 
