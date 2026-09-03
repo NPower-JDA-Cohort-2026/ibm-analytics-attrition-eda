@@ -49,26 +49,6 @@ The framing is deliberately **diagnostic rather than predictive**. The primary q
 | **Missing values** | None                                                                                                                                                |
 | **License**        | Kaggle lists the dataset under an open database licence; confirm the current terms on the dataset page before redistributing the raw file           |
 
-### Class balance
-
-`Attrition = Yes` accounts for **237 of 1,470** employees, an overall rate of **≈16.1%**. This imbalance matters for two reasons that shape everything downstream:
-
-- **Every segment rate needs the baseline beside it.** A department at 18% is unremarkable; the same number without the 16.1% reference reads as alarming.
-- **Small denominators dominate the extremes.** Some job roles hold fewer than 100 employees, so a handful of leavers swings the rate by several points. Segment counts are reported alongside every rate, and thin cells are flagged rather than ranked.
-
-### The constraint that shapes this project
-
-There is **no time dimension**. No hire date, no termination date, no reporting period. That rules out the entire family of analyses HR dashboards usually lead with — monthly attrition trend, rolling 12-month turnover, year-over-year comparison, seasonality — and any KPI defined as a rate _per period_.
-
-What remains is still substantial, and this project uses it deliberately:
-
-- **Tenure-based pseudo-cohorts** via `YearsAtCompany`, `TotalWorkingYears`, `YearsInCurrentRole`, `YearsSinceLastPromotion`, and `YearsWithCurrManager` — an _experience_ axis rather than a _calendar_ axis.
-- **Segment comparison** — attrition rate across roles, levels, and conditions, always against the baseline.
-- **Distribution contrast** — how leavers and stayers differ in shape, not just in mean.
-
-> [!WARNING]
-> Presenting a tenure axis as if it were a calendar axis is the most common error made with this dataset. A "survival by `YearsAtCompany`" curve describes _the current workforce composition_, not a cohort tracked through time — attrition already removed people from the snapshot, so it is not a true survival function.
-
 ### Schema
 
 35 columns, grouped by what they are for rather than by dtype.
