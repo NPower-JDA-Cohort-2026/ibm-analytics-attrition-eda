@@ -1,0 +1,1471 @@
+Attrition,Age,Gender,Department,JobRole,JobLevel,MonthlyIncome,OverTime,JobSatisfaction,WorkLifeBalance,TotalWorkingYears,YearsAtCompany,YearsSinceLastPromotion,DistanceFromHome,AgeGroup,TenureGroup
+1,41,Female,Sales,Sales Executive,2,5993,1,4,1,8,6,0,1,40-49,6-10 Years
+0,49,Male,Research & Development,Research Scientist,2,5130,0,2,3,10,10,1,8,40-49,6-10 Years
+1,37,Male,Research & Development,Laboratory Technician,1,2090,1,3,3,7,0,0,2,30-39,0-2 Years
+0,33,Female,Research & Development,Research Scientist,1,2909,1,3,3,8,8,3,3,30-39,6-10 Years
+0,27,Male,Research & Development,Laboratory Technician,1,3468,0,2,3,6,2,2,2,Under 30,0-2 Years
+0,32,Male,Research & Development,Laboratory Technician,1,3068,0,4,2,8,7,3,2,30-39,6-10 Years
+0,59,Female,Research & Development,Laboratory Technician,1,2670,1,1,2,12,1,0,3,50+,0-2 Years
+0,30,Male,Research & Development,Laboratory Technician,1,2693,0,3,3,1,1,0,24,Under 30,0-2 Years
+0,38,Male,Research & Development,Manufacturing Director,3,9526,0,3,3,10,9,1,23,30-39,6-10 Years
+0,36,Male,Research & Development,Healthcare Representative,2,5237,0,3,2,17,7,7,27,30-39,6-10 Years
+0,35,Male,Research & Development,Laboratory Technician,1,2426,0,2,3,6,5,0,16,30-39,3-5 Years
+0,29,Female,Research & Development,Laboratory Technician,2,4193,1,3,3,10,9,0,15,Under 30,6-10 Years
+0,31,Male,Research & Development,Research Scientist,1,2911,0,3,2,5,5,4,26,30-39,3-5 Years
+0,34,Male,Research & Development,Laboratory Technician,1,2661,0,4,3,3,2,1,19,30-39,0-2 Years
+1,28,Male,Research & Development,Laboratory Technician,1,2028,1,3,3,6,4,0,24,Under 30,3-5 Years
+0,29,Female,Research & Development,Manufacturing Director,3,9980,0,1,3,10,10,8,21,Under 30,6-10 Years
+0,32,Male,Research & Development,Research Scientist,1,3298,1,2,2,7,6,0,5,30-39,6-10 Years
+0,22,Male,Research & Development,Laboratory Technician,1,2935,1,4,2,1,1,0,16,Under 30,0-2 Years
+0,53,Female,Sales,Manager,4,15427,0,4,3,31,25,3,2,50+,10+ Years
+0,38,Male,Research & Development,Research Scientist,1,3944,1,4,3,6,3,1,2,30-39,3-5 Years
+0,24,Female,Research & Development,Manufacturing Director,2,4011,0,3,2,5,4,1,11,Under 30,3-5 Years
+1,36,Male,Sales,Sales Representative,1,3407,0,1,3,10,5,0,9,30-39,3-5 Years
+0,34,Female,Research & Development,Research Director,3,11994,0,2,3,13,12,2,7,30-39,10+ Years
+0,21,Male,Research & Development,Research Scientist,1,1232,0,4,3,0,0,0,15,Under 30,0-2 Years
+1,34,Male,Research & Development,Research Scientist,1,2960,0,1,3,8,4,1,6,30-39,3-5 Years
+0,53,Female,Research & Development,Manager,5,19094,0,3,2,26,14,4,5,50+,10+ Years
+1,32,Female,Research & Development,Research Scientist,1,3919,1,1,3,10,10,6,16,30-39,6-10 Years
+0,42,Male,Sales,Sales Executive,2,6825,0,2,3,10,9,4,8,40-49,6-10 Years
+0,44,Female,Research & Development,Healthcare Representative,3,10248,0,4,3,24,22,5,7,40-49,10+ Years
+0,46,Female,Sales,Manager,5,18947,0,1,2,22,2,2,2,40-49,0-2 Years
+0,33,Male,Research & Development,Laboratory Technician,1,2496,0,4,3,7,1,0,2,30-39,0-2 Years
+0,44,Male,Research & Development,Healthcare Representative,2,6465,1,4,4,9,4,1,10,40-49,3-5 Years
+0,30,Male,Research & Development,Laboratory Technician,1,2206,0,3,3,10,10,1,9,Under 30,6-10 Years
+1,39,Male,Sales,Sales Representative,2,2086,0,4,4,19,1,0,5,30-39,0-2 Years
+1,24,Male,Research & Development,Research Scientist,1,2293,1,4,2,6,2,2,1,Under 30,0-2 Years
+0,43,Female,Research & Development,Research Scientist,1,2645,0,3,2,6,5,1,2,40-49,3-5 Years
+1,50,Male,Sales,Sales Representative,1,2683,1,3,3,3,3,0,3,40-49,3-5 Years
+0,35,Female,Sales,Sales Representative,1,2014,0,4,3,2,2,2,2,30-39,0-2 Years
+0,36,Female,Research & Development,Research Scientist,1,3419,1,1,4,6,1,0,5,30-39,0-2 Years
+0,33,Female,Sales,Sales Executive,2,5376,0,1,3,10,5,1,1,30-39,3-5 Years
+0,35,Male,Research & Development,Laboratory Technician,1,1951,0,4,3,1,1,0,4,30-39,0-2 Years
+0,27,Female,Research & Development,Laboratory Technician,1,2341,0,1,3,1,1,0,2,Under 30,0-2 Years
+1,26,Male,Research & Development,Laboratory Technician,1,2293,0,3,2,1,1,0,25,Under 30,0-2 Years
+0,27,Male,Sales,Sales Executive,3,8726,0,3,3,9,9,1,8,Under 30,6-10 Years
+0,30,Female,Research & Development,Laboratory Technician,2,4011,0,4,3,12,12,3,1,Under 30,10+ Years
+1,41,Female,Research & Development,Research Director,5,19545,0,3,3,23,22,15,12,40-49,10+ Years
+0,34,Male,Sales,Sales Executive,2,4568,0,3,3,10,9,8,23,30-39,6-10 Years
+0,37,Male,Research & Development,Research Scientist,1,3022,0,2,3,8,1,0,19,30-39,0-2 Years
+0,46,Male,Sales,Sales Executive,2,5772,1,4,3,14,9,0,5,40-49,6-10 Years
+0,35,Male,Research & Development,Laboratory Technician,1,2269,0,4,3,1,1,0,8,30-39,0-2 Years
+1,48,Male,Research & Development,Laboratory Technician,3,5381,1,3,3,23,1,0,1,40-49,0-2 Years
+1,28,Male,Research & Development,Laboratory Technician,1,3441,1,3,2,2,2,2,5,Under 30,0-2 Years
+0,44,Female,Sales,Sales Executive,2,5454,1,1,2,9,4,1,1,40-49,3-5 Years
+0,35,Male,Research & Development,Healthcare Representative,3,9884,1,1,3,10,4,2,11,30-39,3-5 Years
+0,26,Female,Sales,Sales Executive,2,4157,1,4,2,5,2,0,23,Under 30,0-2 Years
+0,33,Female,Research & Development,Research Director,3,13458,1,4,3,15,15,8,1,30-39,10+ Years
+0,35,Male,Sales,Sales Executive,3,9069,0,1,2,9,9,1,18,30-39,6-10 Years
+0,35,Female,Research & Development,Laboratory Technician,1,4014,1,1,3,4,2,2,23,30-39,0-2 Years
+0,31,Male,Research & Development,Laboratory Technician,2,5915,0,4,2,10,7,1,7,30-39,6-10 Years
+0,37,Male,Research & Development,Manufacturing Director,2,5993,0,3,4,7,7,0,1,30-39,6-10 Years
+0,32,Male,Research & Development,Manufacturing Director,2,6162,1,4,3,9,9,7,1,30-39,6-10 Years
+0,38,Female,Research & Development,Laboratory Technician,2,2406,0,4,3,10,10,9,29,30-39,6-10 Years
+0,50,Female,Research & Development,Research Director,5,18740,1,3,2,29,27,13,7,40-49,10+ Years
+0,59,Female,Sales,Sales Executive,3,7637,0,1,2,28,21,7,25,50+,10+ Years
+0,36,Female,Research & Development,Healthcare Representative,3,10096,0,3,3,17,17,12,8,30-39,10+ Years
+0,55,Female,Research & Development,Manager,4,14756,1,3,3,21,5,0,8,50+,3-5 Years
+0,36,Male,Research & Development,Manufacturing Director,2,6499,0,2,3,6,6,0,11,30-39,6-10 Years
+0,45,Male,Research & Development,Research Scientist,3,9724,0,1,3,25,1,0,7,40-49,0-2 Years
+0,35,Male,Research & Development,Research Scientist,1,2194,0,1,2,5,3,1,1,30-39,3-5 Years
+1,36,Male,Research & Development,Research Scientist,1,3388,1,3,2,2,1,0,9,30-39,0-2 Years
+0,59,Female,Sales,Sales Executive,2,5473,0,3,2,20,4,1,1,50+,3-5 Years
+0,29,Male,Research & Development,Research Scientist,1,2703,0,2,3,6,5,0,2,Under 30,3-5 Years
+0,31,Male,Research & Development,Research Scientist,1,2501,0,2,3,1,1,1,1,30-39,0-2 Years
+0,32,Male,Research & Development,Research Scientist,2,6220,0,2,3,10,10,0,1,30-39,6-10 Years
+0,36,Female,Research & Development,Laboratory Technician,1,3038,0,4,3,5,1,0,6,30-39,0-2 Years
+0,31,Female,Research & Development,Manufacturing Director,2,4424,0,4,3,11,11,1,8,30-39,10+ Years
+0,35,Male,Sales,Sales Executive,2,4312,0,1,3,16,15,2,1,30-39,10+ Years
+0,45,Male,Research & Development,Research Director,3,13245,1,1,4,17,0,0,6,40-49,0-2 Years
+0,37,Male,Research & Development,Research Director,3,13664,0,3,4,16,5,0,7,30-39,3-5 Years
+0,46,Male,Human Resources,Human Resources,2,5021,1,2,3,16,4,0,5,40-49,3-5 Years
+0,30,Male,Research & Development,Laboratory Technician,2,5126,1,4,2,10,10,3,1,Under 30,6-10 Years
+0,35,Male,Research & Development,Research Scientist,1,2859,0,3,3,6,6,0,1,30-39,6-10 Years
+0,55,Male,Sales,Sales Executive,3,10239,0,4,3,24,1,1,1,50+,0-2 Years
+0,38,Female,Research & Development,Research Scientist,2,5329,1,4,3,17,13,1,6,30-39,10+ Years
+0,34,Male,Research & Development,Manufacturing Director,2,4325,0,2,3,5,5,1,1,30-39,3-5 Years
+0,56,Male,Research & Development,Manufacturing Director,3,7260,0,4,2,37,6,0,7,50+,6-10 Years
+0,23,Male,Sales,Sales Representative,1,2322,0,1,3,3,0,0,2,Under 30,0-2 Years
+0,51,Male,Research & Development,Laboratory Technician,1,2075,0,4,3,10,4,0,9,50+,3-5 Years
+0,30,Male,Research & Development,Healthcare Representative,2,4152,0,4,3,11,11,10,2,Under 30,10+ Years
+1,46,Male,Sales,Sales Executive,3,9619,0,4,3,9,9,4,9,40-49,6-10 Years
+0,40,Male,Research & Development,Healthcare Representative,4,13503,0,2,2,22,22,11,1,30-39,10+ Years
+0,51,Male,Sales,Sales Executive,2,5441,1,4,1,11,10,1,21,50+,6-10 Years
+0,30,Female,Sales,Sales Executive,2,5209,1,2,2,11,11,2,4,Under 30,10+ Years
+0,46,Male,Research & Development,Healthcare Representative,3,10673,1,1,2,21,10,9,1,40-49,6-10 Years
+0,32,Male,Sales,Sales Executive,2,5010,0,3,3,12,11,5,6,30-39,10+ Years
+0,54,Female,Research & Development,Research Director,3,13549,0,3,1,16,4,0,2,50+,3-5 Years
+0,24,Female,Sales,Sales Executive,2,4999,0,3,2,4,3,0,3,Under 30,3-5 Years
+0,28,Male,Sales,Sales Executive,2,4221,0,3,4,5,5,0,4,Under 30,3-5 Years
+0,58,Male,Sales,Sales Executive,4,13872,0,3,2,38,37,1,10,50+,10+ Years
+0,44,Male,Research & Development,Laboratory Technician,2,2042,0,2,4,17,3,1,23,40-49,3-5 Years
+1,37,Male,Human Resources,Human Resources,1,2073,1,1,3,7,3,0,6,30-39,3-5 Years
+0,32,Male,Research & Development,Research Scientist,1,2956,0,1,3,1,1,0,1,30-39,0-2 Years
+1,20,Female,Research & Development,Laboratory Technician,1,2926,1,4,3,1,1,1,6,Under 30,0-2 Years
+0,34,Female,Research & Development,Research Scientist,2,4809,0,3,3,16,16,2,6,30-39,10+ Years
+0,37,Male,Research & Development,Healthcare Representative,2,5163,0,4,4,17,1,0,2,30-39,0-2 Years
+0,59,Female,Human Resources,Manager,5,18844,0,4,3,30,3,2,2,50+,3-5 Years
+0,50,Female,Research & Development,Research Director,5,18172,1,2,2,28,8,0,1,40-49,6-10 Years
+1,25,Male,Sales,Sales Executive,2,5744,1,3,3,6,6,0,5,Under 30,6-10 Years
+0,25,Male,Research & Development,Research Scientist,1,2889,0,4,3,2,2,2,7,Under 30,0-2 Years
+0,22,Female,Research & Development,Laboratory Technician,1,2871,0,4,3,1,0,0,15,Under 30,0-2 Years
+0,51,Female,Research & Development,Healthcare Representative,3,7484,0,1,2,23,13,12,1,50+,10+ Years
+1,34,Male,Research & Development,Laboratory Technician,2,6074,1,3,3,9,9,0,7,30-39,6-10 Years
+0,54,Female,Human Resources,Manager,4,17328,1,4,3,23,5,4,26,50+,3-5 Years
+0,24,Male,Research & Development,Laboratory Technician,1,2774,0,3,3,6,5,1,18,Under 30,3-5 Years
+0,34,Female,Research & Development,Research Scientist,2,4505,0,2,3,12,1,0,6,30-39,0-2 Years
+0,37,Male,Sales,Sales Executive,3,7428,0,4,3,12,5,1,3,30-39,3-5 Years
+0,34,Female,Research & Development,Manager,3,11631,0,1,3,14,11,5,5,30-39,10+ Years
+0,36,Female,Sales,Sales Executive,3,9738,0,4,3,10,9,2,11,30-39,6-10 Years
+0,36,Female,Research & Development,Laboratory Technician,1,2835,0,4,3,7,1,0,3,30-39,0-2 Years
+0,43,Male,Sales,Manager,4,16959,1,4,4,25,25,4,26,40-49,10+ Years
+0,30,Male,Research & Development,Research Scientist,1,2613,0,3,2,10,10,0,23,Under 30,6-10 Years
+0,33,Male,Sales,Sales Executive,2,6146,0,2,4,8,7,0,22,30-39,6-10 Years
+1,56,Female,Research & Development,Research Scientist,1,4963,1,2,3,7,5,4,14,50+,3-5 Years
+0,51,Male,Research & Development,Research Director,5,19537,0,3,3,23,20,15,6,50+,10+ Years
+1,31,Male,Sales,Sales Executive,2,6172,1,3,2,12,7,7,6,30-39,6-10 Years
+0,26,Female,Research & Development,Research Scientist,1,2368,0,2,2,5,5,4,6,Under 30,3-5 Years
+1,58,Female,Research & Development,Healthcare Representative,3,10312,0,4,2,40,40,15,23,50+,10+ Years
+1,19,Male,Sales,Sales Representative,1,1675,1,3,2,0,0,0,22,Under 30,0-2 Years
+0,22,Male,Research & Development,Laboratory Technician,1,2523,0,4,3,3,2,2,2,Under 30,0-2 Years
+0,49,Female,Research & Development,Manufacturing Director,2,6567,0,1,2,16,15,5,20,40-49,10+ Years
+0,43,Female,Research & Development,Research Scientist,1,4739,0,3,3,18,3,1,28,40-49,3-5 Years
+0,50,Female,Sales,Sales Executive,3,9208,0,4,3,16,2,2,12,40-49,0-2 Years
+1,31,Female,Sales,Sales Executive,2,4559,1,3,3,4,2,2,20,30-39,0-2 Years
+0,41,Male,Sales,Sales Executive,3,8189,1,3,3,12,9,0,9,40-49,6-10 Years
+0,26,Female,Human Resources,Human Resources,1,2942,0,3,3,8,8,5,25,Under 30,6-10 Years
+0,36,Male,Research & Development,Manufacturing Director,2,4941,0,2,3,7,3,0,6,30-39,3-5 Years
+1,51,Male,Research & Development,Manufacturing Director,3,10650,0,4,3,18,4,0,8,50+,3-5 Years
+0,39,Female,Sales,Sales Executive,2,5902,0,3,4,17,15,5,4,30-39,10+ Years
+0,25,Male,Sales,Sales Executive,2,8639,0,3,3,6,2,2,28,Under 30,0-2 Years
+0,30,Male,Human Resources,Human Resources,2,6347,1,4,1,12,11,4,9,Under 30,10+ Years
+1,32,Female,Research & Development,Laboratory Technician,1,4200,0,1,4,10,5,0,9,30-39,3-5 Years
+0,45,Male,Research & Development,Research Scientist,1,3452,0,4,2,9,6,0,29,40-49,6-10 Years
+0,38,Female,Research & Development,Research Scientist,2,4317,1,3,3,19,3,2,3,30-39,3-5 Years
+0,30,Female,Research & Development,Research Scientist,1,2632,0,3,2,5,5,0,18,Under 30,3-5 Years
+0,32,Male,Sales,Sales Executive,2,4668,0,4,4,9,8,0,9,30-39,6-10 Years
+0,30,Female,Research & Development,Research Scientist,1,3204,0,1,3,8,3,2,5,Under 30,3-5 Years
+0,30,Male,Research & Development,Laboratory Technician,1,2720,0,4,3,6,5,1,2,Under 30,3-5 Years
+0,41,Male,Research & Development,Manager,4,17181,0,1,2,21,7,7,10,40-49,6-10 Years
+0,41,Male,Research & Development,Laboratory Technician,1,2238,0,1,3,7,5,1,9,40-49,3-5 Years
+0,19,Female,Research & Development,Laboratory Technician,1,1483,0,2,3,1,1,0,3,Under 30,0-2 Years
+0,40,Female,Research & Development,Research Scientist,2,5605,0,2,3,20,20,2,26,30-39,10+ Years
+0,35,Male,Sales,Sales Executive,3,7295,0,2,3,10,10,0,1,30-39,6-10 Years
+0,53,Male,Sales,Sales Representative,2,2306,1,3,1,13,7,4,6,50+,6-10 Years
+0,45,Male,Research & Development,Laboratory Technician,2,2348,0,2,1,20,17,0,9,40-49,10+ Years
+0,32,Female,Sales,Sales Executive,3,8998,0,4,3,9,9,3,8,30-39,6-10 Years
+0,29,Male,Research & Development,Manufacturing Director,2,4319,0,3,3,10,10,0,1,Under 30,6-10 Years
+0,51,Male,Research & Development,Manufacturing Director,2,6132,0,3,3,10,1,0,7,50+,0-2 Years
+0,58,Female,Research & Development,Research Scientist,1,3346,1,2,2,9,1,0,9,50+,0-2 Years
+0,40,Male,Sales,Sales Executive,3,10855,0,4,2,15,12,2,4,30-39,10+ Years
+0,34,Female,Sales,Sales Representative,1,2231,0,3,3,6,4,1,2,30-39,3-5 Years
+0,22,Male,Research & Development,Research Scientist,1,2323,0,4,3,2,2,2,19,Under 30,0-2 Years
+0,27,Male,Research & Development,Research Scientist,1,2024,0,2,1,6,2,2,9,Under 30,0-2 Years
+0,28,Male,Research & Development,Research Scientist,1,2713,0,4,1,5,5,0,21,Under 30,3-5 Years
+0,57,Male,Research & Development,Healthcare Representative,3,9439,1,4,1,12,5,1,24,50+,3-5 Years
+0,27,Male,Research & Development,Research Scientist,1,2566,1,3,2,1,1,0,3,Under 30,0-2 Years
+0,50,Female,Research & Development,Manager,5,19926,0,2,3,21,5,4,11,40-49,3-5 Years
+0,41,Male,Research & Development,Research Scientist,1,2451,0,3,3,13,9,1,14,40-49,6-10 Years
+0,30,Female,Sales,Sales Executive,3,9419,0,4,3,12,10,7,5,Under 30,6-10 Years
+0,38,Female,Sales,Sales Executive,2,8686,0,4,4,12,8,0,1,30-39,6-10 Years
+0,32,Male,Research & Development,Research Scientist,1,3038,0,3,3,8,5,1,6,30-39,3-5 Years
+0,27,Male,Research & Development,Research Scientist,1,3058,1,2,2,6,5,1,17,Under 30,3-5 Years
+1,19,Female,Sales,Sales Representative,1,2325,0,1,4,1,0,0,1,Under 30,0-2 Years
+0,36,Male,Research & Development,Laboratory Technician,1,2088,0,2,2,13,8,7,3,30-39,6-10 Years
+0,30,Male,Research & Development,Laboratory Technician,2,3072,0,1,3,12,12,6,9,Under 30,10+ Years
+0,45,Female,Sales,Sales Executive,2,5006,1,1,4,9,5,0,4,40-49,3-5 Years
+0,56,Female,Research & Development,Research Scientist,1,4257,1,1,3,19,2,2,8,50+,0-2 Years
+0,33,Male,Research & Development,Research Scientist,1,2500,0,4,4,4,3,0,2,30-39,3-5 Years
+1,19,Male,Research & Development,Laboratory Technician,1,1102,0,4,2,1,1,1,2,Under 30,0-2 Years
+0,46,Female,Sales,Sales Executive,3,10453,0,1,3,24,24,15,1,40-49,10+ Years
+0,38,Female,Research & Development,Laboratory Technician,1,2288,0,4,3,2,2,2,9,30-39,0-2 Years
+0,31,Female,Research & Development,Research Scientist,1,3929,1,4,3,7,4,0,12,30-39,3-5 Years
+0,34,Female,Research & Development,Research Scientist,1,2311,0,2,3,9,3,1,27,30-39,3-5 Years
+1,41,Female,Sales,Sales Representative,1,3140,1,2,2,4,4,0,20,40-49,3-5 Years
+0,50,Male,Research & Development,Laboratory Technician,1,3690,0,3,2,5,3,0,1,40-49,3-5 Years
+0,53,Female,Research & Development,Manufacturing Director,2,4450,0,1,3,5,4,1,13,50+,3-5 Years
+0,33,Female,Research & Development,Research Scientist,1,2756,0,2,3,8,8,1,14,30-39,6-10 Years
+0,40,Female,Research & Development,Manager,5,19033,0,3,3,21,20,9,4,30-39,10+ Years
+0,55,Male,Research & Development,Research Director,5,18722,0,2,3,36,24,2,14,50+,10+ Years
+0,34,Male,Research & Development,Manufacturing Director,2,9547,0,3,2,10,10,1,2,30-39,6-10 Years
+0,51,Female,Research & Development,Healthcare Representative,4,13734,0,2,3,21,7,1,3,50+,6-10 Years
+0,52,Male,Research & Development,Manager,5,19999,0,3,3,34,33,11,1,50+,10+ Years
+0,27,Female,Research & Development,Research Scientist,1,2279,0,2,2,7,7,0,9,Under 30,6-10 Years
+1,35,Male,Research & Development,Manufacturing Director,2,5916,1,3,3,8,1,0,23,30-39,0-2 Years
+0,43,Male,Research & Development,Research Scientist,1,2089,0,4,4,7,5,2,7,40-49,3-5 Years
+0,45,Male,Research & Development,Manager,4,16792,0,4,3,22,20,11,2,40-49,10+ Years
+0,37,Male,Research & Development,Research Scientist,1,3564,1,1,2,8,8,1,21,30-39,6-10 Years
+0,35,Female,Research & Development,Laboratory Technician,2,4425,0,2,3,10,6,1,2,30-39,6-10 Years
+0,42,Female,Research & Development,Manufacturing Director,2,5265,0,3,3,11,5,0,21,40-49,3-5 Years
+0,38,Male,Research & Development,Manufacturing Director,2,6553,0,3,3,14,1,0,2,30-39,0-2 Years
+0,38,Male,Research & Development,Manufacturing Director,2,6261,0,4,1,9,7,1,29,30-39,6-10 Years
+0,27,Male,Research & Development,Manufacturing Director,2,4298,0,1,3,6,2,2,1,Under 30,0-2 Years
+0,49,Male,Research & Development,Manufacturing Director,2,6804,1,4,3,7,7,1,18,40-49,6-10 Years
+0,34,Male,Research & Development,Research Scientist,1,3815,1,3,4,5,5,2,10,30-39,3-5 Years
+0,40,Male,Research & Development,Laboratory Technician,2,2741,1,4,4,15,7,3,19,30-39,6-10 Years
+1,38,Male,Research & Development,Healthcare Representative,2,6673,1,1,3,17,1,0,29,30-39,0-2 Years
+1,29,Female,Sales,Sales Executive,3,7639,0,4,2,10,10,1,27,Under 30,6-10 Years
+0,22,Male,Research & Development,Research Scientist,1,2328,1,2,2,4,4,2,5,Under 30,3-5 Years
+0,36,Female,Research & Development,Laboratory Technician,1,2153,0,4,3,8,8,1,18,30-39,6-10 Years
+0,40,Male,Research & Development,Healthcare Representative,2,4876,0,4,1,5,3,0,9,30-39,3-5 Years
+0,46,Male,Research & Development,Healthcare Representative,3,9396,0,1,3,17,4,0,1,40-49,3-5 Years
+1,32,Male,Sales,Sales Executive,3,10400,0,4,2,14,14,9,4,30-39,10+ Years
+0,30,Male,Research & Development,Manufacturing Director,3,8474,0,3,3,12,11,5,1,Under 30,10+ Years
+0,27,Female,Sales,Sales Executive,2,9981,0,3,3,7,7,0,20,Under 30,6-10 Years
+0,51,Male,Research & Development,Research Director,3,12490,0,2,1,16,10,4,8,50+,6-10 Years
+1,30,Female,Research & Development,Research Scientist,1,2657,1,1,3,8,5,0,3,Under 30,3-5 Years
+0,41,Female,Sales,Manager,3,13591,1,4,3,16,1,0,6,40-49,0-2 Years
+1,30,Female,Sales,Sales Executive,2,6696,0,1,2,9,6,0,26,Under 30,6-10 Years
+1,29,Male,Research & Development,Research Scientist,1,2058,0,3,2,7,6,1,1,Under 30,6-10 Years
+0,45,Female,Sales,Sales Executive,3,8865,0,4,3,23,19,12,6,40-49,10+ Years
+0,54,Female,Sales,Sales Executive,2,5940,0,1,3,16,6,0,3,50+,6-10 Years
+0,36,Male,Research & Development,Laboratory Technician,2,5914,0,2,4,16,13,3,5,30-39,10+ Years
+0,33,Female,Research & Development,Research Scientist,1,2622,0,2,3,7,3,1,4,30-39,3-5 Years
+0,37,Male,Research & Development,Research Director,3,12185,1,4,3,10,10,0,11,30-39,6-10 Years
+0,38,Male,Sales,Sales Executive,3,10609,0,3,2,17,16,5,3,30-39,10+ Years
+0,31,Male,Research & Development,Manufacturing Director,2,4345,0,3,3,6,5,1,1,30-39,3-5 Years
+0,59,Male,Research & Development,Research Scientist,1,2177,0,4,3,7,1,0,3,50+,0-2 Years
+0,37,Male,Sales,Sales Representative,1,2793,0,4,3,13,9,5,4,30-39,6-10 Years
+0,29,Female,Sales,Sales Executive,3,7918,0,4,3,11,11,4,1,Under 30,10+ Years
+0,35,Female,Sales,Sales Executive,3,8789,0,3,4,10,10,0,1,30-39,6-10 Years
+1,29,Male,Research & Development,Research Scientist,1,2389,1,4,2,4,4,0,18,Under 30,3-5 Years
+0,52,Female,Research & Development,Laboratory Technician,1,3212,0,4,2,6,2,2,2,50+,0-2 Years
+0,42,Male,Research & Development,Manager,5,19232,0,4,3,22,22,11,4,40-49,10+ Years
+0,59,Male,Human Resources,Human Resources,1,2267,0,3,2,7,2,2,6,50+,0-2 Years
+0,50,Female,Sales,Manager,5,19517,0,4,2,32,7,0,1,40-49,6-10 Years
+1,33,Male,Research & Development,Laboratory Technician,1,2436,1,4,1,8,5,0,14,30-39,3-5 Years
+0,43,Female,Sales,Manager,4,16064,1,4,3,22,17,1,16,40-49,10+ Years
+1,33,Female,Research & Development,Laboratory Technician,1,2707,0,1,4,13,9,1,2,30-39,6-10 Years
+0,52,Male,Sales,Manager,5,19068,1,3,4,33,33,15,2,50+,10+ Years
+0,32,Female,Sales,Sales Representative,1,3931,0,2,3,6,4,1,4,30-39,3-5 Years
+1,32,Male,Research & Development,Laboratory Technician,1,3730,1,3,1,4,3,1,1,30-39,3-5 Years
+0,39,Female,Research & Development,Laboratory Technician,1,2232,0,3,3,7,3,1,1,30-39,3-5 Years
+0,32,Male,Sales,Sales Executive,2,4465,0,4,3,4,3,2,26,30-39,3-5 Years
+0,41,Male,Research & Development,Research Scientist,2,3072,0,1,2,17,1,0,19,40-49,0-2 Years
+0,40,Male,Research & Development,Research Scientist,2,3319,0,4,3,9,9,4,24,30-39,6-10 Years
+0,45,Male,Research & Development,Manager,5,19202,0,4,3,25,24,1,1,40-49,10+ Years
+0,31,Male,Research & Development,Research Director,3,13675,0,3,3,9,2,2,3,30-39,0-2 Years
+0,33,Female,Research & Development,Research Scientist,1,2911,0,4,2,2,2,0,5,30-39,0-2 Years
+0,34,Male,Research & Development,Manufacturing Director,2,5957,0,1,3,13,11,5,2,30-39,10+ Years
+0,37,Female,Research & Development,Research Scientist,1,3920,0,1,2,17,3,0,1,30-39,3-5 Years
+0,45,Male,Research & Development,Manufacturing Director,2,6434,0,3,3,9,3,0,7,40-49,3-5 Years
+1,37,Male,Research & Development,Manufacturing Director,3,10048,0,3,3,17,1,0,10,30-39,0-2 Years
+0,39,Female,Research & Development,Healthcare Representative,3,10938,0,3,3,20,19,11,2,30-39,10+ Years
+0,29,Male,Research & Development,Research Scientist,1,2340,0,4,3,6,6,1,15,Under 30,6-10 Years
+0,42,Female,Research & Development,Research Scientist,2,6545,1,1,3,10,3,0,17,40-49,3-5 Years
+0,29,Male,Sales,Sales Executive,2,6931,0,4,3,10,3,0,20,Under 30,3-5 Years
+0,25,Female,Research & Development,Manufacturing Director,2,4898,0,3,3,5,4,1,1,Under 30,3-5 Years
+0,42,Female,Research & Development,Laboratory Technician,1,2593,1,1,3,10,9,7,2,40-49,6-10 Years
+0,40,Male,Research & Development,Research Director,5,19436,0,3,3,22,21,3,2,30-39,10+ Years
+0,51,Male,Research & Development,Research Scientist,1,2723,0,4,2,1,1,0,1,50+,0-2 Years
+1,31,Male,Research & Development,Laboratory Technician,1,3479,0,2,4,6,5,1,29,30-39,3-5 Years
+0,32,Male,Research & Development,Laboratory Technician,1,2794,0,2,1,5,5,0,7,30-39,3-5 Years
+0,38,Male,Sales,Sales Executive,2,5249,0,4,3,13,8,7,2,30-39,6-10 Years
+0,32,Male,Research & Development,Laboratory Technician,2,2176,0,1,3,9,6,0,2,30-39,6-10 Years
+0,46,Female,Sales,Manager,4,16872,1,2,2,28,7,7,2,40-49,6-10 Years
+1,28,Male,Research & Development,Laboratory Technician,1,3485,0,3,1,5,0,0,2,Under 30,0-2 Years
+0,29,Male,Sales,Sales Executive,2,6644,0,2,3,10,0,0,2,Under 30,0-2 Years
+0,31,Male,Research & Development,Healthcare Representative,2,5582,0,4,3,10,9,7,23,30-39,6-10 Years
+0,25,Male,Research & Development,Healthcare Representative,2,4000,0,1,3,6,6,1,5,Under 30,6-10 Years
+0,45,Male,Research & Development,Healthcare Representative,4,13496,1,4,3,21,20,4,20,40-49,10+ Years
+0,36,Male,Research & Development,Laboratory Technician,1,3210,0,4,3,16,15,10,6,30-39,10+ Years
+0,55,Male,Research & Development,Manager,5,19045,1,1,3,37,36,4,1,50+,10+ Years
+1,47,Male,Research & Development,Manager,3,11849,1,2,2,10,10,9,29,40-49,6-10 Years
+0,28,Male,Research & Development,Research Scientist,1,2070,0,4,2,5,5,0,9,Under 30,3-5 Years
+0,37,Male,Sales,Sales Executive,2,6502,0,4,4,7,5,0,6,30-39,3-5 Years
+0,21,Male,Research & Development,Research Scientist,1,3230,0,3,4,3,3,1,3,Under 30,3-5 Years
+0,37,Female,Research & Development,Research Director,3,13603,1,4,3,15,5,0,1,30-39,3-5 Years
+0,35,Female,Research & Development,Manager,3,11996,0,2,2,10,7,6,22,30-39,6-10 Years
+0,38,Female,Sales,Sales Executive,2,5605,1,1,3,8,8,7,7,30-39,6-10 Years
+0,26,Female,Research & Development,Manufacturing Director,2,6397,0,2,1,6,6,1,1,Under 30,6-10 Years
+0,50,Male,Research & Development,Research Director,5,19144,0,2,2,28,10,1,4,40-49,6-10 Years
+0,53,Male,Research & Development,Research Director,4,17584,1,3,2,21,5,1,3,50+,3-5 Years
+0,42,Male,Sales,Sales Executive,2,4907,0,3,3,20,20,11,1,40-49,10+ Years
+0,29,Male,Sales,Sales Executive,2,4554,0,4,2,10,10,0,2,Under 30,6-10 Years
+0,55,Male,Research & Development,Laboratory Technician,2,5415,1,4,3,12,10,0,20,50+,6-10 Years
+0,26,Male,Research & Development,Healthcare Representative,2,4741,1,1,3,5,5,3,11,Under 30,3-5 Years
+0,37,Female,Research & Development,Research Scientist,1,2115,0,4,3,17,17,5,1,30-39,10+ Years
+1,44,Male,Research & Development,Laboratory Technician,1,3161,1,3,1,19,1,0,24,40-49,0-2 Years
+0,38,Male,Research & Development,Healthcare Representative,2,5745,0,4,3,10,2,1,23,30-39,0-2 Years
+1,26,Male,Research & Development,Laboratory Technician,1,2373,1,2,3,5,3,0,16,Under 30,3-5 Years
+0,28,Female,Research & Development,Research Scientist,1,3310,0,4,3,5,5,0,8,Under 30,3-5 Years
+0,49,Female,Research & Development,Research Director,5,18665,1,1,3,22,3,1,10,40-49,3-5 Years
+0,36,Male,Research & Development,Research Scientist,2,4485,0,2,3,10,8,7,3,30-39,6-10 Years
+0,31,Female,Sales,Sales Representative,1,2789,0,2,2,2,2,2,5,30-39,0-2 Years
+1,26,Male,Sales,Sales Executive,2,5828,1,4,3,8,8,7,4,Under 30,6-10 Years
+0,37,Male,Research & Development,Research Scientist,1,2326,1,4,2,4,4,1,9,30-39,3-5 Years
+0,42,Female,Sales,Sales Executive,4,13525,0,2,4,23,20,4,26,40-49,10+ Years
+1,18,Male,Research & Development,Laboratory Technician,1,1420,0,3,3,0,0,0,3,Under 30,0-2 Years
+0,35,Male,Sales,Sales Executive,3,8020,0,2,2,12,11,6,16,30-39,10+ Years
+0,36,Male,Research & Development,Laboratory Technician,1,3688,0,4,3,4,1,0,18,30-39,0-2 Years
+0,51,Male,Research & Development,Manufacturing Director,2,5482,0,2,3,13,4,1,2,50+,3-5 Years
+0,41,Male,Sales,Manager,4,16015,0,2,3,22,22,0,2,40-49,10+ Years
+0,18,Female,Sales,Sales Representative,1,1200,0,3,3,0,0,0,10,Under 30,0-2 Years
+0,28,Male,Research & Development,Healthcare Representative,2,5661,0,1,3,9,8,0,16,Under 30,6-10 Years
+0,31,Male,Sales,Sales Executive,2,6929,0,4,2,10,8,7,7,30-39,6-10 Years
+0,39,Male,Research & Development,Healthcare Representative,3,9613,0,4,2,19,18,3,1,30-39,10+ Years
+0,36,Female,Research & Development,Laboratory Technician,2,5674,0,2,3,11,9,0,24,30-39,6-10 Years
+0,32,Male,Sales,Sales Executive,2,5484,0,3,2,13,13,4,7,30-39,10+ Years
+0,38,Female,Research & Development,Research Director,3,12061,0,2,3,19,10,0,25,30-39,6-10 Years
+0,58,Male,Research & Development,Healthcare Representative,2,5660,1,3,3,12,5,1,1,50+,3-5 Years
+0,31,Male,Research & Development,Research Scientist,1,4821,1,4,3,6,5,0,5,30-39,3-5 Years
+0,31,Male,Human Resources,Human Resources,2,6410,0,1,3,9,2,1,2,30-39,0-2 Years
+0,45,Male,Research & Development,Laboratory Technician,3,5210,0,1,3,24,24,9,7,40-49,10+ Years
+0,31,Male,Research & Development,Research Scientist,1,2695,1,4,1,3,2,2,2,30-39,0-2 Years
+0,33,Female,Research & Development,Manager,3,11878,0,2,3,12,10,8,5,30-39,6-10 Years
+0,39,Male,Research & Development,Manager,4,17068,1,1,3,21,21,11,10,30-39,10+ Years
+0,43,Female,Research & Development,Laboratory Technician,1,2455,0,4,3,9,8,1,10,40-49,6-10 Years
+0,49,Female,Research & Development,Healthcare Representative,4,13964,1,3,3,25,7,0,1,40-49,6-10 Years
+1,52,Male,Research & Development,Research Scientist,2,4941,0,2,2,11,8,7,8,50+,6-10 Years
+0,27,Female,Research & Development,Research Scientist,1,2478,1,2,2,4,4,1,5,Under 30,3-5 Years
+0,32,Female,Sales,Sales Executive,2,5228,1,2,3,13,13,11,8,30-39,10+ Years
+0,27,Male,Sales,Sales Executive,2,4478,1,3,3,5,5,0,2,Under 30,3-5 Years
+0,31,Male,Sales,Sales Executive,2,7547,0,4,3,13,7,1,7,30-39,6-10 Years
+0,32,Female,Research & Development,Research Scientist,2,5055,0,4,2,10,7,0,2,30-39,6-10 Years
+1,28,Male,Research & Development,Research Scientist,1,3464,1,4,2,5,3,2,2,Under 30,3-5 Years
+0,30,Female,Research & Development,Research Scientist,2,5775,0,4,3,11,10,1,28,Under 30,6-10 Years
+0,31,Female,Research & Development,Manufacturing Director,3,8943,0,3,3,10,10,8,7,30-39,6-10 Years
+0,39,Male,Research & Development,Manager,5,19272,0,4,3,21,21,13,7,30-39,10+ Years
+1,39,Female,Sales,Sales Executive,2,5238,1,3,2,12,1,0,3,30-39,0-2 Years
+0,33,Male,Sales,Sales Executive,2,4682,0,4,2,9,7,0,10,30-39,6-10 Years
+0,47,Male,Research & Development,Research Director,5,18300,0,3,3,21,3,1,5,40-49,3-5 Years
+0,43,Female,Research & Development,Laboratory Technician,2,5257,0,3,4,9,9,0,10,40-49,6-10 Years
+0,27,Male,Sales,Sales Executive,2,6349,1,2,3,6,5,1,1,Under 30,3-5 Years
+0,54,Female,Research & Development,Research Scientist,2,4869,0,3,2,20,4,0,20,50+,3-5 Years
+0,43,Female,Research & Development,Healthcare Representative,3,9985,0,1,2,10,1,0,7,40-49,0-2 Years
+0,45,Male,Research & Development,Research Scientist,2,3697,0,4,3,12,10,9,8,40-49,6-10 Years
+0,40,Male,Sales,Sales Executive,2,7457,1,4,2,6,4,0,1,30-39,3-5 Years
+1,29,Male,Research & Development,Laboratory Technician,1,2119,1,1,2,7,7,0,8,Under 30,6-10 Years
+0,29,Male,Research & Development,Laboratory Technician,1,3983,0,4,3,4,3,2,9,Under 30,3-5 Years
+0,30,Female,Sales,Sales Executive,2,6118,0,3,3,10,10,1,5,Under 30,6-10 Years
+0,27,Female,Sales,Sales Executive,2,6214,0,2,3,8,8,0,8,Under 30,6-10 Years
+0,37,Male,Research & Development,Manufacturing Director,2,6347,0,4,2,8,6,0,5,30-39,6-10 Years
+0,38,Male,Research & Development,Research Director,3,11510,1,4,3,12,11,2,15,30-39,10+ Years
+0,31,Female,Research & Development,Manufacturing Director,3,7143,1,4,2,11,11,4,7,30-39,10+ Years
+0,29,Female,Sales,Sales Executive,2,8268,1,2,3,7,7,1,10,Under 30,6-10 Years
+0,35,Male,Research & Development,Manufacturing Director,3,8095,0,2,3,17,16,0,5,30-39,10+ Years
+0,23,Male,Research & Development,Research Scientist,1,2904,0,4,2,4,4,0,26,Under 30,3-5 Years
+0,41,Male,Research & Development,Manufacturing Director,2,6032,1,2,3,8,5,1,6,40-49,3-5 Years
+0,47,Male,Sales,Sales Representative,2,2976,0,3,3,5,0,0,4,40-49,0-2 Years
+0,42,Female,Research & Development,Research Director,4,15992,0,4,3,16,1,0,23,40-49,0-2 Years
+0,29,Male,Sales,Sales Executive,2,4649,0,3,2,4,4,0,2,Under 30,3-5 Years
+0,42,Male,Human Resources,Human Resources,1,2696,1,3,3,4,3,1,2,40-49,3-5 Years
+0,32,Female,Research & Development,Laboratory Technician,1,2370,0,2,3,8,8,0,2,30-39,6-10 Years
+0,48,Female,Sales,Manager,3,12504,0,3,1,15,0,0,29,40-49,0-2 Years
+0,37,Male,Research & Development,Research Scientist,2,5974,1,1,3,13,7,6,6,30-39,6-10 Years
+0,30,Female,Sales,Sales Executive,2,4736,1,3,4,4,2,2,25,Under 30,0-2 Years
+0,26,Male,Sales,Sales Executive,2,5296,0,3,3,8,8,7,1,Under 30,6-10 Years
+0,42,Male,Research & Development,Healthcare Representative,2,6781,0,4,3,14,1,0,2,40-49,0-2 Years
+1,21,Female,Sales,Sales Representative,1,2174,1,2,3,3,3,1,1,Under 30,3-5 Years
+0,36,Female,Sales,Sales Executive,2,6653,0,4,3,7,1,0,1,30-39,0-2 Years
+0,36,Male,Sales,Sales Executive,3,9699,0,4,3,16,13,1,3,30-39,10+ Years
+0,57,Male,Research & Development,Healthcare Representative,2,6755,0,3,3,15,3,1,1,50+,3-5 Years
+0,40,Female,Research & Development,Laboratory Technician,1,2213,1,3,3,10,7,1,10,30-39,6-10 Years
+0,21,Male,Sales,Sales Representative,1,2610,0,4,2,3,3,2,9,Under 30,3-5 Years
+1,33,Female,Sales,Sales Representative,1,2851,1,3,3,1,1,0,5,30-39,0-2 Years
+0,37,Female,Research & Development,Laboratory Technician,1,3452,0,1,3,17,5,0,10,30-39,3-5 Years
+0,46,Female,Research & Development,Manufacturing Director,2,5258,0,3,4,7,1,0,7,40-49,0-2 Years
+1,41,Male,Sales,Sales Executive,2,9355,0,2,3,8,8,7,4,40-49,6-10 Years
+0,50,Male,Research & Development,Healthcare Representative,3,10496,0,4,3,20,4,1,10,40-49,3-5 Years
+1,40,Male,Sales,Sales Executive,2,6380,1,3,3,8,6,1,22,30-39,6-10 Years
+0,31,Male,Research & Development,Research Scientist,1,2657,1,2,3,3,2,2,9,30-39,0-2 Years
+1,21,Female,Sales,Sales Representative,1,2716,0,2,3,1,1,0,12,Under 30,0-2 Years
+0,29,Male,Research & Development,Research Scientist,1,2201,0,4,3,6,3,1,23,Under 30,3-5 Years
+0,35,Male,Research & Development,Healthcare Representative,2,6540,0,2,3,10,1,0,9,30-39,0-2 Years
+0,27,Male,Research & Development,Laboratory Technician,1,3816,0,2,3,5,5,0,1,Under 30,3-5 Years
+0,28,Male,Sales,Sales Executive,2,5253,0,4,3,7,7,0,9,Under 30,6-10 Years
+0,49,Male,Research & Development,Healthcare Representative,3,10965,0,3,3,26,5,0,7,40-49,3-5 Years
+0,51,Female,Sales,Sales Executive,2,4936,0,4,2,18,7,0,14,50+,6-10 Years
+0,36,Female,Research & Development,Research Scientist,1,2543,0,3,3,6,2,2,2,30-39,0-2 Years
+1,34,Male,Sales,Sales Executive,2,5304,1,4,2,9,5,0,19,30-39,3-5 Years
+0,55,Female,Research & Development,Manager,4,16659,1,4,3,30,5,1,2,50+,3-5 Years
+0,24,Female,Sales,Sales Executive,2,4260,1,3,4,5,5,0,10,Under 30,3-5 Years
+0,30,Male,Sales,Sales Representative,1,2476,0,2,3,1,1,0,2,Under 30,0-2 Years
+1,26,Male,Research & Development,Research Scientist,1,3102,0,1,3,7,6,0,3,Under 30,6-10 Years
+0,22,Female,Research & Development,Research Scientist,1,2244,0,2,3,2,2,1,11,Under 30,0-2 Years
+0,36,Male,Sales,Sales Executive,3,7596,0,3,3,10,10,9,2,30-39,6-10 Years
+1,30,Male,Research & Development,Research Scientist,1,2285,1,4,3,3,1,0,4,Under 30,0-2 Years
+0,37,Female,Research & Development,Laboratory Technician,1,3034,0,1,2,18,18,12,14,30-39,10+ Years
+0,40,Female,Sales,Sales Executive,2,5715,0,2,3,8,5,1,2,30-39,3-5 Years
+0,42,Female,Research & Development,Laboratory Technician,1,2576,0,1,3,8,5,1,1,40-49,3-5 Years
+0,37,Male,Research & Development,Manufacturing Director,2,4197,1,2,2,18,1,0,10,30-39,0-2 Years
+0,43,Male,Research & Development,Research Director,4,14336,0,2,3,25,25,3,12,40-49,10+ Years
+0,40,Female,Research & Development,Laboratory Technician,2,3448,0,3,3,20,1,0,2,30-39,0-2 Years
+0,54,Male,Research & Development,Research Director,5,19406,0,1,2,24,4,1,5,50+,3-5 Years
+0,34,Female,Sales,Sales Executive,2,6538,0,3,3,6,3,1,4,30-39,3-5 Years
+0,31,Female,Research & Development,Manufacturing Director,2,4306,0,1,1,13,13,3,7,30-39,10+ Years
+0,43,Male,Research & Development,Laboratory Technician,1,2258,0,4,3,8,3,1,21,40-49,3-5 Years
+0,43,Female,Research & Development,Healthcare Representative,2,4522,1,3,3,8,5,0,8,40-49,3-5 Years
+0,25,Female,Sales,Sales Executive,2,4487,1,4,3,5,5,1,4,Under 30,3-5 Years
+0,37,Female,Research & Development,Research Scientist,2,4449,1,3,3,15,13,10,25,30-39,10+ Years
+0,31,Male,Research & Development,Laboratory Technician,1,2218,0,1,3,4,4,3,1,30-39,3-5 Years
+0,39,Male,Research & Development,Manager,5,19197,1,3,3,21,21,1,1,30-39,10+ Years
+0,56,Female,Sales,Sales Executive,4,13212,0,1,2,36,7,7,6,50+,6-10 Years
+0,30,Female,Sales,Sales Executive,2,6577,0,3,3,6,5,4,12,Under 30,3-5 Years
+0,41,Male,Sales,Sales Executive,3,8392,0,1,3,10,10,0,1,40-49,6-10 Years
+0,28,Male,Research & Development,Laboratory Technician,2,4558,0,1,3,10,10,1,17,Under 30,6-10 Years
+1,25,Male,Research & Development,Laboratory Technician,1,4031,0,1,3,6,2,0,3,Under 30,0-2 Years
+0,52,Male,Research & Development,Manufacturing Director,3,7969,1,3,3,28,5,0,3,50+,3-5 Years
+0,45,Male,Research & Development,Research Scientist,1,2654,0,4,2,8,2,0,10,40-49,0-2 Years
+0,52,Female,Research & Development,Manager,4,16555,0,4,1,31,5,1,4,50+,3-5 Years
+0,42,Female,Research & Development,Research Scientist,2,4556,0,3,3,19,5,0,29,40-49,3-5 Years
+0,30,Female,Research & Development,Manufacturing Director,2,6091,0,4,3,11,5,0,2,Under 30,3-5 Years
+0,60,Female,Research & Development,Manager,5,19566,0,1,1,33,29,11,7,50+,10+ Years
+0,46,Female,Research & Development,Manufacturing Director,2,4810,0,3,2,19,10,0,18,40-49,6-10 Years
+0,42,Female,Research & Development,Healthcare Representative,2,4523,0,4,4,7,6,0,28,40-49,6-10 Years
+1,24,Female,Sales,Sales Representative,1,3202,1,2,3,6,5,1,1,Under 30,3-5 Years
+1,34,Female,Sales,Sales Representative,1,2351,0,3,2,3,2,1,6,30-39,0-2 Years
+0,38,Male,Research & Development,Laboratory Technician,1,1702,1,4,3,1,1,0,2,30-39,0-2 Years
+0,40,Female,Sales,Manager,5,18041,0,3,3,21,20,1,2,30-39,10+ Years
+0,26,Female,Research & Development,Research Scientist,1,2886,0,4,1,3,3,0,23,Under 30,3-5 Years
+0,30,Male,Research & Development,Laboratory Technician,1,2097,0,4,1,9,5,1,3,Under 30,3-5 Years
+0,29,Male,Research & Development,Research Director,3,11935,0,3,3,10,10,0,3,Under 30,6-10 Years
+1,29,Female,Research & Development,Research Scientist,1,2546,0,2,4,6,2,1,25,Under 30,0-2 Years
+1,19,Male,Human Resources,Human Resources,1,2564,0,4,4,1,1,0,2,Under 30,0-2 Years
+0,30,Female,Sales,Sales Executive,3,8412,0,1,3,10,9,7,22,Under 30,6-10 Years
+0,57,Male,Sales,Manager,4,14118,0,4,2,32,1,0,29,50+,0-2 Years
+0,50,Male,Research & Development,Manager,4,17046,0,3,3,28,27,15,29,40-49,10+ Years
+0,30,Female,Research & Development,Laboratory Technician,1,2564,0,4,2,12,11,6,2,Under 30,10+ Years
+0,60,Female,Sales,Sales Executive,3,10266,0,1,4,22,18,13,28,50+,10+ Years
+0,47,Female,Research & Development,Manufacturing Director,2,5070,0,4,3,20,5,0,2,40-49,3-5 Years
+0,46,Male,Research & Development,Research Director,4,17861,0,3,1,26,3,0,2,40-49,3-5 Years
+0,35,Male,Research & Development,Laboratory Technician,1,4230,0,3,3,6,5,4,22,30-39,3-5 Years
+0,54,Female,Research & Development,Laboratory Technician,2,3780,0,3,3,19,1,0,8,50+,0-2 Years
+0,34,Male,Research & Development,Research Scientist,1,2768,0,3,3,14,7,5,2,30-39,6-10 Years
+0,46,Female,Sales,Sales Executive,3,9071,1,4,3,15,3,1,10,40-49,3-5 Years
+0,31,Male,Research & Development,Manufacturing Director,3,10648,0,2,4,13,13,0,9,30-39,10+ Years
+1,33,Male,Research & Development,Manager,3,13610,1,3,4,15,7,7,15,30-39,6-10 Years
+1,33,Male,Research & Development,Laboratory Technician,1,3408,0,4,3,8,4,1,10,30-39,3-5 Years
+0,30,Male,Sales,Sales Representative,1,2983,0,2,3,4,3,1,7,Under 30,3-5 Years
+0,35,Male,Research & Development,Healthcare Representative,3,7632,1,3,3,10,8,0,16,30-39,6-10 Years
+1,31,Male,Research & Development,Healthcare Representative,3,9824,0,3,3,12,1,0,20,30-39,0-2 Years
+1,34,Female,Human Resources,Human Resources,3,9950,1,1,3,11,3,0,23,30-39,3-5 Years
+0,42,Male,Research & Development,Laboratory Technician,1,2093,0,3,3,8,2,2,5,40-49,0-2 Years
+0,36,Male,Sales,Sales Executive,3,9980,0,4,2,10,10,9,10,30-39,6-10 Years
+1,22,Male,Research & Development,Laboratory Technician,1,3894,0,3,3,4,2,1,4,Under 30,0-2 Years
+0,48,Female,Sales,Sales Executive,2,4051,0,4,3,14,9,6,2,40-49,6-10 Years
+0,55,Female,Sales,Manager,4,16835,0,2,3,37,10,7,18,50+,6-10 Years
+0,41,Male,Sales,Sales Executive,2,6230,0,4,3,16,14,1,10,40-49,10+ Years
+0,35,Male,Sales,Sales Executive,2,4717,0,3,3,15,11,6,1,30-39,10+ Years
+0,40,Female,Research & Development,Manufacturing Director,4,13237,0,3,3,22,20,5,6,30-39,10+ Years
+0,39,Female,Research & Development,Laboratory Technician,1,3755,0,3,3,8,8,0,8,30-39,6-10 Years
+0,31,Male,Sales,Sales Executive,2,6582,1,4,4,10,6,0,2,30-39,6-10 Years
+0,42,Male,Research & Development,Manufacturing Director,3,7406,1,1,2,10,10,5,24,40-49,6-10 Years
+0,45,Male,Sales,Sales Executive,2,4805,0,2,4,9,8,3,2,40-49,6-10 Years
+1,26,Female,Human Resources,Human Resources,1,2741,1,3,2,8,7,1,17,Under 30,6-10 Years
+0,29,Male,Research & Development,Manufacturing Director,2,4262,0,4,4,8,3,1,19,Under 30,3-5 Years
+0,33,Female,Research & Development,Research Director,4,16184,0,3,3,10,6,0,1,30-39,6-10 Years
+0,31,Male,Sales,Manager,3,11557,0,4,2,10,5,0,7,30-39,3-5 Years
+1,18,Male,Sales,Sales Representative,1,1878,1,2,3,0,0,0,5,Under 30,0-2 Years
+0,40,Male,Sales,Sales Executive,3,10932,0,1,3,20,1,0,28,30-39,0-2 Years
+0,41,Female,Research & Development,Healthcare Representative,2,6811,1,3,3,10,8,0,2,40-49,6-10 Years
+0,26,Male,Sales,Sales Executive,2,4306,0,3,3,8,0,0,29,Under 30,0-2 Years
+0,35,Female,Sales,Sales Executive,2,4859,0,3,3,5,5,0,1,30-39,3-5 Years
+0,34,Male,Sales,Sales Executive,2,5337,0,4,3,10,10,5,21,30-39,6-10 Years
+1,26,Male,Research & Development,Laboratory Technician,1,2340,1,4,1,1,1,0,24,Under 30,0-2 Years
+0,37,Female,Research & Development,Manufacturing Director,3,7491,0,4,4,12,6,1,1,30-39,6-10 Years
+0,46,Female,Research & Development,Healthcare Representative,3,10527,0,3,2,28,2,1,18,40-49,0-2 Years
+0,41,Female,Sales,Manager,4,16595,0,1,3,22,18,11,2,40-49,10+ Years
+0,37,Male,Sales,Sales Executive,3,8834,0,2,3,9,9,7,9,30-39,6-10 Years
+0,52,Male,Research & Development,Research Scientist,2,5577,1,1,3,18,10,6,6,50+,6-10 Years
+1,32,Male,Sales,Sales Executive,2,4707,0,3,3,6,4,1,11,30-39,3-5 Years
+0,24,Male,Sales,Sales Representative,1,2400,0,4,3,3,2,2,24,Under 30,0-2 Years
+0,38,Female,Research & Development,Healthcare Representative,2,9824,0,3,3,18,1,0,10,30-39,0-2 Years
+0,37,Female,Research & Development,Manufacturing Director,2,6447,0,2,2,8,6,4,1,30-39,6-10 Years
+0,49,Male,Research & Development,Research Director,5,19502,1,3,3,31,31,0,18,40-49,10+ Years
+0,24,Male,Research & Development,Research Scientist,1,2725,1,4,3,6,6,1,23,Under 30,6-10 Years
+0,26,Male,Sales,Sales Executive,2,6272,0,2,4,6,5,1,28,Under 30,3-5 Years
+0,24,Male,Research & Development,Laboratory Technician,1,2127,0,2,3,1,1,0,17,Under 30,0-2 Years
+0,50,Male,Human Resources,Manager,5,18200,0,2,3,32,32,10,3,40-49,10+ Years
+0,25,Male,Sales,Sales Representative,1,2096,0,3,3,7,7,0,13,Under 30,6-10 Years
+1,24,Female,Research & Development,Laboratory Technician,1,2886,1,3,3,6,6,1,7,Under 30,6-10 Years
+1,30,Male,Sales,Sales Representative,1,2033,0,1,4,1,1,0,12,Under 30,0-2 Years
+0,34,Male,Research & Development,Research Scientist,1,3622,1,4,3,6,6,1,1,30-39,6-10 Years
+1,31,Male,Sales,Sales Executive,2,4233,0,1,1,9,3,1,13,30-39,3-5 Years
+0,35,Male,Research & Development,Laboratory Technician,2,3681,0,4,3,9,3,0,25,30-39,3-5 Years
+0,31,Male,Sales,Sales Executive,2,5460,0,4,4,13,7,5,6,30-39,6-10 Years
+0,27,Female,Research & Development,Research Scientist,1,2187,0,3,2,6,5,0,6,Under 30,3-5 Years
+0,37,Male,Sales,Sales Executive,2,9602,1,3,2,17,3,1,2,30-39,3-5 Years
+0,20,Female,Research & Development,Research Scientist,1,2836,0,2,4,1,1,0,1,Under 30,0-2 Years
+0,42,Female,Research & Development,Healthcare Representative,2,4089,0,4,3,10,10,2,2,40-49,6-10 Years
+0,43,Male,Research & Development,Research Director,4,16627,1,4,2,21,1,0,6,40-49,0-2 Years
+0,38,Female,Research & Development,Research Scientist,1,2619,0,1,2,8,0,0,1,30-39,0-2 Years
+0,43,Male,Research & Development,Laboratory Technician,2,5679,1,3,3,10,8,4,9,40-49,6-10 Years
+0,48,Female,Research & Development,Manager,4,15402,0,1,1,21,3,0,1,40-49,3-5 Years
+0,44,Female,Human Resources,Human Resources,2,5985,0,3,4,10,2,0,1,40-49,0-2 Years
+0,34,Female,Sales,Sales Representative,1,2579,1,3,3,8,8,0,14,30-39,6-10 Years
+1,27,Male,Sales,Sales Representative,1,3041,0,1,3,5,4,0,2,Under 30,3-5 Years
+0,21,Male,Sales,Sales Representative,1,3447,0,3,3,3,3,1,22,Under 30,3-5 Years
+0,44,Male,Research & Development,Manager,5,19513,1,4,4,26,2,0,3,40-49,0-2 Years
+0,22,Male,Research & Development,Research Scientist,1,2773,0,3,3,3,2,2,6,Under 30,0-2 Years
+0,33,Male,Sales,Sales Executive,2,7104,0,3,3,6,5,1,8,30-39,3-5 Years
+0,32,Female,Research & Development,Research Scientist,2,6322,1,4,2,6,6,0,9,30-39,6-10 Years
+0,30,Female,Research & Development,Research Scientist,1,2083,0,3,3,1,1,0,3,Under 30,0-2 Years
+0,53,Female,Sales,Sales Executive,2,8381,0,1,4,18,14,8,1,50+,10+ Years
+0,34,Male,Research & Development,Research Scientist,1,2691,0,4,2,10,10,8,1,30-39,6-10 Years
+1,45,Female,Sales,Sales Executive,2,4286,0,1,3,5,1,0,26,40-49,0-2 Years
+0,26,Female,Research & Development,Laboratory Technician,1,2659,1,4,3,3,3,0,6,Under 30,3-5 Years
+0,37,Male,Research & Development,Manufacturing Director,3,9434,0,3,3,10,10,7,3,30-39,6-10 Years
+0,29,Female,Sales,Sales Executive,2,5561,0,3,2,6,6,1,3,Under 30,6-10 Years
+0,35,Male,Research & Development,Research Scientist,2,6646,0,4,3,17,17,11,6,30-39,10+ Years
+0,33,Male,Research & Development,Healthcare Representative,2,7725,0,4,1,15,13,4,6,30-39,10+ Years
+0,54,Male,Human Resources,Human Resources,3,10725,0,2,4,16,9,7,19,50+,6-10 Years
+0,36,Male,Research & Development,Manufacturing Director,2,8847,1,2,3,13,3,0,9,30-39,3-5 Years
+0,27,Male,Research & Development,Research Scientist,1,2045,0,4,3,5,4,1,3,Under 30,3-5 Years
+1,20,Male,Research & Development,Research Scientist,1,1009,1,3,3,1,1,1,10,Under 30,0-2 Years
+1,33,Male,Research & Development,Research Scientist,1,3348,1,1,3,10,10,9,3,30-39,6-10 Years
+0,35,Male,Research & Development,Laboratory Technician,1,1281,0,3,3,1,1,0,3,30-39,0-2 Years
+0,23,Male,Research & Development,Research Scientist,1,2819,0,1,4,5,3,0,4,Under 30,3-5 Years
+0,25,Male,Sales,Sales Executive,2,4851,0,2,3,4,3,1,8,Under 30,3-5 Years
+0,38,Female,Sales,Sales Executive,2,4028,0,4,3,8,7,0,7,30-39,6-10 Years
+0,29,Male,Research & Development,Research Scientist,1,2720,0,4,3,10,10,2,1,Under 30,6-10 Years
+0,48,Male,Sales,Sales Executive,2,8120,0,2,3,12,2,2,2,40-49,0-2 Years
+0,27,Female,Sales,Sales Executive,2,4647,1,4,3,6,6,0,3,Under 30,6-10 Years
+0,37,Male,Research & Development,Research Scientist,1,4680,0,4,3,4,1,0,10,30-39,0-2 Years
+0,50,Male,Research & Development,Laboratory Technician,1,3221,1,3,3,20,20,3,28,40-49,10+ Years
+0,34,Female,Research & Development,Healthcare Representative,3,8621,0,2,4,9,8,7,9,30-39,6-10 Years
+1,24,Female,Sales,Sales Executive,2,4577,0,3,3,4,2,2,3,Under 30,0-2 Years
+0,39,Female,Research & Development,Healthcare Representative,2,4553,0,3,3,20,20,11,2,30-39,10+ Years
+0,32,Male,Sales,Sales Executive,2,5396,0,4,2,10,10,0,10,30-39,6-10 Years
+1,50,Male,Sales,Sales Executive,2,6796,1,3,3,18,4,1,8,40-49,3-5 Years
+0,38,Female,Research & Development,Healthcare Representative,2,7625,0,4,2,10,9,1,1,30-39,6-10 Years
+0,27,Female,Research & Development,Manufacturing Director,3,7412,0,1,3,9,9,0,1,Under 30,6-10 Years
+0,32,Female,Research & Development,Research Director,3,11159,0,4,3,10,7,7,3,30-39,6-10 Years
+0,47,Male,Sales,Sales Executive,2,4960,0,1,3,20,7,1,14,40-49,6-10 Years
+0,40,Male,Sales,Sales Executive,3,10475,1,1,3,20,18,1,5,30-39,10+ Years
+0,53,Male,Research & Development,Research Director,4,14814,0,3,3,32,5,1,7,50+,3-5 Years
+0,41,Male,Human Resources,Manager,5,19141,0,4,2,23,21,12,10,40-49,10+ Years
+0,60,Male,Sales,Sales Executive,2,5405,0,1,3,10,2,2,16,50+,0-2 Years
+0,27,Male,Research & Development,Manufacturing Director,3,8793,0,1,2,9,9,1,10,Under 30,6-10 Years
+0,41,Male,Human Resources,Manager,5,19189,0,3,3,22,22,2,1,40-49,10+ Years
+0,50,Male,Sales,Sales Representative,1,3875,0,2,3,4,2,2,8,40-49,0-2 Years
+1,28,Female,Research & Development,Research Scientist,1,2216,1,2,3,10,7,3,1,Under 30,6-10 Years
+0,36,Female,Research & Development,Research Director,3,11713,0,1,3,10,8,0,8,30-39,6-10 Years
+0,38,Female,Research & Development,Manufacturing Director,3,7861,1,3,4,10,1,0,1,30-39,0-2 Years
+0,44,Male,Research & Development,Laboratory Technician,1,3708,0,3,3,9,5,1,24,40-49,3-5 Years
+0,47,Female,Sales,Sales Executive,4,13770,1,3,2,28,22,11,3,40-49,10+ Years
+0,30,Male,Sales,Sales Executive,2,5304,0,4,2,10,8,7,27,Under 30,6-10 Years
+0,29,Male,Sales,Sales Representative,1,2642,0,3,3,1,1,0,10,Under 30,0-2 Years
+1,42,Male,Research & Development,Research Scientist,1,2759,1,3,3,7,2,2,19,40-49,0-2 Years
+0,43,Male,Sales,Sales Executive,2,6804,0,4,3,7,2,2,15,40-49,0-2 Years
+0,34,Female,Research & Development,Healthcare Representative,2,6142,0,3,3,10,5,4,8,30-39,3-5 Years
+0,23,Male,Research & Development,Laboratory Technician,1,2500,0,1,4,5,4,0,9,Under 30,3-5 Years
+0,39,Female,Human Resources,Human Resources,2,6389,0,2,1,12,8,3,3,30-39,6-10 Years
+0,56,Male,Research & Development,Healthcare Representative,4,11103,0,4,2,30,10,1,9,50+,6-10 Years
+0,40,Female,Research & Development,Research Scientist,1,2342,1,4,2,5,4,2,2,30-39,3-5 Years
+0,27,Female,Research & Development,Healthcare Representative,2,6811,0,1,1,9,7,0,7,Under 30,6-10 Years
+0,29,Male,Sales,Sales Representative,1,2297,0,2,3,2,2,2,10,Under 30,0-2 Years
+0,53,Male,Research & Development,Laboratory Technician,2,2450,0,4,3,19,2,2,6,50+,0-2 Years
+0,35,Female,Research & Development,Healthcare Representative,2,5093,0,1,4,16,1,0,2,30-39,0-2 Years
+0,32,Male,Research & Development,Laboratory Technician,2,5309,0,4,3,10,10,4,24,30-39,6-10 Years
+0,38,Male,Research & Development,Research Scientist,1,3057,1,3,1,6,1,0,2,30-39,0-2 Years
+0,34,Female,Research & Development,Manufacturing Director,2,5121,0,1,3,7,0,0,8,30-39,0-2 Years
+0,52,Male,Sales,Manager,4,16856,0,1,4,34,34,1,3,50+,10+ Years
+1,33,Male,Research & Development,Research Scientist,1,2686,1,4,2,10,10,7,1,30-39,6-10 Years
+0,25,Female,Sales,Sales Executive,2,6180,0,4,2,6,6,1,26,Under 30,6-10 Years
+0,45,Male,Sales,Sales Representative,2,6632,0,3,3,9,8,3,2,40-49,6-10 Years
+0,23,Male,Research & Development,Research Scientist,1,3505,0,3,3,2,2,0,10,Under 30,0-2 Years
+1,47,Female,Sales,Sales Executive,2,6397,1,3,3,8,5,1,27,40-49,3-5 Years
+0,34,Male,Sales,Sales Executive,2,6274,0,4,3,6,6,1,2,30-39,6-10 Years
+1,55,Male,Research & Development,Manager,5,19859,1,1,3,24,5,1,2,50+,3-5 Years
+0,36,Male,Sales,Sales Executive,3,7587,0,1,3,10,10,0,8,30-39,6-10 Years
+0,52,Male,Research & Development,Research Scientist,1,4258,0,4,3,5,4,1,19,50+,3-5 Years
+0,26,Female,Research & Development,Laboratory Technician,1,4364,0,4,3,5,2,2,1,Under 30,0-2 Years
+0,29,Female,Research & Development,Healthcare Representative,2,4335,0,3,2,11,8,1,27,Under 30,6-10 Years
+1,26,Male,Sales,Sales Executive,2,5326,0,1,2,6,4,1,8,Under 30,3-5 Years
+0,34,Female,Research & Development,Research Scientist,1,3280,0,4,3,10,4,1,1,30-39,3-5 Years
+0,54,Female,Research & Development,Manufacturing Director,2,5485,1,1,3,9,5,1,19,50+,3-5 Years
+0,27,Male,Sales,Sales Executive,2,4342,0,4,3,5,4,1,8,Under 30,3-5 Years
+0,37,Female,Research & Development,Research Scientist,1,2782,1,1,2,6,5,4,10,30-39,3-5 Years
+0,38,Female,Research & Development,Manufacturing Director,2,5980,1,1,3,17,15,4,2,30-39,10+ Years
+0,34,Female,Research & Development,Research Scientist,1,4381,0,1,3,6,6,1,2,30-39,6-10 Years
+0,35,Female,Sales,Sales Representative,1,2572,0,4,2,3,3,0,8,30-39,3-5 Years
+0,30,Male,Research & Development,Laboratory Technician,1,3833,0,3,3,7,2,0,1,Under 30,0-2 Years
+0,40,Female,Research & Development,Healthcare Representative,2,4244,0,2,3,8,8,3,2,30-39,6-10 Years
+0,34,Female,Sales,Sales Executive,2,6500,0,1,3,6,3,1,8,30-39,3-5 Years
+0,42,Male,Research & Development,Manager,5,18430,0,4,2,24,24,14,8,40-49,10+ Years
+1,23,Male,Research & Development,Laboratory Technician,1,1601,1,1,3,1,0,0,6,Under 30,0-2 Years
+0,24,Male,Research & Development,Laboratory Technician,1,2694,0,2,3,1,1,0,9,Under 30,0-2 Years
+0,52,Female,Research & Development,Laboratory Technician,2,3149,0,3,3,9,5,1,11,50+,3-5 Years
+0,50,Male,Research & Development,Research Director,4,17639,0,3,3,30,4,0,2,40-49,3-5 Years
+1,29,Female,Research & Development,Laboratory Technician,1,2319,1,1,3,1,1,0,1,Under 30,0-2 Years
+0,33,Male,Research & Development,Research Director,3,11691,0,3,4,14,13,3,7,30-39,10+ Years
+1,33,Female,Sales,Sales Executive,2,5324,0,1,3,6,3,0,16,30-39,3-5 Years
+0,47,Female,Research & Development,Manager,4,16752,1,4,2,26,26,3,2,40-49,10+ Years
+0,36,Female,Research & Development,Manufacturing Director,2,5228,0,2,3,10,9,0,1,30-39,6-10 Years
+0,29,Male,Research & Development,Research Scientist,1,2700,0,3,3,10,10,0,23,Under 30,6-10 Years
+1,58,Male,Research & Development,Research Director,5,19246,1,2,3,40,31,13,2,50+,10+ Years
+0,35,Female,Research & Development,Research Scientist,1,2506,0,3,3,7,2,2,1,30-39,0-2 Years
+0,42,Female,Research & Development,Manufacturing Director,2,6062,1,4,3,8,4,0,1,40-49,3-5 Years
+1,28,Male,Research & Development,Research Scientist,1,4382,0,3,2,5,2,2,2,Under 30,0-2 Years
+0,36,Male,Human Resources,Human Resources,1,2143,0,2,3,8,5,0,13,30-39,3-5 Years
+0,32,Female,Research & Development,Manufacturing Director,2,6162,0,3,3,14,14,6,4,30-39,10+ Years
+0,40,Male,Research & Development,Laboratory Technician,2,5094,0,3,3,10,1,0,16,30-39,0-2 Years
+0,30,Female,Research & Development,Manufacturing Director,2,6877,1,4,2,12,0,0,2,Under 30,0-2 Years
+0,45,Female,Research & Development,Research Scientist,1,2274,0,3,3,1,1,0,2,40-49,0-2 Years
+0,42,Male,Research & Development,Manufacturing Director,2,4434,0,2,2,10,9,7,29,40-49,6-10 Years
+0,38,Male,Research & Development,Healthcare Representative,2,6288,0,1,2,13,4,1,12,30-39,3-5 Years
+0,34,Female,Research & Development,Research Scientist,1,2553,0,4,3,6,5,1,16,30-39,3-5 Years
+1,49,Female,Sales,Sales Executive,3,7654,0,4,4,9,9,7,11,40-49,6-10 Years
+1,55,Male,Sales,Sales Executive,2,5160,0,4,2,12,9,7,2,50+,6-10 Years
+0,43,Male,Research & Development,Research Director,4,17159,0,1,3,22,4,1,14,40-49,3-5 Years
+0,27,Male,Research & Development,Research Director,3,12808,1,4,3,9,9,0,5,Under 30,6-10 Years
+0,35,Male,Research & Development,Manufacturing Director,3,10221,0,3,4,17,8,1,7,30-39,6-10 Years
+0,28,Female,Sales,Sales Executive,2,4779,1,2,3,8,8,7,2,Under 30,6-10 Years
+0,34,Male,Human Resources,Human Resources,1,3737,0,4,1,4,3,0,3,30-39,3-5 Years
+1,26,Female,Research & Development,Research Scientist,1,2366,1,3,3,8,8,1,5,Under 30,6-10 Years
+0,27,Male,Research & Development,Research Scientist,1,1706,0,4,2,0,0,0,3,Under 30,0-2 Years
+0,51,Female,Sales,Manager,4,16307,0,3,2,29,20,4,26,50+,10+ Years
+0,44,Male,Research & Development,Healthcare Representative,2,5933,0,2,2,10,5,2,4,40-49,3-5 Years
+0,25,Male,Research & Development,Research Scientist,1,3424,0,1,2,6,4,0,2,Under 30,3-5 Years
+0,33,Male,Sales,Sales Executive,2,4037,0,1,3,9,9,0,1,30-39,6-10 Years
+0,35,Female,Research & Development,Research Scientist,1,2559,0,1,2,6,6,1,27,30-39,6-10 Years
+0,36,Male,Sales,Sales Executive,2,6201,1,4,2,18,18,4,1,30-39,10+ Years
+0,32,Male,Sales,Sales Executive,2,4403,0,4,2,8,5,0,13,30-39,3-5 Years
+0,30,Male,Research & Development,Research Scientist,1,3761,0,4,2,10,5,0,5,Under 30,3-5 Years
+0,53,Female,Sales,Sales Executive,3,10934,1,4,3,35,5,0,7,50+,3-5 Years
+0,45,Male,Sales,Sales Executive,3,10761,1,1,3,18,5,0,9,40-49,3-5 Years
+0,32,Female,Research & Development,Research Scientist,2,5175,0,3,2,9,5,1,8,30-39,3-5 Years
+0,52,Female,Research & Development,Manufacturing Director,4,13826,0,4,3,31,9,0,25,50+,6-10 Years
+0,37,Male,Sales,Sales Executive,2,6334,0,3,3,9,1,0,16,30-39,0-2 Years
+0,28,Male,Human Resources,Human Resources,1,4936,0,4,3,6,5,0,8,Under 30,3-5 Years
+0,22,Male,Research & Development,Manufacturing Director,2,4775,0,4,1,4,2,2,1,Under 30,0-2 Years
+0,44,Male,Research & Development,Laboratory Technician,1,2818,1,4,2,10,3,0,8,40-49,3-5 Years
+0,42,Male,Research & Development,Research Scientist,1,2515,1,4,3,8,2,2,2,40-49,0-2 Years
+0,36,Male,Human Resources,Human Resources,1,2342,0,1,3,6,5,0,8,30-39,3-5 Years
+0,25,Male,Sales,Sales Executive,2,4194,1,1,3,5,5,0,3,Under 30,3-5 Years
+0,35,Female,Research & Development,Manufacturing Director,3,10685,1,3,3,17,17,5,9,30-39,10+ Years
+1,35,Female,Research & Development,Research Scientist,1,2022,1,2,2,10,10,7,25,30-39,6-10 Years
+0,32,Male,Research & Development,Laboratory Technician,1,2314,0,4,3,4,3,0,1,30-39,3-5 Years
+0,25,Male,Sales,Sales Executive,2,4256,0,1,4,5,5,0,4,Under 30,3-5 Years
+0,49,Female,Research & Development,Research Scientist,1,3580,0,1,3,7,4,0,1,40-49,3-5 Years
+0,24,Male,Research & Development,Laboratory Technician,1,3162,0,4,2,6,5,3,4,Under 30,3-5 Years
+0,32,Male,Sales,Sales Executive,2,6524,0,2,3,10,10,5,5,30-39,6-10 Years
+0,38,Male,Sales,Sales Representative,1,2899,0,2,3,3,2,1,9,30-39,0-2 Years
+0,42,Female,Research & Development,Laboratory Technician,2,5231,1,4,2,17,5,1,3,40-49,3-5 Years
+0,31,Male,Research & Development,Research Scientist,1,2356,1,4,3,8,6,0,11,30-39,6-10 Years
+1,29,Female,Sales,Sales Representative,1,2800,1,3,3,5,3,0,1,Under 30,3-5 Years
+0,53,Male,Sales,Sales Executive,4,11836,0,4,3,28,2,2,8,50+,0-2 Years
+0,35,Male,Research & Development,Manufacturing Director,3,10903,0,2,3,16,13,4,25,30-39,10+ Years
+0,37,Female,Sales,Sales Representative,1,2973,0,4,3,10,5,0,21,30-39,3-5 Years
+0,53,Female,Research & Development,Research Director,4,14275,0,4,3,33,12,3,23,50+,10+ Years
+0,43,Female,Research & Development,Healthcare Representative,2,5562,0,4,2,12,5,2,1,40-49,3-5 Years
+0,47,Female,Sales,Sales Executive,2,4537,1,4,3,8,7,7,2,40-49,6-10 Years
+0,37,Male,Sales,Sales Executive,3,7642,1,2,3,10,10,0,19,30-39,6-10 Years
+0,50,Male,Research & Development,Manager,4,17924,0,1,3,31,31,14,2,40-49,10+ Years
+0,39,Female,Human Resources,Human Resources,2,5204,0,4,3,13,5,0,2,30-39,3-5 Years
+0,33,Male,Human Resources,Human Resources,1,2277,1,2,4,7,4,0,3,30-39,3-5 Years
+1,32,Male,Research & Development,Laboratory Technician,1,2795,1,4,1,1,1,0,25,30-39,0-2 Years
+0,29,Female,Research & Development,Laboratory Technician,1,2532,0,4,3,8,4,0,7,Under 30,3-5 Years
+0,44,Male,Research & Development,Research Scientist,1,2559,1,1,3,8,8,7,9,40-49,6-10 Years
+0,28,Male,Sales,Sales Executive,2,4908,0,4,3,4,4,0,5,Under 30,3-5 Years
+1,58,Male,Research & Development,Laboratory Technician,1,2380,1,4,2,3,1,0,2,50+,0-2 Years
+0,43,Female,Research & Development,Manufacturing Director,2,4765,0,2,4,4,1,0,8,40-49,0-2 Years
+1,20,Female,Sales,Sales Representative,1,2044,0,3,2,2,2,0,2,Under 30,0-2 Years
+1,21,Female,Research & Development,Research Scientist,1,2693,0,4,2,1,1,0,18,Under 30,0-2 Years
+0,36,Male,Research & Development,Healthcare Representative,2,6586,1,4,2,17,16,4,14,30-39,10+ Years
+0,47,Female,Sales,Sales Representative,1,3294,1,4,2,3,3,1,2,40-49,3-5 Years
+1,22,Female,Research & Development,Manufacturing Director,2,4171,1,3,4,4,3,0,3,Under 30,3-5 Years
+1,41,Female,Research & Development,Laboratory Technician,1,2778,1,4,2,10,7,1,2,40-49,6-10 Years
+0,28,Female,Research & Development,Research Scientist,1,2377,0,3,3,6,2,2,9,Under 30,0-2 Years
+1,39,Male,Research & Development,Laboratory Technician,1,2404,1,1,1,8,2,2,6,30-39,0-2 Years
+0,27,Female,Research & Development,Research Scientist,1,2318,0,3,3,1,1,0,4,Under 30,0-2 Years
+0,34,Male,Research & Development,Laboratory Technician,1,2008,0,2,3,1,1,1,10,30-39,0-2 Years
+0,42,Female,Sales,Sales Executive,2,6244,0,3,3,10,5,0,14,40-49,3-5 Years
+0,33,Male,Research & Development,Research Scientist,1,2799,1,1,3,6,3,0,1,30-39,3-5 Years
+0,58,Female,Research & Development,Healthcare Representative,3,10552,1,2,3,24,6,0,5,50+,6-10 Years
+0,31,Male,Sales,Sales Representative,1,2329,0,3,4,13,7,5,7,30-39,6-10 Years
+0,35,Female,Research & Development,Healthcare Representative,2,4014,1,4,1,10,10,0,21,30-39,6-10 Years
+0,49,Female,Research & Development,Laboratory Technician,3,7403,0,2,2,29,26,1,8,40-49,10+ Years
+0,48,Male,Research & Development,Research Scientist,1,2259,0,3,2,13,0,0,20,40-49,0-2 Years
+0,31,Female,Sales,Sales Executive,2,6932,0,3,2,9,9,0,20,30-39,6-10 Years
+0,36,Male,Research & Development,Research Scientist,1,4678,0,4,3,8,6,0,7,30-39,6-10 Years
+0,38,Female,Research & Development,Research Director,3,13582,0,1,3,15,15,5,1,30-39,10+ Years
+0,32,Female,Research & Development,Laboratory Technician,1,2332,0,2,3,5,3,0,1,30-39,3-5 Years
+1,25,Male,Sales,Sales Representative,1,2413,1,2,3,1,1,0,19,Under 30,0-2 Years
+0,40,Male,Sales,Sales Executive,3,9705,0,2,2,11,1,0,10,30-39,0-2 Years
+0,26,Male,Sales,Sales Executive,2,4294,0,1,3,7,7,0,1,Under 30,6-10 Years
+0,41,Male,Research & Development,Laboratory Technician,1,4721,1,1,3,20,18,2,6,40-49,10+ Years
+0,36,Male,Research & Development,Laboratory Technician,1,2519,0,3,3,16,11,3,2,30-39,10+ Years
+1,19,Male,Sales,Sales Representative,1,2121,1,2,4,1,1,0,21,Under 30,0-2 Years
+1,20,Male,Research & Development,Laboratory Technician,1,2973,0,1,3,1,1,0,4,Under 30,0-2 Years
+0,31,Female,Research & Development,Healthcare Representative,2,5855,1,4,1,10,9,8,12,30-39,6-10 Years
+0,40,Male,Research & Development,Research Scientist,1,3617,1,2,3,3,1,0,9,30-39,0-2 Years
+0,32,Female,Research & Development,Manufacturing Director,2,6725,0,1,4,8,8,6,3,30-39,6-10 Years
+1,36,Male,Sales,Sales Executive,3,10325,1,4,3,16,16,3,3,30-39,10+ Years
+0,33,Female,Research & Development,Healthcare Representative,2,6949,0,4,3,6,5,1,1,30-39,3-5 Years
+1,37,Male,Sales,Sales Executive,3,10609,0,3,1,17,14,11,1,30-39,10+ Years
+0,45,Male,Research & Development,Laboratory Technician,2,4447,0,2,2,9,9,0,4,40-49,6-10 Years
+0,29,Female,Sales,Sales Representative,1,2157,0,4,3,3,3,0,20,Under 30,3-5 Years
+0,35,Female,Sales,Sales Executive,2,4601,0,3,3,5,5,1,18,30-39,3-5 Years
+0,52,Male,Research & Development,Manager,4,17099,0,4,2,26,9,7,1,50+,6-10 Years
+1,58,Male,Research & Development,Research Scientist,1,2479,0,3,3,7,1,0,2,50+,0-2 Years
+0,53,Male,Sales,Manager,4,14852,0,3,4,22,17,15,2,50+,10+ Years
+0,30,Male,Sales,Sales Executive,3,7264,0,3,4,10,8,7,8,Under 30,6-10 Years
+0,38,Female,Sales,Sales Executive,2,5666,1,4,3,6,5,1,10,30-39,3-5 Years
+0,35,Male,Sales,Sales Executive,3,7823,0,4,3,12,10,0,3,30-39,6-10 Years
+0,39,Male,Sales,Sales Executive,3,7880,0,3,3,9,8,0,2,30-39,6-10 Years
+1,40,Female,Sales,Sales Executive,4,13194,1,2,2,22,1,0,24,30-39,0-2 Years
+0,47,Male,Research & Development,Manufacturing Director,2,5067,1,3,4,20,19,2,16,40-49,10+ Years
+0,36,Male,Sales,Sales Executive,2,5079,0,4,3,12,7,0,8,30-39,6-10 Years
+1,31,Male,Research & Development,Research Scientist,1,2321,1,1,3,4,3,1,9,30-39,3-5 Years
+0,33,Male,Sales,Manager,4,17444,0,3,3,10,10,6,17,30-39,6-10 Years
+1,29,Female,Research & Development,Research Scientist,1,2404,1,1,3,3,0,0,10,Under 30,0-2 Years
+0,33,Female,Research & Development,Research Scientist,1,3452,0,4,3,5,3,0,13,30-39,3-5 Years
+0,45,Female,Research & Development,Laboratory Technician,1,2270,0,4,3,8,5,0,1,40-49,3-5 Years
+0,50,Male,Research & Development,Research Director,4,17399,0,4,2,32,5,1,1,40-49,3-5 Years
+0,33,Female,Research & Development,Healthcare Representative,2,5488,1,2,3,6,6,1,1,30-39,6-10 Years
+0,41,Male,Research & Development,Research Director,5,19419,0,3,4,21,18,0,9,40-49,10+ Years
+0,27,Female,Research & Development,Laboratory Technician,1,2811,0,2,3,4,2,2,16,Under 30,0-2 Years
+0,45,Male,Research & Development,Laboratory Technician,2,3633,1,1,3,9,9,0,23,40-49,6-10 Years
+0,47,Female,Sales,Sales Executive,2,4163,1,4,3,9,9,0,4,40-49,6-10 Years
+1,30,Female,Research & Development,Research Scientist,1,2132,1,3,3,7,5,0,22,Under 30,3-5 Years
+0,50,Male,Research & Development,Manufacturing Director,4,13973,1,3,3,22,12,1,24,40-49,10+ Years
+0,38,Male,Research & Development,Research Scientist,1,2684,0,3,2,3,2,0,10,30-39,0-2 Years
+0,46,Male,Research & Development,Manufacturing Director,3,10845,0,3,3,13,8,0,7,40-49,6-10 Years
+0,24,Female,Research & Development,Manufacturing Director,2,4377,0,3,3,5,4,3,17,Under 30,3-5 Years
+1,35,Male,Research & Development,Laboratory Technician,1,3743,1,2,1,5,4,0,14,30-39,3-5 Years
+0,31,Female,Research & Development,Manufacturing Director,2,4148,0,1,3,4,4,0,1,30-39,3-5 Years
+0,18,Male,Research & Development,Research Scientist,1,1051,0,4,3,0,0,0,5,Under 30,0-2 Years
+0,54,Female,Research & Development,Manufacturing Director,3,10739,0,3,3,22,10,0,17,50+,6-10 Years
+0,35,Female,Research & Development,Healthcare Representative,3,10388,1,3,2,16,16,10,25,30-39,10+ Years
+0,30,Female,Research & Development,Research Director,3,11416,1,1,2,9,8,1,8,Under 30,6-10 Years
+1,20,Female,Research & Development,Research Scientist,1,2600,1,1,3,1,1,0,11,Under 30,0-2 Years
+1,30,Female,Research & Development,Laboratory Technician,1,2422,0,2,3,4,3,1,5,Under 30,3-5 Years
+0,26,Male,Research & Development,Manufacturing Director,2,5472,0,4,3,8,8,1,2,Under 30,6-10 Years
+0,22,Male,Research & Development,Laboratory Technician,1,2451,0,1,2,4,4,1,8,Under 30,3-5 Years
+0,48,Male,Research & Development,Healthcare Representative,2,4240,0,3,3,19,2,2,6,40-49,0-2 Years
+0,48,Male,Research & Development,Healthcare Representative,3,10999,0,3,3,27,15,4,4,40-49,10+ Years
+0,41,Female,Research & Development,Manufacturing Director,2,5003,0,3,3,8,2,2,7,40-49,0-2 Years
+0,39,Female,Research & Development,Manufacturing Director,4,12742,0,4,3,21,21,11,1,30-39,10+ Years
+0,27,Female,Research & Development,Manufacturing Director,2,4227,0,4,3,4,3,2,2,Under 30,3-5 Years
+0,35,Male,Research & Development,Laboratory Technician,1,3917,0,4,2,3,3,1,10,30-39,3-5 Years
+0,42,Male,Sales,Manager,5,18303,0,3,4,21,1,0,5,40-49,0-2 Years
+0,50,Male,Research & Development,Laboratory Technician,1,2380,0,4,3,8,1,0,9,40-49,0-2 Years
+0,59,Female,Research & Development,Manufacturing Director,4,13726,1,4,3,30,5,4,2,50+,3-5 Years
+1,37,Female,Research & Development,Healthcare Representative,2,4777,0,2,1,15,1,0,11,30-39,0-2 Years
+0,55,Male,Research & Development,Healthcare Representative,2,6385,1,2,3,17,8,6,18,50+,6-10 Years
+0,41,Female,Research & Development,Research Director,5,19973,0,3,3,21,21,5,7,40-49,10+ Years
+0,38,Male,Sales,Sales Executive,2,6861,1,4,3,19,1,0,3,30-39,0-2 Years
+1,26,Male,Sales,Sales Executive,2,4969,0,1,3,7,2,2,29,Under 30,0-2 Years
+1,52,Female,Sales,Manager,5,19845,0,4,3,33,32,6,2,50+,10+ Years
+0,44,Female,Sales,Sales Executive,4,13320,1,4,3,23,12,11,28,40-49,10+ Years
+0,50,Female,Sales,Sales Executive,2,6347,0,3,3,19,18,0,1,40-49,10+ Years
+1,36,Female,Research & Development,Laboratory Technician,1,2743,0,1,3,18,17,15,16,30-39,10+ Years
+0,39,Female,Research & Development,Manufacturing Director,3,10880,1,1,3,21,21,2,22,30-39,10+ Years
+0,33,Female,Sales,Sales Representative,1,2342,0,4,2,3,2,2,8,30-39,0-2 Years
+0,45,Female,Sales,Manager,4,17650,0,4,4,26,9,1,11,40-49,6-10 Years
+0,32,Female,Research & Development,Laboratory Technician,1,4025,0,3,3,10,8,7,29,30-39,6-10 Years
+0,34,Male,Sales,Sales Executive,2,9725,0,4,2,16,15,0,1,30-39,10+ Years
+0,59,Male,Sales,Manager,3,11904,1,4,1,14,6,0,1,50+,6-10 Years
+0,45,Male,Human Resources,Human Resources,1,2177,0,2,3,6,6,0,24,40-49,6-10 Years
+0,53,Female,Sales,Sales Executive,3,7525,0,2,3,30,15,6,2,50+,10+ Years
+1,36,Male,Research & Development,Laboratory Technician,2,4834,0,3,2,9,1,0,15,30-39,0-2 Years
+1,26,Male,Research & Development,Research Scientist,1,2042,1,1,3,6,3,1,2,Under 30,3-5 Years
+0,34,Female,Sales,Sales Representative,1,2220,1,3,3,1,1,0,10,30-39,0-2 Years
+0,28,Male,Sales,Sales Representative,1,1052,0,2,3,1,1,0,10,Under 30,0-2 Years
+0,38,Male,Research & Development,Research Scientist,1,2821,0,3,3,8,2,2,3,30-39,0-2 Years
+0,50,Male,Research & Development,Research Director,5,19237,1,3,2,29,8,7,2,40-49,6-10 Years
+0,37,Female,Research & Development,Healthcare Representative,2,4107,0,2,2,8,4,0,3,30-39,3-5 Years
+0,40,Male,Sales,Sales Executive,2,8396,0,1,2,8,7,7,26,30-39,6-10 Years
+0,26,Female,Research & Development,Research Scientist,1,2007,0,3,3,5,5,1,1,Under 30,3-5 Years
+0,46,Male,Research & Development,Research Director,5,19627,0,4,3,23,2,2,1,40-49,0-2 Years
+0,54,Female,Sales,Sales Executive,3,10686,0,3,3,13,9,7,2,50+,6-10 Years
+0,56,Female,Research & Development,Research Scientist,1,2942,0,3,3,18,5,0,9,50+,3-5 Years
+0,36,Female,Research & Development,Manufacturing Director,3,8858,0,4,2,15,14,7,12,30-39,10+ Years
+0,55,Male,Research & Development,Manager,4,16756,0,1,4,31,9,6,2,50+,6-10 Years
+0,43,Male,Sales,Sales Executive,3,10798,0,4,3,18,1,0,25,40-49,0-2 Years
+1,20,Female,Sales,Sales Representative,1,2323,1,4,3,2,2,0,9,Under 30,0-2 Years
+1,21,Female,Research & Development,Laboratory Technician,1,1416,0,1,2,1,1,1,10,Under 30,0-2 Years
+0,46,Female,Research & Development,Research Scientist,2,4615,1,1,3,19,16,1,8,40-49,10+ Years
+1,51,Male,Research & Development,Research Scientist,1,2461,1,3,4,18,10,2,4,50+,6-10 Years
+1,28,Male,Research & Development,Healthcare Representative,3,8722,0,1,2,10,10,1,24,Under 30,6-10 Years
+0,26,Male,Research & Development,Laboratory Technician,1,3955,0,1,3,6,5,1,1,Under 30,3-5 Years
+0,30,Male,Research & Development,Manufacturing Director,2,9957,0,1,2,7,6,0,20,Under 30,6-10 Years
+0,41,Female,Research & Development,Research Scientist,1,3376,0,3,3,10,10,0,7,40-49,6-10 Years
+0,38,Female,Research & Development,Healthcare Representative,3,8823,0,3,2,20,19,1,17,30-39,10+ Years
+0,40,Male,Research & Development,Healthcare Representative,3,10322,0,4,3,14,11,11,20,30-39,10+ Years
+0,27,Male,Research & Development,Laboratory Technician,1,4621,0,3,3,3,3,1,8,Under 30,3-5 Years
+0,55,Male,Research & Development,Manufacturing Director,3,10976,0,2,3,23,3,1,2,50+,3-5 Years
+0,28,Female,Research & Development,Research Scientist,2,3660,0,3,4,10,8,1,10,Under 30,6-10 Years
+1,44,Male,Human Resources,Human Resources,3,10482,0,1,3,24,20,3,1,40-49,10+ Years
+0,33,Male,Research & Development,Healthcare Representative,3,7119,0,4,3,9,3,1,5,30-39,3-5 Years
+1,35,Male,Sales,Sales Executive,3,9582,1,1,3,9,8,4,4,30-39,6-10 Years
+1,33,Female,Research & Development,Research Scientist,2,4508,0,3,3,14,13,3,29,30-39,10+ Years
+0,28,Male,Research & Development,Laboratory Technician,1,2207,0,3,2,4,4,2,15,Under 30,3-5 Years
+0,34,Male,Research & Development,Healthcare Representative,2,7756,0,4,2,7,6,0,3,30-39,6-10 Years
+0,37,Female,Sales,Sales Executive,2,6694,1,4,3,8,1,0,10,30-39,0-2 Years
+1,25,Male,Research & Development,Laboratory Technician,1,3691,1,4,4,7,7,5,4,Under 30,6-10 Years
+1,26,Male,Research & Development,Laboratory Technician,1,2377,0,3,2,1,1,0,21,Under 30,0-2 Years
+1,33,Male,Research & Development,Research Scientist,1,2313,1,2,3,5,2,2,25,30-39,0-2 Years
+0,42,Male,Research & Development,Manager,4,17665,0,1,3,23,22,13,2,40-49,10+ Years
+1,28,Male,Research & Development,Laboratory Technician,1,2596,0,2,3,1,1,0,1,Under 30,0-2 Years
+1,50,Male,Sales,Sales Executive,2,4728,1,3,3,5,0,0,1,40-49,0-2 Years
+0,33,Female,Sales,Sales Executive,2,4302,0,2,3,4,3,0,7,30-39,3-5 Years
+0,34,Male,Research & Development,Research Scientist,1,2979,0,4,3,6,0,0,3,30-39,0-2 Years
+0,48,Male,Research & Development,Manager,4,16885,0,4,2,27,5,2,1,40-49,3-5 Years
+0,45,Female,Sales,Sales Executive,2,5593,0,3,3,15,15,4,9,40-49,10+ Years
+0,52,Male,Research & Development,Healthcare Representative,3,10445,0,2,3,18,8,4,7,50+,6-10 Years
+0,38,Male,Sales,Sales Executive,3,8740,1,3,3,9,8,2,10,30-39,6-10 Years
+0,29,Female,Research & Development,Research Scientist,1,2514,0,4,3,11,7,1,28,Under 30,6-10 Years
+0,28,Female,Research & Development,Manufacturing Director,3,7655,0,2,2,10,9,1,3,Under 30,6-10 Years
+0,46,Male,Sales,Manager,4,17465,0,3,3,23,12,4,3,40-49,10+ Years
+0,38,Male,Sales,Sales Executive,3,7351,0,2,3,10,1,0,2,30-39,0-2 Years
+0,43,Female,Research & Development,Manufacturing Director,3,10820,0,1,3,18,8,0,27,40-49,6-10 Years
+1,39,Male,Research & Development,Healthcare Representative,4,12169,0,4,3,21,18,11,2,30-39,10+ Years
+0,40,Male,Research & Development,Research Director,5,19626,0,3,4,21,20,4,14,30-39,10+ Years
+0,21,Female,Research & Development,Research Scientist,1,2070,1,2,4,2,2,2,1,Under 30,0-2 Years
+0,39,Male,Research & Development,Laboratory Technician,2,6782,0,2,2,9,5,0,9,30-39,3-5 Years
+0,36,Male,Research & Development,Manufacturing Director,2,7779,0,4,3,18,11,0,18,30-39,10+ Years
+0,31,Male,Sales,Sales Representative,1,2791,0,4,3,3,2,2,20,30-39,0-2 Years
+0,28,Male,Research & Development,Research Scientist,1,3201,0,2,1,6,5,0,2,Under 30,3-5 Years
+0,35,Male,Sales,Sales Executive,2,4968,0,4,3,5,5,0,11,30-39,3-5 Years
+0,49,Male,Sales,Sales Executive,4,13120,0,2,3,22,9,2,8,40-49,6-10 Years
+0,34,Male,Research & Development,Manufacturing Director,2,4033,0,3,2,5,3,0,2,30-39,3-5 Years
+0,29,Female,Research & Development,Research Scientist,1,3291,0,2,2,8,7,1,10,Under 30,6-10 Years
+0,42,Male,Research & Development,Laboratory Technician,2,4272,0,4,3,16,1,0,29,40-49,0-2 Years
+0,29,Male,Research & Development,Manufacturing Director,2,5056,1,4,2,10,10,1,8,Under 30,6-10 Years
+0,38,Male,Human Resources,Human Resources,1,2844,0,3,4,7,7,5,1,30-39,6-10 Years
+0,28,Male,Research & Development,Research Scientist,1,2703,1,3,3,3,3,0,6,Under 30,3-5 Years
+1,18,Male,Research & Development,Laboratory Technician,1,1904,0,3,3,0,0,0,8,Under 30,0-2 Years
+1,33,Female,Sales,Sales Executive,2,8224,1,1,3,6,5,0,9,30-39,3-5 Years
+0,41,Male,Research & Development,Laboratory Technician,1,4766,1,4,3,6,1,0,12,40-49,0-2 Years
+1,31,Male,Research & Development,Laboratory Technician,1,2610,0,3,2,2,2,2,15,30-39,0-2 Years
+0,37,Female,Research & Development,Healthcare Representative,2,5731,0,4,3,9,6,1,25,30-39,6-10 Years
+0,27,Male,Research & Development,Research Scientist,1,2539,0,3,3,4,4,2,6,Under 30,3-5 Years
+0,34,Female,Sales,Sales Executive,2,5714,0,3,2,6,6,1,9,30-39,6-10 Years
+0,35,Male,Human Resources,Human Resources,1,4323,0,3,1,6,5,1,8,30-39,3-5 Years
+1,29,Female,Sales,Sales Executive,3,7336,0,1,1,11,11,3,23,Under 30,10+ Years
+0,40,Female,Research & Development,Research Director,3,13499,0,3,2,20,18,2,9,30-39,10+ Years
+1,42,Male,Sales,Sales Executive,4,13758,1,1,2,22,21,13,12,40-49,10+ Years
+0,42,Male,Sales,Sales Executive,2,5155,0,1,4,9,6,1,4,40-49,6-10 Years
+0,35,Male,Research & Development,Laboratory Technician,1,2258,0,3,3,10,8,1,1,30-39,6-10 Years
+0,24,Male,Research & Development,Laboratory Technician,1,3597,0,2,3,6,4,1,24,Under 30,3-5 Years
+1,28,Female,Research & Development,Laboratory Technician,1,2515,1,4,2,1,1,0,12,Under 30,0-2 Years
+0,26,Male,Research & Development,Laboratory Technician,1,4420,0,4,3,8,8,0,3,Under 30,6-10 Years
+0,30,Male,Sales,Sales Executive,2,6578,0,3,3,10,10,1,10,Under 30,6-10 Years
+0,40,Female,Research & Development,Research Scientist,2,4422,1,4,1,16,1,0,26,30-39,0-2 Years
+0,35,Male,Research & Development,Manufacturing Director,3,10274,0,2,4,15,7,6,2,30-39,6-10 Years
+0,34,Male,Research & Development,Healthcare Representative,2,5343,0,1,3,14,13,4,1,30-39,10+ Years
+0,35,Male,Research & Development,Laboratory Technician,1,2376,0,4,4,2,2,2,4,30-39,0-2 Years
+1,43,Female,Sales,Sales Executive,2,5346,0,3,2,7,4,1,9,40-49,3-5 Years
+0,32,Female,Sales,Sales Representative,1,2827,0,1,3,1,1,0,2,30-39,0-2 Years
+0,56,Female,Research & Development,Manager,5,19943,0,1,3,28,5,4,4,50+,3-5 Years
+0,29,Female,Research & Development,Laboratory Technician,1,3131,0,4,3,10,10,0,6,Under 30,6-10 Years
+0,19,Male,Research & Development,Research Scientist,1,2552,0,1,3,1,1,0,9,Under 30,0-2 Years
+0,45,Female,Research & Development,Research Scientist,1,4477,1,3,2,7,3,0,7,40-49,3-5 Years
+0,37,Female,Research & Development,Manufacturing Director,2,6474,0,4,2,14,14,3,1,30-39,10+ Years
+0,20,Male,Research & Development,Laboratory Technician,1,3033,0,3,2,2,2,1,3,Under 30,0-2 Years
+1,44,Male,Research & Development,Research Scientist,1,2936,1,3,3,6,6,0,10,40-49,6-10 Years
+0,53,Female,Research & Development,Manager,5,18606,0,3,3,26,7,4,7,50+,6-10 Years
+0,29,Female,Research & Development,Research Scientist,1,2168,1,4,2,6,5,1,15,Under 30,3-5 Years
+1,22,Male,Research & Development,Research Scientist,1,2853,1,4,3,1,0,0,3,Under 30,0-2 Years
+0,46,Female,Sales,Manager,4,17048,0,1,3,28,26,15,2,40-49,10+ Years
+0,44,Male,Research & Development,Research Scientist,1,2290,0,3,3,6,0,0,17,40-49,0-2 Years
+0,33,Male,Human Resources,Human Resources,1,3600,0,3,3,5,5,1,2,30-39,3-5 Years
+1,41,Male,Research & Development,Research Scientist,1,2107,0,1,1,5,1,0,5,40-49,0-2 Years
+0,30,Male,Sales,Sales Executive,2,4115,0,1,3,8,4,0,29,Under 30,3-5 Years
+0,40,Male,Sales,Sales Executive,2,4327,0,2,3,5,0,0,2,30-39,0-2 Years
+0,50,Female,Research & Development,Manager,4,17856,0,1,3,32,2,2,2,40-49,0-2 Years
+0,28,Male,Research & Development,Laboratory Technician,1,3196,0,1,3,6,6,3,19,Under 30,6-10 Years
+0,46,Male,Research & Development,Research Director,5,19081,0,2,3,25,4,0,15,40-49,3-5 Years
+0,35,Male,Sales,Sales Executive,2,8966,1,1,3,15,7,1,17,30-39,6-10 Years
+1,24,Female,Research & Development,Laboratory Technician,1,2210,0,2,1,1,1,0,17,Under 30,0-2 Years
+0,33,Female,Sales,Sales Executive,2,4539,0,3,2,10,10,0,25,30-39,6-10 Years
+0,36,Male,Research & Development,Laboratory Technician,1,2741,0,3,3,7,7,1,6,30-39,6-10 Years
+0,30,Male,Research & Development,Laboratory Technician,2,3491,0,3,2,10,10,8,7,Under 30,6-10 Years
+0,44,Male,Research & Development,Research Scientist,2,4541,0,4,3,20,20,13,29,40-49,10+ Years
+0,20,Male,Sales,Sales Representative,1,2678,0,4,3,2,2,2,21,Under 30,0-2 Years
+0,46,Male,Research & Development,Manufacturing Director,2,7379,0,4,2,12,6,1,2,40-49,6-10 Years
+0,42,Male,Human Resources,Human Resources,2,6272,0,1,4,10,4,0,2,40-49,3-5 Years
+0,60,Male,Sales,Sales Executive,2,5220,1,4,3,12,11,1,7,50+,10+ Years
+0,32,Female,Research & Development,Laboratory Technician,1,2743,0,2,3,2,2,2,13,30-39,0-2 Years
+0,32,Female,Research & Development,Research Scientist,2,4998,1,3,3,10,8,0,2,30-39,6-10 Years
+0,36,Female,Research & Development,Manufacturing Director,3,10252,1,1,3,17,7,7,1,30-39,6-10 Years
+0,33,Male,Research & Development,Research Scientist,1,2781,0,4,3,15,14,4,9,30-39,10+ Years
+0,40,Female,Sales,Sales Executive,2,6852,0,2,4,7,5,1,10,30-39,3-5 Years
+0,25,Male,Sales,Sales Executive,2,4950,0,4,3,5,4,1,10,Under 30,3-5 Years
+0,30,Male,Research & Development,Research Scientist,1,3579,1,2,3,12,11,5,1,Under 30,10+ Years
+0,42,Female,Research & Development,Research Director,3,13191,1,1,3,20,1,0,26,40-49,0-2 Years
+0,35,Female,Sales,Sales Executive,3,10377,1,4,2,16,13,4,8,30-39,10+ Years
+0,27,Male,Research & Development,Research Scientist,1,2235,1,1,2,9,9,6,14,Under 30,6-10 Years
+0,54,Female,Research & Development,Manufacturing Director,3,10502,0,3,1,33,5,1,1,50+,3-5 Years
+0,44,Female,Research & Development,Research Scientist,1,2011,0,4,3,10,10,7,2,40-49,6-10 Years
+1,19,Female,Research & Development,Research Scientist,1,1859,1,2,4,1,1,0,10,Under 30,0-2 Years
+0,29,Female,Research & Development,Research Scientist,1,3760,0,4,3,3,3,1,1,Under 30,3-5 Years
+0,54,Male,Research & Development,Research Director,4,17779,0,4,3,36,10,0,3,50+,6-10 Years
+0,31,Male,Research & Development,Healthcare Representative,2,6833,1,1,2,6,6,0,11,30-39,6-10 Years
+0,31,Female,Research & Development,Healthcare Representative,2,6812,0,1,3,10,10,1,24,30-39,6-10 Years
+0,59,Female,Sales,Sales Executive,2,5171,0,4,3,13,6,0,3,50+,6-10 Years
+0,43,Male,Research & Development,Research Director,5,19740,0,4,3,25,8,0,3,40-49,6-10 Years
+0,49,Male,Research & Development,Manager,5,18711,0,3,4,23,1,0,4,40-49,0-2 Years
+0,36,Male,Research & Development,Research Scientist,1,3692,0,2,2,12,11,0,3,30-39,10+ Years
+0,48,Male,Research & Development,Laboratory Technician,1,2559,0,2,2,7,1,0,2,40-49,0-2 Years
+0,27,Male,Research & Development,Research Scientist,1,2517,0,3,3,5,5,0,4,Under 30,3-5 Years
+0,29,Male,Research & Development,Healthcare Representative,2,6623,1,4,3,6,6,1,7,Under 30,6-10 Years
+0,48,Male,Research & Development,Research Director,5,18265,0,4,4,25,1,0,1,40-49,0-2 Years
+0,29,Female,Research & Development,Research Director,4,16124,0,4,2,9,7,1,1,Under 30,6-10 Years
+0,34,Female,Research & Development,Research Scientist,1,2585,0,3,2,2,1,0,20,30-39,0-2 Years
+0,44,Male,Sales,Manager,5,18213,0,2,3,26,22,3,5,40-49,10+ Years
+0,33,Male,Sales,Sales Executive,3,8380,1,3,3,10,9,0,10,30-39,6-10 Years
+0,19,Female,Research & Development,Research Scientist,1,2994,1,4,3,1,1,0,25,Under 30,0-2 Years
+0,23,Male,Research & Development,Research Scientist,1,1223,0,3,3,1,1,0,1,Under 30,0-2 Years
+1,25,Male,Sales,Sales Representative,1,1118,1,4,3,1,1,1,24,Under 30,0-2 Years
+0,26,Male,Research & Development,Research Scientist,1,2875,1,4,2,8,8,2,4,Under 30,6-10 Years
+1,45,Female,Sales,Manager,5,18824,1,2,3,26,24,1,2,40-49,10+ Years
+0,55,Male,Research & Development,Healthcare Representative,4,13577,1,2,3,34,33,15,8,50+,10+ Years
+1,21,Female,Research & Development,Laboratory Technician,1,2625,0,3,1,2,2,2,10,Under 30,0-2 Years
+0,46,Female,Sales,Manager,5,18789,0,2,3,26,11,0,4,40-49,10+ Years
+0,34,Female,Sales,Sales Executive,2,4538,1,1,3,4,3,0,2,30-39,3-5 Years
+0,51,Male,Sales,Manager,5,19847,1,2,2,31,29,11,9,50+,10+ Years
+0,59,Male,Research & Development,Manufacturing Director,3,10512,0,4,2,25,9,5,18,50+,6-10 Years
+0,34,Female,Research & Development,Laboratory Technician,2,4444,0,2,4,15,11,5,19,30-39,10+ Years
+0,28,Male,Research & Development,Laboratory Technician,1,2154,1,3,2,5,4,0,1,Under 30,3-5 Years
+0,44,Male,Research & Development,Manager,5,19190,0,1,2,26,25,14,4,40-49,10+ Years
+0,34,Male,Human Resources,Human Resources,2,4490,0,2,4,14,10,1,11,30-39,6-10 Years
+0,35,Male,Research & Development,Research Scientist,1,3506,1,3,3,4,3,2,6,30-39,3-5 Years
+0,42,Female,Research & Development,Research Scientist,2,2372,1,2,3,18,1,0,7,40-49,0-2 Years
+0,43,Female,Sales,Sales Executive,3,10231,0,4,4,23,21,15,4,40-49,10+ Years
+0,36,Female,Research & Development,Manufacturing Director,2,5410,1,2,3,18,16,5,2,30-39,10+ Years
+1,44,Female,Research & Development,Healthcare Representative,3,7978,0,4,3,10,10,0,15,40-49,6-10 Years
+0,28,Male,Research & Development,Laboratory Technician,1,3867,1,4,3,2,2,2,2,Under 30,0-2 Years
+0,51,Female,Research & Development,Laboratory Technician,1,2838,0,3,2,8,7,7,6,50+,6-10 Years
+0,30,Female,Research & Development,Manufacturing Director,2,4695,1,3,3,10,8,1,9,Under 30,6-10 Years
+1,29,Female,Research & Development,Laboratory Technician,1,3339,1,3,3,10,7,7,7,Under 30,6-10 Years
+0,28,Male,Research & Development,Research Scientist,1,2080,0,1,2,5,3,1,1,Under 30,3-5 Years
+0,25,Female,Research & Development,Research Scientist,1,2096,0,2,2,2,2,2,1,Under 30,0-2 Years
+0,32,Male,Sales,Sales Executive,2,6209,0,4,4,10,10,0,8,30-39,6-10 Years
+0,45,Female,Research & Development,Manager,5,18061,0,2,3,22,0,0,25,40-49,0-2 Years
+0,39,Female,Research & Development,Manager,4,17123,1,2,3,21,19,15,13,30-39,10+ Years
+0,58,Male,Research & Development,Research Scientist,1,2372,0,3,3,2,2,2,23,50+,0-2 Years
+1,32,Male,Research & Development,Laboratory Technician,2,4883,0,3,3,10,10,1,7,30-39,6-10 Years
+1,39,Male,Research & Development,Research Scientist,1,3904,0,1,3,6,5,0,23,30-39,3-5 Years
+0,30,Female,Research & Development,Laboratory Technician,2,4627,0,4,3,10,9,6,6,Under 30,6-10 Years
+0,36,Female,Research & Development,Healthcare Representative,3,7094,0,3,3,10,7,1,10,30-39,6-10 Years
+0,46,Female,Human Resources,Human Resources,1,3423,0,1,4,10,7,5,1,40-49,6-10 Years
+0,28,Female,Research & Development,Laboratory Technician,2,6674,0,4,3,10,9,7,1,Under 30,6-10 Years
+0,50,Female,Research & Development,Research Director,4,16880,1,1,3,25,3,1,28,40-49,3-5 Years
+1,40,Male,Sales,Sales Executive,3,9094,1,2,3,9,5,1,25,30-39,3-5 Years
+1,52,Male,Sales,Sales Executive,3,8446,1,2,2,10,8,7,5,50+,6-10 Years
+0,30,Female,Research & Development,Manager,3,11916,1,1,3,9,9,0,17,Under 30,6-10 Years
+0,39,Male,Research & Development,Manufacturing Director,2,4534,0,3,3,9,8,1,18,30-39,6-10 Years
+0,31,Female,Sales,Sales Executive,3,9852,1,3,2,10,10,9,2,30-39,6-10 Years
+0,41,Male,Sales,Sales Executive,2,6151,0,2,3,19,19,11,10,40-49,10+ Years
+1,31,Female,Sales,Sales Representative,1,2302,1,2,4,3,3,2,1,30-39,3-5 Years
+1,44,Male,Research & Development,Laboratory Technician,1,2362,0,1,4,10,3,1,3,40-49,3-5 Years
+0,42,Male,Research & Development,Manager,4,17861,1,3,2,21,20,2,2,40-49,10+ Years
+0,55,Female,Research & Development,Manager,5,19187,0,3,3,23,19,9,2,50+,10+ Years
+0,56,Male,Human Resources,Manager,5,19717,0,2,3,36,7,7,8,50+,6-10 Years
+0,40,Male,Research & Development,Research Scientist,1,3544,0,3,3,6,4,0,16,30-39,3-5 Years
+0,34,Male,Research & Development,Healthcare Representative,3,8500,0,4,2,10,9,1,9,30-39,6-10 Years
+0,40,Male,Research & Development,Research Scientist,2,4661,0,4,3,9,9,8,2,30-39,6-10 Years
+0,41,Female,Sales,Sales Executive,2,4103,0,1,3,10,9,1,1,40-49,6-10 Years
+0,35,Male,Research & Development,Research Scientist,2,4249,1,3,3,9,9,1,4,30-39,6-10 Years
+0,51,Male,Human Resources,Manager,4,14026,1,2,3,33,33,0,5,50+,10+ Years
+0,38,Female,Sales,Sales Executive,2,6893,0,1,3,11,7,1,2,30-39,6-10 Years
+0,34,Female,Sales,Sales Executive,2,6125,0,1,4,10,10,9,15,30-39,6-10 Years
+0,25,Male,Research & Development,Laboratory Technician,1,3669,0,4,2,7,3,1,19,Under 30,3-5 Years
+1,58,Female,Research & Development,Manufacturing Director,3,10008,1,1,2,31,10,5,7,50+,6-10 Years
+0,40,Male,Research & Development,Laboratory Technician,1,2387,0,2,3,7,4,0,1,30-39,3-5 Years
+0,36,Female,Sales,Sales Executive,2,4639,0,1,2,17,15,6,7,30-39,10+ Years
+0,48,Male,Research & Development,Manufacturing Director,3,7898,0,4,3,11,10,0,4,40-49,6-10 Years
+0,27,Female,Sales,Sales Representative,1,2534,0,4,3,5,1,0,11,Under 30,0-2 Years
+0,51,Female,Research & Development,Manufacturing Director,4,13142,0,2,2,29,5,0,11,50+,3-5 Years
+0,18,Female,Research & Development,Laboratory Technician,1,1611,0,4,4,0,0,0,1,Under 30,0-2 Years
+0,35,Female,Research & Development,Laboratory Technician,2,5363,0,4,3,10,9,0,1,30-39,6-10 Years
+0,27,Male,Sales,Sales Executive,2,5071,0,4,3,8,6,0,2,Under 30,6-10 Years
+1,55,Male,Sales,Sales Executive,4,13695,1,3,2,24,19,3,13,50+,10+ Years
+0,56,Male,Research & Development,Manufacturing Director,4,13402,1,2,3,33,19,15,23,50+,10+ Years
+0,34,Female,Research & Development,Research Scientist,1,2029,0,3,3,5,5,0,26,30-39,3-5 Years
+0,40,Female,Research & Development,Healthcare Representative,2,6377,0,3,3,15,12,11,2,30-39,10+ Years
+0,34,Male,Research & Development,Laboratory Technician,2,5429,0,3,3,10,8,7,29,30-39,6-10 Years
+1,31,Female,Sales,Sales Representative,1,2785,0,4,4,3,1,0,2,30-39,0-2 Years
+1,35,Female,Sales,Sales Executive,2,4614,1,3,2,5,4,3,18,30-39,3-5 Years
+0,38,Male,Research & Development,Research Scientist,1,2610,0,3,3,4,4,0,7,30-39,3-5 Years
+0,34,Female,Research & Development,Healthcare Representative,2,6687,0,4,4,14,14,4,2,30-39,10+ Years
+0,28,Male,Sales,Sales Executive,2,4724,0,1,3,5,5,0,26,Under 30,3-5 Years
+1,31,Male,Research & Development,Manufacturing Director,2,6179,1,3,2,10,10,6,22,30-39,6-10 Years
+0,39,Male,Sales,Sales Executive,2,6120,1,4,4,8,5,1,21,30-39,3-5 Years
+0,51,Male,Sales,Sales Executive,3,10596,0,2,3,14,4,3,2,50+,3-5 Years
+0,41,Female,Research & Development,Research Scientist,2,5467,1,4,2,12,6,3,22,40-49,6-10 Years
+0,37,Male,Research & Development,Research Scientist,1,2996,1,3,3,8,6,1,4,30-39,6-10 Years
+0,33,Male,Sales,Sales Executive,2,9998,0,4,4,8,5,1,5,30-39,3-5 Years
+0,32,Male,Sales,Sales Executive,2,4078,1,2,2,4,3,1,2,30-39,3-5 Years
+0,39,Male,Research & Development,Healthcare Representative,3,10920,0,3,3,13,6,0,25,30-39,6-10 Years
+0,25,Male,Sales,Sales Executive,2,6232,0,3,2,6,3,1,18,Under 30,3-5 Years
+0,52,Female,Research & Development,Manufacturing Director,4,13247,1,3,2,24,5,0,28,50+,3-5 Years
+0,43,Female,Research & Development,Research Scientist,2,4081,1,3,1,20,20,1,6,40-49,10+ Years
+0,27,Female,Sales,Sales Executive,2,5769,1,4,3,6,6,4,10,Under 30,6-10 Years
+1,27,Female,Research & Development,Research Scientist,1,2394,1,3,3,8,8,7,17,Under 30,6-10 Years
+0,26,Male,Research & Development,Research Scientist,1,3904,0,4,3,5,4,1,2,Under 30,3-5 Years
+0,42,Female,Human Resources,Manager,4,16799,0,1,3,21,20,0,10,40-49,10+ Years
+0,52,Female,Research & Development,Laboratory Technician,1,2950,0,1,1,12,5,0,8,50+,3-5 Years
+0,37,Female,Research & Development,Laboratory Technician,1,3629,0,3,3,8,3,0,11,30-39,3-5 Years
+0,35,Male,Research & Development,Manufacturing Director,3,9362,0,4,3,10,2,2,18,30-39,0-2 Years
+0,25,Male,Research & Development,Laboratory Technician,1,3229,0,4,2,7,3,0,1,Under 30,3-5 Years
+0,26,Male,Research & Development,Laboratory Technician,1,3578,0,1,3,8,7,0,7,Under 30,6-10 Years
+0,29,Male,Human Resources,Human Resources,3,7988,0,1,2,10,10,0,17,Under 30,6-10 Years
+1,49,Male,Research & Development,Laboratory Technician,2,4284,0,1,3,20,4,1,28,40-49,3-5 Years
+1,29,Female,Research & Development,Healthcare Representative,3,7553,1,4,3,9,8,7,14,Under 30,6-10 Years
+0,54,Female,Research & Development,Research Director,4,17328,0,4,2,29,20,12,1,50+,10+ Years
+0,58,Female,Research & Development,Research Director,5,19701,1,1,3,32,9,1,1,50+,6-10 Years
+0,55,Male,Research & Development,Research Director,4,14732,0,4,4,31,7,0,1,50+,6-10 Years
+0,36,Female,Sales,Sales Executive,2,9278,1,2,3,15,5,0,3,30-39,3-5 Years
+1,31,Female,Sales,Sales Representative,1,1359,0,3,3,1,1,0,1,30-39,0-2 Years
+0,30,Female,Sales,Sales Executive,2,4779,0,1,3,8,3,0,7,Under 30,3-5 Years
+0,31,Female,Research & Development,Research Director,4,16422,0,2,4,9,3,1,8,30-39,3-5 Years
+0,34,Male,Research & Development,Research Scientist,1,2996,0,1,3,10,4,1,1,30-39,3-5 Years
+1,31,Female,Research & Development,Research Scientist,1,1261,0,2,4,1,1,0,8,30-39,0-2 Years
+0,27,Male,Research & Development,Laboratory Technician,1,2099,0,1,4,6,5,1,11,Under 30,3-5 Years
+0,36,Male,Research & Development,Laboratory Technician,2,5810,0,4,2,10,10,1,4,30-39,6-10 Years
+0,36,Female,Sales,Sales Executive,2,5647,0,1,2,11,3,0,16,30-39,3-5 Years
+0,47,Male,Research & Development,Research Scientist,1,3420,0,4,2,17,6,1,1,40-49,6-10 Years
+1,25,Male,Sales,Sales Representative,1,4400,0,1,3,6,3,2,9,Under 30,3-5 Years
+0,37,Male,Research & Development,Laboratory Technician,1,3500,0,3,1,7,6,1,5,30-39,6-10 Years
+0,56,Female,Research & Development,Research Scientist,1,2066,0,1,4,5,3,1,1,50+,3-5 Years
+0,47,Female,Research & Development,Research Director,4,17169,0,3,4,26,20,5,2,40-49,10+ Years
+0,24,Female,Sales,Sales Executive,2,4162,1,3,3,5,5,0,4,Under 30,3-5 Years
+0,32,Male,Sales,Sales Executive,2,9204,0,4,2,7,4,0,7,30-39,3-5 Years
+0,34,Female,Research & Development,Laboratory Technician,1,3294,0,2,2,7,5,0,1,30-39,3-5 Years
+0,41,Male,Research & Development,Research Scientist,1,2127,1,3,2,7,4,0,5,40-49,3-5 Years
+0,40,Male,Research & Development,Laboratory Technician,2,3975,0,3,4,11,8,0,9,30-39,6-10 Years
+0,31,Male,Sales,Sales Executive,3,10793,0,4,3,13,13,9,8,30-39,10+ Years
+1,46,Male,Sales,Sales Executive,3,10096,0,4,4,28,7,4,9,40-49,6-10 Years
+1,39,Female,Research & Development,Laboratory Technician,1,3646,1,1,4,11,1,0,2,30-39,0-2 Years
+1,31,Female,Research & Development,Manufacturing Director,3,7446,0,2,3,10,10,4,1,30-39,6-10 Years
+0,45,Male,Research & Development,Healthcare Representative,3,10851,1,1,3,24,7,0,20,40-49,6-10 Years
+0,31,Female,Human Resources,Human Resources,1,2109,0,2,3,8,3,0,8,30-39,3-5 Years
+1,31,Male,Research & Development,Laboratory Technician,1,3722,1,4,1,7,2,2,2,30-39,0-2 Years
+0,45,Male,Research & Development,Manufacturing Director,3,9380,1,4,4,10,3,1,29,40-49,3-5 Years
+0,48,Male,Sales,Sales Executive,2,5486,0,1,3,15,2,2,7,40-49,0-2 Years
+1,34,Female,Human Resources,Human Resources,1,2742,0,3,3,2,2,2,9,30-39,0-2 Years
+0,40,Male,Research & Development,Research Director,3,13757,0,2,3,16,9,4,8,30-39,6-10 Years
+0,28,Male,Sales,Sales Executive,2,8463,0,1,3,6,5,1,5,Under 30,3-5 Years
+0,44,Male,Research & Development,Laboratory Technician,1,3162,0,3,3,7,5,0,5,40-49,3-5 Years
+0,53,Male,Research & Development,Research Director,4,16598,0,2,2,35,9,8,2,50+,6-10 Years
+0,49,Male,Research & Development,Healthcare Representative,2,6651,0,3,2,20,3,1,5,40-49,3-5 Years
+0,40,Male,Research & Development,Research Scientist,1,2345,0,3,4,8,3,1,2,30-39,3-5 Years
+0,44,Male,Research & Development,Research Scientist,1,3420,0,2,2,6,5,1,20,40-49,3-5 Years
+0,33,Male,Sales,Sales Executive,2,4373,0,1,3,5,4,0,7,30-39,3-5 Years
+0,34,Male,Sales,Sales Executive,2,4759,0,1,3,15,13,3,3,30-39,10+ Years
+0,30,Male,Sales,Sales Executive,2,5301,0,3,2,4,2,2,16,Under 30,0-2 Years
+0,42,Female,Research & Development,Laboratory Technician,1,3673,0,4,3,12,12,5,9,40-49,10+ Years
+0,44,Female,Sales,Sales Executive,2,4768,0,3,2,11,1,0,1,40-49,0-2 Years
+0,30,Male,Research & Development,Research Scientist,1,1274,0,3,2,1,1,0,7,Under 30,0-2 Years
+0,57,Male,Research & Development,Research Scientist,2,4900,0,3,2,13,12,2,1,50+,10+ Years
+0,49,Male,Research & Development,Healthcare Representative,3,10466,0,2,3,29,8,0,7,40-49,6-10 Years
+0,34,Male,Research & Development,Research Director,4,17007,0,1,2,16,14,6,15,30-39,10+ Years
+1,28,Male,Sales,Sales Representative,1,2909,0,3,4,5,3,1,1,Under 30,3-5 Years
+1,29,Female,Sales,Sales Executive,2,5765,0,2,1,7,5,0,13,Under 30,3-5 Years
+1,34,Female,Sales,Sales Executive,2,4599,1,2,4,16,15,10,24,30-39,10+ Years
+0,35,Male,Sales,Sales Representative,1,2404,0,3,3,1,1,0,7,30-39,0-2 Years
+1,24,Male,Research & Development,Laboratory Technician,1,3172,1,1,2,4,0,0,9,Under 30,0-2 Years
+0,24,Female,Sales,Sales Representative,1,2033,0,2,3,1,1,0,13,Under 30,0-2 Years
+0,44,Male,Research & Development,Manufacturing Director,3,10209,1,3,2,16,2,2,2,40-49,0-2 Years
+0,29,Male,Sales,Sales Executive,2,8620,0,3,3,10,10,0,19,Under 30,6-10 Years
+0,30,Male,Human Resources,Human Resources,1,2064,0,3,4,6,5,1,1,Under 30,3-5 Years
+0,55,Male,Research & Development,Healthcare Representative,2,4035,1,3,3,4,3,1,4,50+,3-5 Years
+0,33,Female,Research & Development,Laboratory Technician,1,3838,0,2,3,8,5,0,4,30-39,3-5 Years
+0,47,Female,Sales,Sales Executive,2,4591,1,3,2,11,5,1,14,40-49,3-5 Years
+1,28,Male,Research & Development,Laboratory Technician,1,2561,0,1,2,8,0,0,2,Under 30,0-2 Years
+0,28,Male,Research & Development,Research Scientist,1,1563,0,3,1,1,1,0,1,Under 30,0-2 Years
+0,28,Male,Sales,Sales Executive,2,4898,0,1,3,5,4,1,7,Under 30,3-5 Years
+0,49,Female,Research & Development,Laboratory Technician,2,4789,0,1,3,10,3,1,3,40-49,3-5 Years
+0,29,Female,Research & Development,Laboratory Technician,1,3180,0,2,3,4,3,0,2,Under 30,3-5 Years
+0,28,Male,Research & Development,Manufacturing Director,2,6549,0,2,2,8,8,1,29,Under 30,6-10 Years
+0,33,Male,Research & Development,Healthcare Representative,2,6388,1,3,3,14,0,0,8,30-39,0-2 Years
+0,32,Male,Research & Development,Manager,3,11244,0,4,4,10,5,0,10,30-39,3-5 Years
+0,54,Female,Research & Development,Manager,4,16032,0,4,3,26,14,1,11,50+,10+ Years
+1,29,Male,Research & Development,Research Scientist,1,2362,0,1,1,11,9,0,1,Under 30,6-10 Years
+0,44,Male,Research & Development,Research Director,4,16328,0,1,4,24,20,14,28,40-49,10+ Years
+0,39,Female,Research & Development,Manufacturing Director,3,8376,0,2,3,9,2,2,6,30-39,0-2 Years
+0,46,Female,Sales,Manager,4,16606,0,2,4,23,13,5,3,40-49,10+ Years
+0,35,Female,Research & Development,Healthcare Representative,3,8606,0,2,1,11,11,3,16,30-39,10+ Years
+0,23,Male,Research & Development,Laboratory Technician,2,2272,0,3,3,5,4,1,20,Under 30,3-5 Years
+1,40,Male,Research & Development,Laboratory Technician,1,2018,0,1,1,15,5,1,9,30-39,3-5 Years
+0,34,Male,Sales,Sales Executive,3,7083,1,3,3,10,10,8,1,30-39,6-10 Years
+1,31,Female,Research & Development,Research Scientist,1,4084,0,3,1,7,7,7,3,30-39,6-10 Years
+0,50,Male,Research & Development,Research Director,4,14411,1,4,3,32,32,13,22,40-49,10+ Years
+0,34,Male,Sales,Sales Representative,1,2308,1,3,3,12,11,5,7,30-39,10+ Years
+0,42,Male,Research & Development,Laboratory Technician,1,4841,0,2,3,4,1,0,2,40-49,0-2 Years
+0,37,Male,Research & Development,Research Scientist,2,4285,0,4,3,10,10,3,13,30-39,6-10 Years
+0,29,Female,Research & Development,Healthcare Representative,2,9715,0,1,3,9,7,0,8,Under 30,6-10 Years
+0,33,Male,Research & Development,Manufacturing Director,2,4320,0,2,3,5,5,0,25,30-39,3-5 Years
+0,45,Male,Research & Development,Research Scientist,1,2132,0,4,3,8,5,0,28,40-49,3-5 Years
+0,42,Male,Research & Development,Healthcare Representative,3,10124,1,4,1,24,20,13,2,40-49,10+ Years
+0,40,Male,Sales,Sales Executive,2,5473,0,1,4,9,8,7,9,30-39,6-10 Years
+0,33,Male,Research & Development,Laboratory Technician,2,5207,1,3,3,15,15,5,28,30-39,10+ Years
+0,40,Male,Human Resources,Manager,4,16437,1,4,3,21,21,7,6,30-39,10+ Years
+0,24,Male,Research & Development,Laboratory Technician,1,2296,0,1,3,2,1,0,21,Under 30,0-2 Years
+0,40,Male,Research & Development,Healthcare Representative,2,4069,1,4,3,8,2,2,8,30-39,0-2 Years
+0,45,Male,Research & Development,Healthcare Representative,3,7441,0,2,3,10,10,7,1,40-49,6-10 Years
+0,35,Female,Sales,Sales Representative,1,2430,0,3,3,6,5,4,28,30-39,3-5 Years
+0,32,Female,Research & Development,Research Scientist,2,5878,0,2,3,12,7,2,5,30-39,6-10 Years
+0,36,Male,Sales,Sales Representative,1,2644,1,4,2,7,3,1,2,30-39,3-5 Years
+0,48,Female,Sales,Sales Executive,2,6439,0,3,3,18,8,7,16,40-49,6-10 Years
+0,29,Male,Research & Development,Research Scientist,1,2451,0,3,2,5,1,0,9,Under 30,0-2 Years
+0,33,Male,Sales,Sales Executive,2,6392,0,1,1,8,2,2,8,30-39,0-2 Years
+1,30,Male,Sales,Sales Executive,2,9714,0,1,3,10,10,6,1,Under 30,6-10 Years
+0,38,Male,Human Resources,Human Resources,2,6077,0,3,3,10,6,1,10,30-39,6-10 Years
+0,35,Male,Research & Development,Laboratory Technician,1,2450,0,1,3,3,3,1,1,30-39,3-5 Years
+0,30,Male,Sales,Sales Executive,3,9250,0,2,3,9,4,1,29,Under 30,3-5 Years
+1,35,Female,Research & Development,Laboratory Technician,1,2074,1,1,3,1,1,0,2,30-39,0-2 Years
+1,53,Female,Research & Development,Manufacturing Director,3,10169,0,4,3,34,33,1,2,50+,10+ Years
+1,38,Male,Research & Development,Manufacturing Director,2,4855,0,2,3,7,5,1,2,30-39,3-5 Years
+0,32,Male,Research & Development,Research Scientist,2,4087,0,1,2,9,6,1,1,30-39,6-10 Years
+0,48,Female,Research & Development,Research Scientist,1,2367,0,1,2,10,8,7,15,40-49,6-10 Years
+0,34,Male,Research & Development,Research Scientist,1,2972,0,4,1,1,1,0,7,30-39,0-2 Years
+0,55,Male,Sales,Manager,5,19586,0,4,3,36,36,2,26,50+,10+ Years
+0,34,Male,Research & Development,Research Scientist,2,5484,0,4,2,9,2,2,1,30-39,0-2 Years
+0,26,Female,Research & Development,Research Scientist,1,2061,0,4,3,1,1,0,3,Under 30,0-2 Years
+0,38,Male,Sales,Sales Executive,2,9924,0,2,3,10,9,7,14,30-39,6-10 Years
+0,38,Female,Sales,Sales Executive,2,4198,0,2,4,8,3,1,16,30-39,3-5 Years
+0,36,Female,Sales,Sales Executive,2,6815,0,3,3,15,1,0,1,30-39,0-2 Years
+0,29,Male,Research & Development,Laboratory Technician,1,4723,1,1,3,10,10,1,3,Under 30,6-10 Years
+0,35,Female,Research & Development,Healthcare Representative,2,6142,1,3,3,10,5,0,10,30-39,3-5 Years
+0,39,Male,Sales,Sales Executive,3,8237,0,3,3,11,7,7,6,30-39,6-10 Years
+0,29,Male,Research & Development,Healthcare Representative,2,8853,0,4,4,6,6,1,2,Under 30,6-10 Years
+0,50,Male,Sales,Manager,5,19331,1,3,3,27,1,0,9,40-49,0-2 Years
+0,23,Male,Research & Development,Research Scientist,1,2073,0,3,3,4,2,2,10,Under 30,0-2 Years
+0,36,Male,Research & Development,Laboratory Technician,2,5562,1,1,3,9,3,0,6,30-39,3-5 Years
+0,42,Male,Research & Development,Manager,5,19613,0,4,3,24,1,0,9,40-49,0-2 Years
+0,35,Male,Research & Development,Laboratory Technician,2,3407,0,3,2,10,10,6,28,30-39,6-10 Years
+0,34,Male,Research & Development,Healthcare Representative,2,5063,0,3,2,8,8,7,10,30-39,6-10 Years
+0,40,Female,Sales,Sales Executive,2,4639,0,1,3,5,5,1,14,30-39,3-5 Years
+0,43,Male,Research & Development,Laboratory Technician,1,4876,0,2,3,8,6,0,27,40-49,6-10 Years
+0,35,Male,Research & Development,Laboratory Technician,1,2690,0,4,2,1,1,0,7,30-39,0-2 Years
+0,46,Male,Sales,Manager,4,17567,0,1,1,27,26,0,1,40-49,10+ Years
+1,28,Male,Research & Development,Laboratory Technician,1,2408,1,2,3,1,1,0,24,Under 30,0-2 Years
+0,22,Female,Research & Development,Research Scientist,1,2814,1,3,2,4,4,1,26,Under 30,3-5 Years
+0,50,Male,Research & Development,Healthcare Representative,4,11245,1,3,3,32,30,12,20,40-49,10+ Years
+0,32,Female,Research & Development,Research Scientist,1,3312,0,4,3,6,3,0,5,30-39,3-5 Years
+0,44,Female,Research & Development,Research Director,5,19049,1,4,2,23,22,1,7,40-49,10+ Years
+0,30,Male,Research & Development,Research Scientist,1,2141,0,2,2,6,6,1,7,Under 30,6-10 Years
+0,45,Female,Research & Development,Laboratory Technician,2,5769,1,1,3,10,10,1,5,40-49,6-10 Years
+0,45,Male,Sales,Sales Executive,2,4385,0,1,3,10,10,4,26,40-49,6-10 Years
+0,31,Male,Sales,Sales Executive,2,5332,0,1,3,10,5,0,2,30-39,3-5 Years
+0,36,Female,Research & Development,Manufacturing Director,2,4663,1,3,3,7,3,1,12,30-39,3-5 Years
+0,34,Male,Research & Development,Manufacturing Director,2,4724,0,4,3,9,9,7,10,30-39,6-10 Years
+0,49,Female,Research & Development,Laboratory Technician,1,3211,0,1,2,10,9,1,25,40-49,6-10 Years
+0,39,Male,Research & Development,Manufacturing Director,2,5377,0,1,3,10,7,7,10,30-39,6-10 Years
+0,27,Male,Research & Development,Laboratory Technician,1,4066,0,1,3,7,7,0,19,Under 30,6-10 Years
+0,35,Male,Research & Development,Research Scientist,2,5208,0,1,3,16,16,1,18,30-39,10+ Years
+0,28,Female,Research & Development,Manufacturing Director,2,4877,0,1,2,6,5,0,27,Under 30,3-5 Years
+0,21,Male,Research & Development,Research Scientist,1,3117,0,4,3,3,2,2,5,Under 30,0-2 Years
+1,18,Female,Sales,Sales Representative,1,1569,1,4,4,0,0,0,3,Under 30,0-2 Years
+0,47,Female,Human Resources,Manager,5,19658,0,3,3,27,5,1,26,40-49,3-5 Years
+0,39,Male,Research & Development,Laboratory Technician,2,3069,0,3,3,11,10,0,3,30-39,6-10 Years
+0,40,Female,Research & Development,Manufacturing Director,3,10435,0,3,3,18,18,14,15,30-39,10+ Years
+0,35,Female,Research & Development,Healthcare Representative,2,4148,0,3,3,15,14,2,8,30-39,10+ Years
+0,37,Male,Research & Development,Manufacturing Director,2,5768,0,3,2,9,4,0,19,30-39,3-5 Years
+0,39,Female,Research & Development,Manufacturing Director,2,5042,0,3,1,10,9,3,4,30-39,6-10 Years
+0,45,Female,Research & Development,Manufacturing Director,2,5770,0,4,3,10,10,3,2,40-49,6-10 Years
+0,38,Female,Research & Development,Manufacturing Director,3,7756,1,3,4,10,5,0,2,30-39,3-5 Years
+1,35,Male,Sales,Sales Executive,3,10306,0,1,3,15,13,6,10,30-39,10+ Years
+0,37,Female,Research & Development,Research Scientist,1,3936,0,2,1,8,8,7,10,30-39,6-10 Years
+0,40,Female,Research & Development,Manufacturing Director,3,7945,1,4,2,18,4,3,16,30-39,3-5 Years
+0,44,Male,Human Resources,Human Resources,2,5743,1,4,3,14,10,0,1,40-49,6-10 Years
+0,48,Male,Research & Development,Manager,4,15202,0,4,3,23,2,2,4,40-49,0-2 Years
+1,35,Male,Sales,Sales Executive,2,5440,1,4,2,7,2,2,15,30-39,0-2 Years
+0,24,Female,Research & Development,Research Scientist,1,3760,1,4,3,6,6,1,2,Under 30,6-10 Years
+0,27,Female,Research & Development,Research Scientist,1,3517,0,3,3,5,3,0,8,Under 30,3-5 Years
+0,27,Male,Research & Development,Research Scientist,1,2580,0,4,2,6,4,1,2,Under 30,3-5 Years
+1,40,Male,Research & Development,Laboratory Technician,1,2166,1,1,1,10,4,0,7,30-39,3-5 Years
+0,29,Male,Sales,Sales Executive,2,5869,0,3,3,8,5,1,10,Under 30,3-5 Years
+0,36,Female,Research & Development,Healthcare Representative,3,8008,0,1,3,9,3,0,5,30-39,3-5 Years
+0,25,Male,Research & Development,Manufacturing Director,2,5206,0,3,3,7,7,0,2,Under 30,6-10 Years
+0,39,Male,Research & Development,Manufacturing Director,2,5295,0,2,3,7,5,1,12,30-39,3-5 Years
+0,49,Female,Research & Development,Research Director,4,16413,0,2,3,27,4,1,22,40-49,3-5 Years
+0,50,Female,Research & Development,Research Director,3,13269,0,1,3,19,14,1,17,40-49,10+ Years
+0,20,Female,Sales,Sales Representative,1,2783,0,3,3,2,2,2,2,Under 30,0-2 Years
+0,34,Female,Research & Development,Research Scientist,2,5433,0,2,3,11,11,7,3,30-39,10+ Years
+0,36,Male,Research & Development,Laboratory Technician,1,2013,0,2,3,15,4,1,7,30-39,3-5 Years
+0,49,Female,Research & Development,Healthcare Representative,4,13966,1,3,3,30,15,2,6,40-49,10+ Years
+0,36,Female,Research & Development,Manufacturing Director,2,4374,0,3,3,4,3,1,1,30-39,3-5 Years
+0,36,Male,Research & Development,Healthcare Representative,2,6842,0,1,3,13,5,0,3,30-39,3-5 Years
+0,54,Female,Research & Development,Manager,4,17426,0,3,3,36,10,4,22,50+,6-10 Years
+0,43,Male,Research & Development,Research Director,4,17603,0,3,3,14,14,6,15,40-49,10+ Years
+1,35,Male,Sales,Sales Executive,2,4581,1,4,4,13,11,6,12,30-39,10+ Years
+0,38,Male,Research & Development,Research Scientist,2,4735,0,4,4,19,13,2,1,30-39,10+ Years
+0,29,Male,Sales,Sales Executive,2,4187,1,2,2,10,10,0,5,Under 30,6-10 Years
+0,33,Male,Sales,Sales Executive,2,5505,0,4,3,6,6,0,2,30-39,6-10 Years
+0,32,Male,Research & Development,Research Scientist,2,5470,0,2,2,10,9,1,2,30-39,6-10 Years
+0,31,Female,Sales,Sales Executive,2,5476,0,4,3,10,10,0,5,30-39,6-10 Years
+0,49,Female,Research & Development,Laboratory Technician,1,2587,1,1,2,17,2,2,16,40-49,0-2 Years
+0,38,Female,Research & Development,Laboratory Technician,1,2440,0,2,3,4,4,3,2,30-39,3-5 Years
+0,47,Female,Sales,Manager,4,15972,0,2,3,29,3,1,2,40-49,3-5 Years
+0,49,Male,Research & Development,Manager,4,15379,0,3,3,23,8,0,1,40-49,6-10 Years
+0,41,Male,Sales,Sales Executive,3,7082,1,3,3,21,2,0,23,40-49,0-2 Years
+0,20,Male,Sales,Sales Representative,1,2728,0,1,3,2,2,0,9,Under 30,0-2 Years
+0,33,Female,Sales,Sales Executive,2,5368,1,4,3,7,6,1,16,30-39,6-10 Years
+0,36,Male,Research & Development,Healthcare Representative,2,5347,0,3,2,10,3,0,26,30-39,3-5 Years
+0,44,Female,Human Resources,Human Resources,1,3195,1,4,3,8,2,2,1,40-49,0-2 Years
+1,23,Male,Research & Development,Laboratory Technician,1,3989,1,3,3,5,5,1,8,Under 30,3-5 Years
+0,38,Female,Research & Development,Laboratory Technician,1,3306,0,3,2,7,0,0,4,30-39,0-2 Years
+0,53,Male,Research & Development,Healthcare Representative,3,7005,0,4,3,11,4,1,24,50+,3-5 Years
+1,48,Female,Sales,Sales Representative,1,2655,1,3,3,19,9,7,7,40-49,6-10 Years
+1,32,Male,Research & Development,Laboratory Technician,1,1393,0,2,3,1,1,0,2,30-39,0-2 Years
+0,26,Male,Research & Development,Laboratory Technician,1,2570,0,4,3,7,7,5,7,Under 30,6-10 Years
+0,55,Male,Research & Development,Research Scientist,1,3537,0,2,3,8,4,1,22,50+,3-5 Years
+0,34,Male,Research & Development,Laboratory Technician,2,3986,0,4,4,15,15,4,5,30-39,10+ Years
+0,60,Male,Research & Development,Healthcare Representative,3,10883,0,4,4,19,1,0,1,50+,0-2 Years
+0,33,Male,Research & Development,Laboratory Technician,1,2028,0,2,3,14,14,2,21,30-39,10+ Years
+0,37,Male,Sales,Sales Executive,2,9525,0,4,2,6,6,1,1,30-39,6-10 Years
+0,34,Female,Research & Development,Research Scientist,1,2929,0,4,3,10,10,8,19,30-39,6-10 Years
+1,23,Male,Sales,Sales Representative,1,2275,1,4,3,3,3,0,7,Under 30,3-5 Years
+0,44,Female,Research & Development,Healthcare Representative,3,7879,1,4,3,9,8,6,2,40-49,6-10 Years
+0,35,Male,Research & Development,Research Scientist,1,4930,1,4,4,6,5,1,2,30-39,3-5 Years
+0,43,Male,Sales,Sales Executive,2,7847,1,4,3,10,10,8,2,40-49,6-10 Years
+0,24,Male,Research & Development,Research Scientist,1,4401,0,3,3,5,5,0,9,Under 30,3-5 Years
+0,41,Male,Sales,Sales Executive,3,9241,0,3,3,10,10,8,6,40-49,6-10 Years
+0,29,Female,Research & Development,Laboratory Technician,1,2974,0,3,3,9,5,1,9,Under 30,3-5 Years
+0,36,Female,Sales,Sales Representative,2,4502,0,4,2,17,13,6,2,30-39,10+ Years
+0,45,Male,Research & Development,Healthcare Representative,3,10748,0,3,2,25,23,14,1,40-49,10+ Years
+1,24,Male,Human Resources,Human Resources,1,1555,0,3,3,1,1,0,22,Under 30,0-2 Years
+1,47,Male,Sales,Sales Executive,4,12936,0,3,1,25,23,14,9,40-49,10+ Years
+0,26,Male,Research & Development,Laboratory Technician,1,2305,0,3,4,3,3,0,17,Under 30,3-5 Years
+0,45,Female,Research & Development,Research Director,4,16704,0,2,3,21,21,8,28,40-49,10+ Years
+0,32,Male,Research & Development,Research Scientist,1,3433,0,3,2,10,5,1,10,30-39,3-5 Years
+0,31,Male,Research & Development,Laboratory Technician,1,3477,0,3,4,6,5,0,2,30-39,3-5 Years
+0,41,Male,Human Resources,Human Resources,2,6430,0,2,3,10,3,1,4,40-49,3-5 Years
+0,40,Female,Research & Development,Manufacturing Director,2,6516,1,1,3,18,1,0,8,30-39,0-2 Years
+0,24,Male,Research & Development,Laboratory Technician,1,3907,0,1,4,6,6,1,29,Under 30,6-10 Years
+0,46,Male,Research & Development,Healthcare Representative,2,5562,0,2,3,19,10,0,13,40-49,6-10 Years
+0,35,Male,Research & Development,Manufacturing Director,2,6883,0,3,3,17,7,0,27,30-39,6-10 Years
+0,30,Male,Research & Development,Research Scientist,1,2862,0,4,2,10,10,0,16,Under 30,6-10 Years
+0,47,Male,Sales,Sales Executive,2,4978,0,2,1,4,1,0,2,40-49,0-2 Years
+0,46,Male,Sales,Sales Executive,3,10368,1,4,2,13,10,0,2,40-49,6-10 Years
+1,36,Male,Sales,Sales Executive,2,6134,1,1,3,16,2,2,13,30-39,0-2 Years
+1,32,Male,Sales,Sales Executive,2,6735,0,2,3,10,0,0,1,30-39,0-2 Years
+0,23,Female,Research & Development,Laboratory Technician,1,3295,0,2,1,3,3,1,4,Under 30,3-5 Years
+0,31,Female,Research & Development,Manufacturing Director,2,5238,0,4,2,9,5,1,24,30-39,3-5 Years
+0,39,Male,Research & Development,Laboratory Technician,2,6472,1,4,3,9,9,5,1,30-39,6-10 Years
+0,32,Male,Sales,Sales Executive,3,9610,0,3,1,10,4,0,19,30-39,3-5 Years
+0,40,Male,Sales,Manager,5,19833,0,2,2,21,21,12,7,30-39,10+ Years
+0,45,Female,Human Resources,Human Resources,3,9756,0,3,4,9,5,0,4,40-49,3-5 Years
+0,30,Female,Research & Development,Research Scientist,1,4968,0,1,3,10,9,0,2,Under 30,6-10 Years
+0,24,Male,Human Resources,Human Resources,1,2145,0,4,3,3,2,2,10,Under 30,0-2 Years
+1,30,Female,Human Resources,Human Resources,1,2180,0,4,2,6,4,1,8,Under 30,3-5 Years
+0,31,Male,Sales,Sales Executive,2,8346,0,3,3,6,5,0,5,30-39,3-5 Years
+0,27,Female,Research & Development,Research Scientist,1,3445,0,4,2,6,6,1,8,Under 30,6-10 Years
+1,29,Female,Sales,Sales Representative,1,2760,0,2,3,2,2,2,9,Under 30,0-2 Years
+0,29,Male,Research & Development,Healthcare Representative,2,6294,1,3,4,10,3,0,1,Under 30,3-5 Years
+0,30,Male,Sales,Sales Executive,3,7140,0,1,3,12,7,1,15,Under 30,6-10 Years
+0,34,Male,Research & Development,Research Scientist,1,2932,1,4,3,6,5,1,2,30-39,3-5 Years
+0,33,Female,Sales,Sales Executive,2,5147,0,2,2,13,11,1,2,30-39,10+ Years
+0,49,Female,Sales,Sales Executive,2,4507,0,4,4,8,5,0,11,40-49,3-5 Years
+1,33,Female,Sales,Sales Executive,3,8564,1,1,2,11,0,0,16,30-39,0-2 Years
+0,38,Female,Research & Development,Laboratory Technician,1,2468,0,2,2,9,6,0,2,30-39,6-10 Years
+1,31,Male,Sales,Sales Executive,3,8161,0,3,3,10,1,0,16,30-39,0-2 Years
+0,29,Female,Research & Development,Research Scientist,1,2109,0,1,3,1,1,0,4,Under 30,0-2 Years
+0,30,Male,Research & Development,Healthcare Representative,2,5294,0,3,3,10,7,1,16,Under 30,6-10 Years
+0,32,Male,Research & Development,Research Scientist,1,2718,0,2,3,12,7,0,5,30-39,6-10 Years
+0,38,Male,Research & Development,Healthcare Representative,2,5811,1,4,3,15,1,1,18,30-39,0-2 Years
+1,43,Male,Research & Development,Research Scientist,1,2437,1,3,3,6,1,0,17,40-49,0-2 Years
+0,42,Male,Research & Development,Laboratory Technician,1,2766,0,2,2,7,5,0,12,40-49,3-5 Years
+0,55,Male,Research & Development,Research Director,5,19038,0,1,3,34,1,0,2,50+,0-2 Years
+0,33,Male,Research & Development,Research Scientist,2,3055,0,2,2,11,9,1,4,30-39,6-10 Years
+0,41,Male,Research & Development,Laboratory Technician,1,2289,0,1,3,5,5,0,9,40-49,3-5 Years
+0,34,Male,Sales,Sales Executive,2,4001,1,3,3,15,15,0,10,30-39,10+ Years
+0,53,Female,Research & Development,Manufacturing Director,4,12965,1,3,2,27,3,0,1,50+,3-5 Years
+0,43,Male,Human Resources,Human Resources,1,3539,0,4,3,10,9,1,2,40-49,6-10 Years
+0,34,Female,Sales,Sales Executive,2,6029,0,4,3,6,2,2,3,30-39,0-2 Years
+1,21,Male,Sales,Sales Representative,1,2679,0,2,3,1,1,1,7,Under 30,0-2 Years
+0,38,Female,Research & Development,Laboratory Technician,1,3702,0,3,3,5,5,0,6,30-39,3-5 Years
+1,22,Female,Research & Development,Laboratory Technician,1,2398,1,1,3,1,1,0,8,Under 30,0-2 Years
+0,31,Female,Sales,Sales Executive,2,5468,0,4,3,13,12,5,29,30-39,10+ Years
+0,51,Female,Research & Development,Manager,3,13116,0,3,3,15,2,2,3,50+,0-2 Years
+0,37,Male,Sales,Sales Executive,2,4189,0,2,3,5,5,0,9,30-39,3-5 Years
+0,46,Male,Research & Development,Research Director,5,19328,1,4,3,24,2,2,2,40-49,0-2 Years
+0,36,Male,Research & Development,Healthcare Representative,3,8321,1,1,3,15,12,5,10,30-39,10+ Years
+1,44,Male,Research & Development,Research Scientist,1,2342,1,2,2,6,5,2,1,40-49,3-5 Years
+0,37,Male,Human Resources,Human Resources,2,4071,0,2,2,19,10,4,8,30-39,6-10 Years
+1,35,Male,Sales,Sales Executive,2,5813,1,4,3,10,10,7,27,30-39,6-10 Years
+0,33,Male,Research & Development,Research Scientist,1,3143,0,1,3,14,10,7,8,30-39,6-10 Years
+0,28,Male,Research & Development,Research Scientist,1,2044,0,4,4,5,5,0,1,Under 30,3-5 Years
+0,39,Male,Research & Development,Research Director,3,13464,0,3,3,9,4,2,10,30-39,3-5 Years
+0,46,Male,Sales,Sales Executive,2,7991,0,2,3,6,2,2,26,40-49,0-2 Years
+0,40,Female,Research & Development,Laboratory Technician,1,3377,0,1,2,7,4,0,2,30-39,3-5 Years
+0,42,Male,Research & Development,Healthcare Representative,2,5538,0,1,2,10,0,0,13,40-49,0-2 Years
+0,35,Male,Research & Development,Manufacturing Director,2,5762,0,4,3,15,7,1,2,30-39,6-10 Years
+0,38,Male,Human Resources,Human Resources,1,2592,0,2,3,13,11,3,2,30-39,10+ Years
+1,34,Male,Research & Development,Laboratory Technician,2,5346,0,1,2,11,7,0,9,30-39,6-10 Years
+1,37,Male,Research & Development,Manufacturing Director,2,4213,0,1,1,10,10,0,10,30-39,6-10 Years
+0,39,Male,Sales,Sales Executive,2,4127,0,4,3,7,2,2,20,30-39,0-2 Years
+0,43,Male,Research & Development,Research Scientist,1,2438,0,3,2,7,3,1,9,40-49,3-5 Years
+0,41,Male,Research & Development,Healthcare Representative,2,6870,0,2,1,11,3,1,5,40-49,3-5 Years
+0,41,Female,Sales,Sales Executive,3,10447,1,3,4,23,22,13,4,40-49,10+ Years
+0,30,Female,Research & Development,Manufacturing Director,3,9667,0,3,3,9,7,0,10,Under 30,6-10 Years
+1,26,Female,Human Resources,Human Resources,1,2148,1,2,3,6,5,1,20,Under 30,3-5 Years
+1,46,Female,Research & Development,Healthcare Representative,2,8926,0,2,4,13,9,3,21,40-49,6-10 Years
+0,40,Female,Research & Development,Healthcare Representative,2,6513,0,4,3,12,5,0,1,30-39,3-5 Years
+0,34,Male,Sales,Sales Executive,2,6799,0,3,3,10,10,4,8,30-39,6-10 Years
+0,58,Male,Sales,Manager,4,16291,0,2,2,37,16,14,2,50+,10+ Years
+0,35,Male,Research & Development,Laboratory Technician,1,2705,0,3,4,6,5,0,23,30-39,3-5 Years
+0,47,Female,Research & Development,Manufacturing Director,3,10333,1,2,3,28,22,14,4,40-49,10+ Years
+0,40,Female,Research & Development,Healthcare Representative,2,4448,0,1,3,15,7,7,12,30-39,6-10 Years
+0,54,Female,Research & Development,Research Scientist,2,6854,0,4,2,14,7,1,7,50+,6-10 Years
+0,31,Female,Sales,Sales Executive,3,9637,0,1,3,9,3,2,7,30-39,3-5 Years
+0,28,Female,Research & Development,Research Scientist,1,3591,0,1,3,3,3,1,1,Under 30,3-5 Years
+0,38,Female,Sales,Sales Representative,2,5405,1,4,2,20,4,0,2,30-39,3-5 Years
+0,26,Male,Sales,Sales Executive,2,4684,0,4,3,5,5,1,10,Under 30,3-5 Years
+0,58,Male,Research & Development,Research Director,4,15787,1,3,3,23,2,2,15,50+,0-2 Years
+0,18,Female,Research & Development,Research Scientist,1,1514,0,3,1,0,0,0,14,Under 30,0-2 Years
+1,31,Male,Human Resources,Human Resources,1,2956,0,1,3,2,1,0,18,30-39,0-2 Years
+1,29,Male,Human Resources,Human Resources,1,2335,1,1,3,4,2,2,13,Under 30,0-2 Years
+0,45,Female,Sales,Sales Executive,2,5154,0,3,4,10,8,5,2,40-49,6-10 Years
+0,36,Female,Research & Development,Research Scientist,2,6962,1,2,3,15,1,0,2,30-39,0-2 Years
+0,43,Male,Sales,Sales Executive,2,5675,0,4,3,7,7,7,2,40-49,6-10 Years
+0,27,Female,Research & Development,Laboratory Technician,1,2379,1,4,2,6,5,0,5,Under 30,3-5 Years
+0,29,Male,Research & Development,Laboratory Technician,1,3812,0,4,4,11,11,3,20,Under 30,10+ Years
+0,32,Male,Sales,Sales Executive,2,4648,0,4,4,4,0,0,10,30-39,0-2 Years
+0,42,Male,Research & Development,Research Scientist,1,2936,0,3,2,10,6,3,10,40-49,6-10 Years
+0,47,Female,Research & Development,Laboratory Technician,1,2105,0,3,3,7,2,2,9,40-49,0-2 Years
+0,46,Male,Research & Development,Manufacturing Director,3,8578,0,4,2,12,9,4,2,40-49,6-10 Years
+0,28,Male,Human Resources,Human Resources,1,2706,0,4,3,3,3,2,1,Under 30,3-5 Years
+0,29,Male,Research & Development,Healthcare Representative,2,6384,0,3,3,11,7,1,29,Under 30,6-10 Years
+0,42,Male,Research & Development,Laboratory Technician,1,3968,0,3,3,8,0,0,8,40-49,0-2 Years
+1,32,Male,Sales,Sales Executive,2,9907,1,2,2,7,2,2,2,30-39,0-2 Years
+0,46,Female,Sales,Sales Executive,4,13225,0,1,3,25,19,2,3,40-49,10+ Years
+0,27,Female,Sales,Sales Representative,2,3540,0,3,3,9,9,5,23,Under 30,6-10 Years
+0,29,Male,Human Resources,Human Resources,1,2804,0,2,3,1,1,0,6,Under 30,0-2 Years
+0,43,Female,Research & Development,Manager,5,19392,0,3,3,21,16,6,6,40-49,10+ Years
+0,48,Male,Research & Development,Research Director,5,19665,0,2,3,29,22,12,10,40-49,10+ Years
+1,29,Male,Research & Development,Research Scientist,1,2439,1,4,2,1,1,1,24,Under 30,0-2 Years
+1,46,Female,Sales,Sales Executive,3,7314,0,2,3,14,8,0,10,40-49,6-10 Years
+0,27,Female,Research & Development,Research Scientist,1,4774,0,1,2,8,7,7,15,Under 30,6-10 Years
+0,39,Male,Research & Development,Research Scientist,2,3902,0,4,3,7,2,2,19,30-39,0-2 Years
+0,55,Male,Research & Development,Research Scientist,1,2662,0,4,4,19,5,0,2,50+,3-5 Years
+0,28,Female,Sales,Sales Representative,1,2856,0,2,3,1,1,0,3,Under 30,0-2 Years
+1,30,Male,Sales,Sales Representative,1,1081,0,4,2,1,1,0,9,Under 30,0-2 Years
+1,22,Male,Research & Development,Research Scientist,1,2472,1,2,3,1,1,0,7,Under 30,0-2 Years
+0,36,Female,Sales,Sales Executive,2,5673,1,3,3,10,10,1,10,30-39,6-10 Years
+0,31,Male,Research & Development,Laboratory Technician,2,4197,0,3,3,10,10,0,20,30-39,6-10 Years
+0,34,Male,Sales,Sales Executive,3,9713,1,4,3,9,5,1,4,30-39,3-5 Years
+0,29,Male,Research & Development,Laboratory Technician,1,2062,0,1,3,11,3,1,7,Under 30,3-5 Years
+0,37,Male,Research & Development,Research Scientist,2,4284,1,1,3,16,5,0,7,30-39,3-5 Years
+0,35,Female,Research & Development,Manufacturing Director,2,4788,1,2,3,4,3,0,16,30-39,3-5 Years
+0,45,Female,Research & Development,Manufacturing Director,2,5906,0,4,2,10,9,3,25,40-49,6-10 Years
+0,36,Male,Human Resources,Human Resources,2,3886,0,4,2,10,10,0,2,30-39,6-10 Years
+0,40,Male,Research & Development,Manager,4,16823,0,1,3,22,19,11,1,30-39,10+ Years
+0,26,Female,Research & Development,Research Scientist,1,2933,1,3,2,1,1,1,1,Under 30,0-2 Years
+0,27,Female,Sales,Sales Executive,2,6500,0,3,2,9,8,0,2,Under 30,6-10 Years
+0,48,Female,Research & Development,Manager,4,17174,0,4,3,24,22,4,22,40-49,10+ Years
+0,44,Male,Research & Development,Healthcare Representative,2,5033,0,1,3,10,2,2,1,40-49,0-2 Years
+1,34,Male,Research & Development,Research Scientist,1,2307,1,1,3,5,5,3,16,30-39,3-5 Years
+1,56,Male,Research & Development,Laboratory Technician,1,2587,0,4,3,5,4,1,24,50+,3-5 Years
+0,36,Male,Sales,Sales Executive,2,5507,0,2,1,12,4,1,17,30-39,3-5 Years
+0,41,Female,Sales,Sales Executive,2,4393,0,2,3,14,5,1,8,40-49,3-5 Years
+0,42,Male,Research & Development,Research Director,3,13348,0,1,4,18,13,5,6,40-49,10+ Years
+0,31,Female,Sales,Sales Executive,2,6583,1,4,3,8,5,1,10,30-39,3-5 Years
+0,34,Female,Sales,Sales Executive,2,8103,1,4,2,9,4,0,3,30-39,3-5 Years
+0,31,Female,Research & Development,Laboratory Technician,1,3978,0,3,2,4,2,2,4,30-39,0-2 Years
+0,26,Male,Research & Development,Laboratory Technician,1,2544,0,4,3,8,7,7,6,Under 30,6-10 Years
+0,45,Male,Research & Development,Healthcare Representative,2,5399,0,3,3,12,4,0,1,40-49,3-5 Years
+0,33,Male,Sales,Sales Executive,2,5487,0,3,2,10,10,0,10,30-39,6-10 Years
+0,28,Male,Sales,Sales Executive,2,6834,1,4,3,7,7,0,1,Under 30,6-10 Years
+1,29,Male,Sales,Sales Representative,1,1091,0,1,3,1,1,0,24,Under 30,0-2 Years
+0,39,Female,Sales,Sales Executive,2,5736,0,3,3,10,3,1,21,30-39,3-5 Years
+0,27,Male,Research & Development,Research Scientist,1,2226,0,2,2,6,5,1,2,Under 30,3-5 Years
+0,34,Male,Research & Development,Research Scientist,2,5747,1,4,3,16,15,6,22,30-39,10+ Years
+1,28,Female,Sales,Sales Executive,2,9854,1,3,3,6,2,2,13,Under 30,0-2 Years
+0,47,Male,Research & Development,Research Scientist,2,5467,0,2,4,16,8,1,14,40-49,6-10 Years
+0,56,Female,Sales,Sales Executive,2,5380,0,1,3,6,0,0,11,50+,0-2 Years
+0,39,Male,Research & Development,Manufacturing Director,2,5151,0,1,3,10,10,7,9,30-39,6-10 Years
+0,38,Female,Research & Development,Research Scientist,2,2133,1,2,3,20,20,0,8,30-39,10+ Years
+0,58,Female,Sales,Manager,4,17875,1,4,2,29,1,0,21,50+,0-2 Years
+1,32,Female,Research & Development,Research Scientist,1,2432,1,3,3,8,4,0,5,30-39,3-5 Years
+0,38,Male,Research & Development,Research Scientist,1,4771,0,4,4,10,5,0,9,30-39,3-5 Years
+0,49,Male,Research & Development,Research Director,5,19161,0,4,3,28,5,4,2,40-49,3-5 Years
+0,42,Male,Sales,Sales Executive,2,5087,1,4,3,14,0,0,12,40-49,0-2 Years
+1,27,Female,Human Resources,Human Resources,1,2863,0,2,3,1,1,0,22,Under 30,0-2 Years
+0,35,Male,Sales,Sales Executive,2,5561,0,1,1,6,5,0,18,30-39,3-5 Years
+0,28,Male,Research & Development,Research Scientist,1,2144,0,3,2,5,5,1,16,Under 30,3-5 Years
+0,31,Male,Research & Development,Research Scientist,1,3065,1,1,4,4,4,2,3,30-39,3-5 Years
+0,36,Male,Research & Development,Laboratory Technician,1,2810,0,2,3,5,5,0,9,30-39,3-5 Years
+0,34,Male,Sales,Sales Executive,3,9888,0,4,2,14,14,2,1,30-39,10+ Years
+0,34,Male,Sales,Sales Executive,3,8628,0,3,2,9,8,1,13,30-39,6-10 Years
+0,26,Male,Research & Development,Laboratory Technician,1,2867,0,1,2,8,7,7,1,Under 30,6-10 Years
+0,29,Male,Research & Development,Healthcare Representative,2,5373,0,1,2,6,5,0,1,Under 30,3-5 Years
+0,32,Female,Research & Development,Healthcare Representative,2,6667,0,4,3,9,5,1,15,30-39,3-5 Years
+0,31,Male,Research & Development,Research Scientist,2,5003,0,1,3,10,10,8,1,30-39,6-10 Years
+1,28,Male,Research & Development,Laboratory Technician,1,2367,0,4,2,6,4,0,17,Under 30,3-5 Years
+0,38,Male,Sales,Sales Representative,1,2858,0,1,2,20,1,0,1,30-39,0-2 Years
+0,35,Female,Sales,Sales Executive,2,5204,1,4,3,10,10,0,7,30-39,6-10 Years
+0,27,Male,Sales,Sales Executive,2,4105,0,4,3,7,7,0,9,Under 30,6-10 Years
+0,32,Male,Research & Development,Manufacturing Director,2,9679,0,4,3,8,1,0,5,30-39,0-2 Years
+1,31,Male,Sales,Sales Executive,2,5617,1,4,3,10,10,0,26,30-39,6-10 Years
+1,53,Male,Sales,Sales Executive,3,10448,1,1,2,15,2,2,24,50+,0-2 Years
+0,54,Female,Research & Development,Research Scientist,2,2897,0,3,2,9,4,2,9,50+,3-5 Years
+0,33,Male,Research & Development,Healthcare Representative,2,5968,0,3,3,9,9,2,7,30-39,6-10 Years
+0,43,Male,Research & Development,Healthcare Representative,3,7510,0,3,3,10,10,0,11,40-49,6-10 Years
+0,38,Male,Human Resources,Human Resources,1,2991,1,2,3,7,6,1,1,30-39,6-10 Years
+0,55,Male,Human Resources,Manager,5,19636,1,2,3,35,10,1,26,50+,6-10 Years
+0,31,Female,Research & Development,Laboratory Technician,1,1129,1,4,3,1,1,0,2,30-39,0-2 Years
+0,39,Male,Sales,Sales Executive,4,13341,0,1,3,21,20,11,15,30-39,10+ Years
+0,42,Male,Research & Development,Research Scientist,2,4332,0,3,3,20,20,3,23,40-49,10+ Years
+0,31,Female,Research & Development,Research Director,3,11031,0,3,4,13,11,4,10,30-39,10+ Years
+0,54,Female,Research & Development,Manufacturing Director,2,4440,1,1,3,9,5,1,10,50+,3-5 Years
+0,24,Male,Research & Development,Healthcare Representative,2,4617,0,3,2,4,4,1,1,Under 30,3-5 Years
+0,23,Male,Research & Development,Laboratory Technician,1,2647,0,4,4,5,5,1,12,Under 30,3-5 Years
+0,40,Female,Research & Development,Laboratory Technician,2,6323,0,3,4,10,10,9,11,30-39,6-10 Years
+0,40,Female,Sales,Sales Executive,2,5677,0,2,3,15,11,5,2,30-39,10+ Years
+0,25,Female,Human Resources,Human Resources,1,2187,0,2,3,6,2,1,2,Under 30,0-2 Years
+0,30,Male,Research & Development,Laboratory Technician,1,3748,0,2,2,12,12,1,1,Under 30,10+ Years
+0,25,Male,Research & Development,Laboratory Technician,1,3977,1,3,2,7,2,0,2,Under 30,0-2 Years
+0,47,Male,Research & Development,Healthcare Representative,3,8633,0,3,3,25,17,12,25,40-49,10+ Years
+0,33,Male,Research & Development,Laboratory Technician,1,2008,0,3,2,1,1,0,1,30-39,0-2 Years
+0,38,Male,Sales,Sales Executive,2,4440,0,2,3,16,15,5,1,30-39,10+ Years
+0,31,Male,Sales,Sales Representative,1,3067,0,3,3,3,2,1,2,30-39,0-2 Years
+0,38,Male,Research & Development,Manufacturing Director,2,5321,0,3,3,10,8,7,6,30-39,6-10 Years
+0,42,Male,Research & Development,Research Scientist,2,5410,1,1,2,9,4,1,18,40-49,3-5 Years
+0,41,Male,Research & Development,Research Scientist,1,2782,0,4,3,12,5,1,1,40-49,3-5 Years
+0,47,Female,Research & Development,Research Director,3,11957,0,2,1,14,13,5,1,40-49,10+ Years
+0,35,Male,Research & Development,Laboratory Technician,1,2660,1,3,3,5,2,2,11,30-39,0-2 Years
+0,22,Male,Research & Development,Research Scientist,1,3375,0,3,4,4,3,1,1,Under 30,3-5 Years
+0,35,Male,Research & Development,Research Scientist,2,5098,0,3,3,10,10,0,9,30-39,6-10 Years
+0,33,Female,Research & Development,Healthcare Representative,2,4878,1,4,3,10,9,8,15,30-39,6-10 Years
+0,32,Female,Research & Development,Laboratory Technician,1,2837,0,2,3,6,6,4,29,30-39,6-10 Years
+0,40,Male,Research & Development,Laboratory Technician,1,2406,0,4,2,8,1,0,1,30-39,0-2 Years
+0,32,Male,Sales,Sales Representative,1,2269,0,2,3,3,2,2,1,30-39,0-2 Years
+0,39,Male,Research & Development,Research Scientist,2,4108,0,4,3,18,7,1,24,30-39,6-10 Years
+0,38,Female,Research & Development,Research Director,3,13206,0,3,3,20,18,1,10,30-39,10+ Years
+0,32,Female,Sales,Sales Executive,3,10422,0,4,3,14,14,5,1,30-39,10+ Years
+0,37,Female,Research & Development,Research Director,3,13744,1,4,3,16,16,6,10,30-39,10+ Years
+0,25,Female,Sales,Sales Executive,2,4907,1,3,2,6,5,0,8,Under 30,3-5 Years
+0,52,Male,Sales,Sales Representative,1,3482,0,4,2,16,9,0,29,50+,6-10 Years
+0,44,Male,Research & Development,Research Scientist,1,2436,1,4,3,6,4,1,1,40-49,3-5 Years
+0,21,Male,Sales,Sales Representative,1,2380,1,1,3,2,2,1,5,Under 30,0-2 Years
+0,39,Male,Research & Development,Manager,5,19431,0,4,2,21,6,1,9,30-39,6-10 Years
+1,23,Male,Sales,Sales Representative,1,1790,0,1,2,1,1,1,9,Under 30,0-2 Years
+0,36,Female,Sales,Sales Executive,3,7644,0,4,3,10,9,3,3,30-39,6-10 Years
+0,36,Female,Research & Development,Manufacturing Director,2,5131,0,2,3,18,4,0,4,30-39,3-5 Years
+0,56,Male,Research & Development,Healthcare Representative,2,6306,0,3,2,13,13,1,1,50+,10+ Years
+1,29,Male,Research & Development,Research Scientist,1,4787,1,4,4,4,2,2,1,Under 30,0-2 Years
+0,42,Male,Research & Development,Manager,5,18880,0,3,2,24,22,4,2,40-49,10+ Years
+1,56,Male,Research & Development,Laboratory Technician,1,2339,0,3,1,14,10,9,7,50+,6-10 Years
+0,41,Female,Research & Development,Manufacturing Director,4,13570,0,2,3,21,20,0,28,40-49,10+ Years
+0,34,Female,Sales,Sales Executive,2,6712,0,3,3,8,8,1,28,30-39,6-10 Years
+0,36,Male,Sales,Sales Executive,2,5406,0,4,2,15,15,11,15,30-39,10+ Years
+0,41,Male,Sales,Sales Executive,2,8938,0,2,3,14,5,0,3,40-49,3-5 Years
+0,32,Male,Research & Development,Research Scientist,1,2439,0,1,3,4,4,1,2,30-39,3-5 Years
+0,35,Female,Human Resources,Human Resources,3,8837,1,4,3,9,9,1,26,30-39,6-10 Years
+0,38,Female,Sales,Sales Executive,2,5343,0,4,3,10,10,1,10,30-39,6-10 Years
+1,50,Male,Sales,Sales Executive,2,6728,0,3,3,12,6,0,1,40-49,6-10 Years
+0,36,Female,Sales,Sales Executive,2,6652,0,4,2,8,6,0,11,30-39,6-10 Years
+0,45,Female,Sales,Sales Executive,2,4850,0,3,3,8,5,0,20,40-49,3-5 Years
+0,40,Male,Research & Development,Research Scientist,1,2809,0,3,3,8,2,2,2,30-39,0-2 Years
+0,35,Male,Research & Development,Healthcare Representative,2,5689,1,3,4,10,10,0,18,30-39,6-10 Years
+0,40,Female,Research & Development,Research Scientist,1,2001,0,3,3,20,5,0,2,30-39,3-5 Years
+0,35,Female,Research & Development,Research Scientist,1,2977,0,4,3,4,4,1,1,30-39,3-5 Years
+0,29,Male,Research & Development,Laboratory Technician,2,4025,1,2,3,10,4,0,13,Under 30,3-5 Years
+0,29,Female,Research & Development,Research Scientist,1,3785,0,1,1,5,5,0,28,Under 30,3-5 Years
+1,50,Male,Sales,Sales Executive,3,10854,1,1,3,20,3,2,28,40-49,3-5 Years
+0,39,Female,Sales,Sales Executive,4,12031,0,4,2,21,20,9,24,30-39,10+ Years
+0,31,Male,Research & Development,Manufacturing Director,2,9936,0,1,3,10,9,1,5,30-39,6-10 Years
+0,26,Female,Sales,Sales Representative,1,2966,0,3,3,5,4,0,5,Under 30,3-5 Years
+0,36,Male,Research & Development,Laboratory Technician,2,2571,0,4,3,17,5,0,23,30-39,3-5 Years
+0,39,Male,Research & Development,Healthcare Representative,3,9991,0,1,3,9,7,1,6,30-39,6-10 Years
+0,27,Male,Research & Development,Manufacturing Director,2,6142,1,2,3,6,6,0,4,Under 30,6-10 Years
+0,49,Male,Sales,Sales Executive,2,5390,0,2,2,17,9,0,2,40-49,6-10 Years
+0,34,Male,Research & Development,Laboratory Technician,2,4404,0,3,4,6,4,1,8,30-39,3-5 Years
