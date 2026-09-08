@@ -75,17 +75,6 @@ The framing is deliberately **diagnostic rather than predictive**. The primary q
 | `JobLevel`                                                                                 | 1 (entry) → 5 (senior)                                         |
 | `StockOptionLevel`                                                                         | 0 (none) → 3                                                   |
 
-### Data quality notes to verify during profiling
-
-These are the checks worth running first, because each one changes how a later chart must be built:
-
-1. **Three constant columns** carry zero information — drop them and say so in the notebook.
-2. **`PerformanceRating` is effectively binary** — only the top two values appear in practice, so "performance" here is a coarse high/very-high split, not a 4-point scale. Any "do we lose our top performers" KPI must be framed around that limitation.
-3. **Four separate rate fields** (`HourlyRate`, `DailyRate`, `MonthlyRate`, `MonthlyIncome`) are not mutually consistent — they do not reconcile arithmetically. Check their correlation with `MonthlyIncome` and pick one compensation measure to standardise on rather than plotting all four.
-4. **`EmployeeNumber` is a sparse identifier**, not a feature — exclude it from every correlation matrix and model.
-5. **`MonthlyIncome` is right-skewed** and tightly coupled to `JobLevel` and `JobRole`. Comparing raw income between leavers and stayers company-wide confounds pay with seniority; compare **within** role and level.
-6. **Collinear tenure block** — the five `Years*` fields plus `Age` move together. Expect a dense corner in the correlation matrix and treat it as one construct.
-
 ---
 
 ## Analysis Questions
@@ -294,18 +283,21 @@ Optional, and secondary to the EDA. If included, the point is **interpretability
 
 ## Roadmap
 
-| Phase | Deliverable                                                                       | Status     |
-| :---- | :-------------------------------------------------------------------------------- | :--------- |
-| 00    | Understanding IBM HR Analytics Employee Attrition Dataset                         | ⏳ Planned |
-| 01    | Data acquisition and profiling — dtypes, constants, distributions, quality checks | ⏳ Planned |
-| 02    | Cleaning and feature prep — drop constants, decode ordinals, derive tenure bands  | ⏳ Planned |
-| 03    | Univariate exploration — distributions and category frequencies                   | ⏳ Planned |
-| 04    | Bivariate analysis — segment attrition rates against the baseline, with n         | ⏳ Planned |
-| 05    | Driver deep-dives — overtime, compensation, promotion, manager, commute           | ⏳ Planned |
-| 06    | Visualization pass — final figures, validated palette, light and dark             | ⏳ Planned |
-| 07    | Dashboard build — Excel prototype, then a code-based version                      | ⏳ Planned |
-| 08    | Optional model — interpretable classifier and risk explorer                       | ⏳ Planned |
-| 09    | Findings write-up — one page, ranked by actionability                             | ⏳ Planned |
+| Phase | Deliverable                                           | Status      |
+| :---- | :---------------------------------------------------- | :---------- |
+| 00    | Exploring IBM HR Analytics Employee Attrition Dataset | ✅ Done     |
+| 01    | Handling duplicates values                            | ✅ Done     |
+| 02    | Handling missing values                               | ✅ Done     |
+| 03    | Normalizing Data                                      | ⏳ Progress |
+| 04    | Data wrangling                                        | ⏳ Progress |
+| 05    | Exploratory Data Analysis                             | ✅ Done     |
+| 06    | Finding how data is distributed                       | 📆 Planned  |
+| 07    | Finding outliers                                      | ✅ Done     |
+| 08    | Finding correlation                                   | ⏳ Progress |
+| 09    | Visualizing distribution                              | 📆 Planned  |
+| 10    | Visualizing relationship                              | 📆 Planned  |
+| 11    | Visualizing composition                               | 📆 Planned  |
+| 12    | Visualizing comparison                                | 📆 Planned  |
 
 ---
 
@@ -319,15 +311,20 @@ ibm-analytics-attrition-eda/
 │   ├── raw/                  # IBM HR Analytics Employee Attrition & Performance CSV file
 │   └── processed/            # Cleaned, decoded outputs
 ├── notebooks/
-│   ├── 00-understanding-data.ipynb
-│   ├── 01-data-profiling.ipynb
-│   ├── 02-cleaning-feature-prep.ipynb
-│   ├── 03-univariate-exploration.ipynb
-│   ├── 04-attrition-by-segment.ipynb
-│   ├── 05-driver-deep-dives.ipynb
-│   └── 06-final-figures.ipynb
+│   ├── 00-exploring-the-dataset.ipynb
+│   ├── 01-handling-duplicates.ipynb
+│   ├── 02-handling-missing-values.ipynb
+│   ├── 03-normalizing-data.ipynb
+│   ├── 04-data-wrangling.ipynb
+│   ├── 05-exploratory-data-analysis.ipynb
+│   ├── 06-finding-how-data-distributed.ipynb
+│   ├── 07-finding-outliers.ipynb
+│   ├── 08-finding-correlation.ipynb
+│   ├── 09-visualizing-distribution.ipynb
+│   ├── 10-visualizing-relationship.ipynb
+│   ├── 11-visualizing-composition.ipynb
+│   └── 12-visualizing-comparison.ipynb
 ├── dashboards/
-│   ├── excel/                # Workbook with pivots and slicers
 │   └── app/                  # Dash / Streamlit application
 ├── reports/
 │   ├── figures/              # Exported charts, light and dark
@@ -352,107 +349,6 @@ pip install -r requirements.txt
 ```
 
 Notebooks are numerically prefixed and intended to be run in order.
-
----
-
-## Run in Google Colab
-
-No local install, no virtual environment, no VS Code. Colab gives every team member the same Python environment in the browser, which makes it the fastest way to read, run, or review a notebook — and the easiest way to help a teammate who is stuck on a setup problem.
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NPower-JDA-Cohort-2026/ibm-analytics-attrition-eda/blob/main/notebooks/00-understanding-data.ipynb)
-
-### Open a notebook
-
-**Option A — the badge.** Click the badge above. It opens `00-understanding-data.ipynb` from the `main` branch directly.
-
-**Option B — the URL pattern.** Any notebook in the repository can be opened by swapping the filename:
-
-```
-https://colab.research.google.com/github/NPower-JDA-Cohort-2026/ibm-analytics-attrition-eda/blob/main/notebooks/<NOTEBOOK-NAME>.ipynb
-```
-
-**Option C — the Colab file picker.** In Colab, go to **File → Open notebook → GitHub**, paste `NPower-JDA-Cohort-2026/ibm-analytics-attrition-eda`, and pick the notebook from the list. Tick **Include private repos** and authorise GitHub if the repository is not public for you yet.
-
-> [!IMPORTANT]
-> Opening a notebook this way gives you a **scratch copy**. Editing it does **not** change the repository, and closing the tab loses your work unless you save it. Use **File → Save a copy in Drive** to keep it, or see [Saving your work back to GitHub](#saving-your-work-back-to-github) below.
-
-### Install the dependencies
-
-Colab ships with pandas, NumPy, Matplotlib, and seaborn already installed, so most notebooks run as-is. To match the exact versions this project was built against, run this as the first cell:
-
-```python
-!pip install -q -r https://raw.githubusercontent.com/NPower-JDA-Cohort-2026/ibm-analytics-attrition-eda/main/requirements.txt
-```
-
-If that pull is slow or a pin conflicts with Colab's preinstalled stack, install only what the notebooks actually import:
-
-```python
-!pip install -q pandas numpy matplotlib seaborn plotly
-```
-
-### Get the data into the session
-
-Colab runtime starts empty. Pick one of the two routes below.
-
-**1 · Manual upload — simplest, fine for a one-off session.**
-
-```python
-from google.colab import files
-import pathlib
-
-pathlib.Path("data/raw").mkdir(parents=True, exist_ok=True)
-uploaded = files.upload()          # choose WA_Fn-UseC_-HR-Employee-Attrition.csv
-
-for name in uploaded:
-    pathlib.Path(name).rename(f"data/raw/{name}")
-```
-
-**2 · Google Drive — best if you will run notebooks more than once.** Upload the CSV to your Drive once, then mount it in every session:
-
-```python
-from google.colab import drive
-import pathlib, shutil
-
-drive.mount("/content/drive")
-
-pathlib.Path("data/raw").mkdir(parents=True, exist_ok=True)
-shutil.copy(
-    "/content/drive/MyDrive/ibm-hr-attrition/WA_Fn-UseC_-HR-Employee-Attrition.csv",
-    "data/raw/",
-)
-```
-
-### Keep the file paths working
-
-Notebooks read the data with a relative path such as `data/raw/WA_Fn-UseC_-HR-Employee-Attrition.csv`. Locally that resolves because the notebook lives in `notebooks/`; in Colab the working directory is `/content`. The snippets above already write to `/content/data/raw/`, which is why they use `data/raw` and not `../data/raw`. If a notebook fails with `FileNotFoundError`, check where the file actually landed:
-
-```python
-import os
-print(os.getcwd())
-!ls -R data
-```
-
-### Saving your work back to GitHub
-
-Colab can commit for you: **File → Save a copy in GitHub**. It asks for the repository, the branch, and a commit message, and it pushes the notebook as one commit.
-
-Two rules for the team when using it:
-
-- **Never save to `main` from Colab.** Type a feature branch name in the branch field — Colab creates it if it does not exist. See [Team Git Workflow](#team-git-workflow).
-- **Write the commit message properly.** The dialog is a normal commit message box, so the [Conventional Commits](#commit-message-convention) format applies there too.
-
-> [!TIP]
-> Colab notebooks carry heavy execution metadata and can generate large, unreviewable diffs. Before saving back to GitHub, **Runtime → Restart and run all** so the outputs are clean and in order, and mention in the commit body that the notebook was run top to bottom.
-
-### What Colab will not do for you
-
-| Limitation                   | What it means for this project                                                                                  |
-| :--------------------------- | :-------------------------------------------------------------------------------------------------------------- |
-| Runtime is temporary         | Files, installs, and the mounted CSV vanish when the session disconnects — re-run the setup cells each time     |
-| Idle disconnect              | Long unattended runs get dropped; keep notebooks quick and restartable                                          |
-| No project virtual env       | Package versions are Colab's unless you pin them with the `requirements.txt` cell above                         |
-| Excel dashboards do not open | Phase 07's Excel workbook needs a desktop spreadsheet application                                               |
-| Dash / Streamlit apps        | Runnable only with a tunnel workaround; treat the local environment as the supported path for `dashboards/app/` |
 
 ---
 
@@ -516,7 +412,7 @@ git pull origin main
 git branch -d feat/04-attrition-by-segment
 ```
 
-### When something goes wrong
+### When something goes wrong with Git
 
 | Situation                             | Command                                                                                      |
 | :------------------------------------ | :------------------------------------------------------------------------------------------- |
@@ -635,15 +531,15 @@ Code and analysis are shared for educational reference. The underlying dataset r
 
 ## Author(S)
 
-| Author              | GitHub                                                                                                                                  |
-| :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **Amruta Atul**     | [GitHub](https://github.com/username)                                                                                                   |
-| **Asif Hassan**     | [GitHub](https://github.com/username)                                                                                                   |
-| **Dhanan Thannoo**  | [![GitHub](https://img.shields.io/badge/GitHub-@ThannooDhanan-181717?style=flat-square&logo=github)](https://github.com/ThannooDhanan)  |
-| **Yunseo Jang**     | [![GitHub](https://img.shields.io/badge/GitHub-@Solcratic-181717?style=flat-square&logo=github)](https://github.com/Solcratic)          |
-| **Moustafa Ismail** | [![GitHub](https://img.shields.io/badge/GitHub-@mismail115-181717?style=flat-square&logo=github)](https://github.com/mismail115)        |
-| **Pablo Fiterman**  | [![GitHub](https://img.shields.io/badge/GitHub-@pfiterman-181717?style=flat-square&logo=github)](https://github.com/pfiterman)          |
-| **Tanvi Varshney**  | [![GitHub](https://img.shields.io/badge/GitHub-tanvivarshney7-181717?style=flat-square&logo=github)](https://github.com/tanvivarshney7) |
+| Author              | GitHub                                                                                                                                   |
+| :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| **Amruta Atul**     | [![GitHub](https://img.shields.io/badge/GitHub-@amrutaatul2000-181717?style=flat-square&logo=github)](https://github.com/amrutaatul2000) |
+| **Asif Hassan**     | [![GitHub](https://img.shields.io/badge/GitHub-@asifhassan07-181717?style=flat-square&logo=github)](https://github.com/asifhassan07)     |
+| **Dhanan Thannoo**  | [![GitHub](https://img.shields.io/badge/GitHub-@ThannooDhanan-181717?style=flat-square&logo=github)](https://github.com/ThannooDhanan)   |
+| **Yunseo Jang**     | [![GitHub](https://img.shields.io/badge/GitHub-@Solcratic-181717?style=flat-square&logo=github)](https://github.com/Solcratic)           |
+| **Moustafa Ismail** | [![GitHub](https://img.shields.io/badge/GitHub-@mismail115-181717?style=flat-square&logo=github)](https://github.com/mismail115)         |
+| **Pablo Fiterman**  | [![GitHub](https://img.shields.io/badge/GitHub-@pfiterman-181717?style=flat-square&logo=github)](https://github.com/pfiterman)           |
+| **Tanvi Varshney**  | [![GitHub](https://img.shields.io/badge/GitHub-tanvivarshney7-181717?style=flat-square&logo=github)](https://github.com/tanvivarshney7)  |
 
 <div align="center">
 
