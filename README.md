@@ -108,176 +108,7 @@ Grouped by the decision each one would inform.
 
 ---
 
-## KPI Ideas
-
-Candidate metrics for the analysis and the dashboards. Each is computable from this dataset _except_ where marked, and each names its denominator — an attrition "rate" with an unstated denominator is the fastest way to mislead a stakeholder.
-
-### Tier 1 — Headline
-
-| KPI                          | Definition                                                              | Why it earns a slot                                             |
-| :--------------------------- | :---------------------------------------------------------------------- | :-------------------------------------------------------------- |
-| **Attrition rate**           | Leavers ÷ total headcount                                               | The anchor number every other figure is compared against        |
-| **Headcount**                | Row count                                                               | Denominator context; prevents over-reading thin segments        |
-| **Early attrition rate**     | Leavers with `YearsAtCompany ≤ 2` ÷ employees with `YearsAtCompany ≤ 2` | Isolates hiring/onboarding failure from long-term disengagement |
-| **Regretted attrition rate** | Leavers with top `PerformanceRating` ÷ all top-rated employees          | Not all attrition is a loss — this separates the expensive kind |
-| **Senior attrition rate**    | Leavers at `JobLevel ≥ 3` ÷ employees at `JobLevel ≥ 3`                 | Weights the metric by replacement difficulty                    |
-| **Median tenure at exit**    | Median `YearsAtCompany` among leavers                                   | Tells you _when_ in the lifecycle to intervene                  |
-
-### Tier 2 — Driver / diagnostic
-
-| KPI                                 | Definition                                                                            | Reads as                                                           |
-| :---------------------------------- | :------------------------------------------------------------------------------------ | :----------------------------------------------------------------- |
-| **Overtime attrition lift**         | Rate(`OverTime=Yes`) ÷ Rate(`OverTime=No`)                                            | A multiplier — the single most quotable diagnostic in this dataset |
-| **Segment lift vs baseline**        | Rate(segment) − 16.1%, in percentage points                                           | Signed gap; the input to every diverging chart below               |
-| **Within-band pay gap**             | Median `MonthlyIncome` of stayers − leavers, computed _within_ `JobRole` × `JobLevel` | Whether pay is a driver once seniority is held constant            |
-| **Promotion stagnation rate**       | Attrition rate by `YearsSinceLastPromotion` band (0–1, 2–3, 4–7, 8+)                  | Whether the pipeline is stalling                                   |
-| **Manager-tenure effect**           | Attrition rate by `YearsWithCurrManager` band                                         | Isolates a lever a company can actually pull                       |
-| **Commute sensitivity**             | Attrition rate by `DistanceFromHome` band                                             | Cheap to act on (hybrid policy, site assignment)                   |
-| **Composite satisfaction index**    | Mean of the four satisfaction fields, 1–4                                             | One readable number instead of four correlated ones                |
-| **Role mobility ratio**             | `YearsInCurrentRole` ÷ `YearsAtCompany`                                               | High and rising = stuck in seat                                    |
-| **Job-hopping propensity**          | `NumCompaniesWorked` ÷ `TotalWorkingYears`                                            | Prior mobility as a behavioural prior                              |
-| **Training coverage**               | Attrition rate by `TrainingTimesLastYear`                                             | Tests whether investment tracks retention                          |
-| **Stock option retention gradient** | Attrition rate by `StockOptionLevel` (0–3)                                            | A monotonic gradient here is a direct policy argument              |
-
-### Tier 3 — Modelled or assumption-driven
-
-Flagged separately because they depend on inputs the dataset does not contain. State the assumption on the chart itself, in the visible caption — not in a footnote.
-
-| KPI                             | Notes                                                                                                                                                                                              |
-| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Estimated cost of attrition** | Σ (leaver `MonthlyIncome` × 12 × replacement-cost multiplier). Requires an assumed multiplier — expose it as a **user-adjustable input**, not a hardcoded constant, and show the number as a range |
-| **Flight-risk score**           | Predicted probability from a classifier; see [Modelling Extension](#modelling-extension)                                                                                                           |
-| **Watchlist precision@k**       | Of the top _k_ highest-risk employees, the share who actually left — the only score metric an HR partner cares about                                                                               |
-| **Retention ROI**               | Cost avoided ÷ cost of intervention, at a chosen risk threshold                                                                                                                                    |
-
-### KPIs this dataset cannot support
-
-Stating these explicitly is part of the deliverable — it demonstrates knowing the difference between a metric that is hard and one that is impossible.
-
-- ❌ Monthly / quarterly / rolling attrition trend, YoY change, seasonality — **no date column**
-- ❌ Voluntary vs involuntary split — `Attrition` is undifferentiated
-- ❌ Time-to-fill, offer acceptance, absenteeism, internal transfer rate — not collected
-- ❌ Exit reason analysis — no free-text or reason code
-- ❌ True survival / hazard curves — no observation window or censoring information
-
----
-
-## Visualization Ideas
-
-### Core charts
-
-| Job the reader must do                              | Form                                                                                                  | Colour                              |
-| :-------------------------------------------------- | :---------------------------------------------------------------------------------------------------- | :---------------------------------- |
-| Rank attrition across 9 job roles                   | **Horizontal bar**, sorted descending — long names need the horizontal axis                           | Sequential, one hue                 |
-| See who is above / below the 16.1% baseline         | **Diverging bar** of signed lift in percentage points, centred on zero                                | Diverging, two hues + grey midpoint |
-| Read attrition across two dimensions at once        | **Heatmap** — `JobRole` × `OverTime`, or `Department` × `JobLevel`, cells annotated with rate _and_ n | Sequential, one hue                 |
-| Compare survey distributions for leavers vs stayers | **Diverging stacked bar**, centred on the neutral point of the 1–4 scale                              | Diverging                           |
-| Show the pay gap per role                           | **Dumbbell** — median income of stayers vs leavers, one row per role                                  | One hue, two shades                 |
-| Make the overtime finding unmissable                | **Emphasis** — overtime cohort in the accent hue, everything else grey                                | 1 hue + grey                        |
-| Compare age / income / tenure shapes                | **Overlaid histogram or box plot** by attrition status                                                | 2 categorical                       |
-| Show attrition across the tenure axis               | **Line** over `YearsAtCompany` bands, explicitly captioned as workforce composition                   | Sequential                          |
-| Show the numeric feature relationships              | **Correlation heatmap**, diverging around zero, tenure block grouped                                  | Diverging                           |
-| Break a driver down by department                   | **Small multiples** — tenure-band attrition, one panel per department                                 | 1 hue across panels                 |
-| Present all 9 roles × 6 metrics                     | **Table** with inline bars — past ~7 categories a table beats more colour                             | Ink, not hue                        |
-
-### Accessibility requirements
-
-Non-negotiable for anything that goes in the portfolio:
-
-- Categorical palettes **validated for colour-vision deficiency**, computed rather than eyeballed.
-- **Dark mode selected**, not auto-inverted — its own steps from the same ramps.
-- A **table view** available behind every chart.
-- Hover tooltip on every interactive mark; crosshair on line charts.
-- Every axis labelled with units; every rate paired with its denominator.
-
----
-
-## Dashboard Concepts
-
-Four prototypes, ordered by audience. Each answers a different question and stands alone — a single dashboard trying to serve all four audiences serves none.
-
-### 1 · Executive Overview — _"How bad is it and where?"_
-
-Audience: HR director. One screen, no scrolling, readable in thirty seconds.
-
-```
-┌──────────────────────────────────────────────────────────────┐
-│  [ filters: Department · Job Level · Overtime ]              │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│      16.1%          ┌─── KPI row ─────────────────────┐      │
-│    ATTRITION        │ 1,470 head · 237 left           │      │
-│    RATE             │ early 27%* · regretted 15%*     │      │
-│   (hero figure)     │ median tenure at exit: 3 yrs*   │      │
-│                     └─────────────────────────────────┘      │
-├───────────────────────────────┬──────────────────────────────┤
-│  Attrition rate by job role   │  Lift vs baseline            │
-│  (horizontal bar, sorted, n)  │  (diverging bar, ±pp)        │
-├───────────────────────────────┴──────────────────────────────┤
-│  Top risk segments — role × condition, rate, n, lift (table) │
-└──────────────────────────────────────────────────────────────┘
-                                        * to be computed
-```
-
-### 2 · Driver Diagnostics — _"Why are they leaving?"_
-
-Audience: HR business partner. One panel per hypothesis, each with the baseline drawn on it.
-
-- **Overtime** — emphasis bar, the lift multiplier called out as a large number
-- **Travel** — attrition rate by `BusinessTravel`, faceted by department to expose the sales confound
-- **Promotion stagnation** — rate by `YearsSinceLastPromotion` band
-- **Manager tenure** — rate by `YearsWithCurrManager` band
-- **Commute** — rate by `DistanceFromHome` band
-- **Satisfaction** — diverging stacked bars, four dimensions, leavers vs stayers side by side
-- **Tenure composition** — line over `YearsAtCompany`, captioned for what it is
-
-### 3 · Compensation & Equity — _"Is this a pay problem?"_
-
-Audience: comp & benefits. Every view controls for seniority — that is the entire point of the tab.
-
-- Dumbbell: median income, stayers vs leavers, **within** each `JobRole`
-- Heatmap: attrition rate across `JobLevel` × income quartile
-- `PercentSalaryHike` band vs attrition rate, split by `PerformanceRating`
-- `StockOptionLevel` gradient — the cleanest policy argument available here
-- **Pay-band distribution by gender within role and level**, presented as a descriptive observation with explicit sample sizes and confidence caveats. This is a fairness _audit_ view, not an input to any decision about an individual.
-
-### 4 · Retention Risk Explorer — _"Who, and what would it cost?"_
-
-Audience: analytics team. Model-backed, and the only tab where individual-level scores appear.
-
-- Flight-risk score distribution, with the decision threshold as a movable line
-- Feature contribution bar chart — global importance, honest about collinearity in the tenure block
-- Watchlist table above the threshold: role, level, tenure, top contributing factors, score
-- Precision / recall at threshold, plus a confusion matrix
-- **Cost calculator** — replacement multiplier and intervention cost as visible inputs, outputting a range
-
-> [!CAUTION]
-> A watchlist of named individuals is the point at which an analytics exercise becomes an HR decision system. Even on fictional data, build it with the guardrails the real thing would need: no protected attributes as predictors, a documented threshold rationale, and a stated human-review requirement. See [Caveats and Ethics](#caveats-and-ethics).
-
-### Implementation options
-
-| Tool                        | Fit                                                                                                                                                |
-| :-------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Excel**                   | Pivot tables, slicers, and a linked dashboard sheet — the fastest credible prototype, and it keeps the analysis legible to non-technical reviewers |
-| **Power BI / Tableau**      | Cross-filtering, drill-through, and calculated measures; the closest to what an HR team would actually receive                                     |
-| **Plotly Dash / Streamlit** | Python-native, version-controllable, and the natural home for the live cost calculator and model threshold slider                                  |
-| **Static HTML**             | A single self-contained file — the most reliable thing to link from a portfolio, since it renders anywhere with no runtime                         |
-
-> [!TIP]
-> Building the **same** dashboard in two tools — Excel and one code-based option — is a stronger portfolio piece than two different dashboards. It demonstrates tool judgement rather than tool count.
-
----
-
-## Modelling Extension
-
-Optional, and secondary to the EDA. If included, the point is **interpretability**, not leaderboard score.
-
-- **Baseline first** — always predict "stays" scores ≈83.9% accuracy. Any model must beat that or be discarded, which is exactly why accuracy is the wrong metric here.
-- **Report precision, recall, and PR-AUC.** With a 16% positive class, ROC-AUC flatters a model that finds almost nobody. Precision@k mirrors how a watchlist is actually used.
-- **Logistic regression as the primary model** — coefficients and odds ratios are directly quotable to a stakeholder. Gradient boosting only as a benchmark to show what accuracy is being traded away.
-- **Handle imbalance explicitly** — class weights over synthetic oversampling, and never resample before the split.
-- **Exclude `Gender`, `Age`, `MaritalStatus`** from any model producing individual-level scores, and document the exclusion. Keep them in the _descriptive_ analysis where fairness auditing requires them.
-- **Split before anything else.** Encode, scale, and bin inside a pipeline fitted on train only.
+## IBM Attrition Explorer Dashboard
 
 ---
 
@@ -288,16 +119,14 @@ Optional, and secondary to the EDA. If included, the point is **interpretability
 | 00    | Exploring IBM HR Analytics Employee Attrition Dataset | ✅ Done     |
 | 01    | Handling duplicates values                            | ✅ Done     |
 | 02    | Handling missing values                               | ✅ Done     |
-| 03    | Normalizing Data                                      | ⏳ Progress |
-| 04    | Data wrangling                                        | ⏳ Progress |
+| 03    | Normalizing Data                                      | ✅ Done     |
+| 04    | Data wrangling                                        | ✅ Done     |
 | 05    | Exploratory Data Analysis                             | ✅ Done     |
-| 06    | Finding how data is distributed                       | 📆 Planned  |
+| 06    | Finding how data is distributed                       | ✅ Done     |
 | 07    | Finding outliers                                      | ✅ Done     |
 | 08    | Finding correlation                                   | ⏳ Progress |
-| 09    | Visualizing distribution                              | 📆 Planned  |
-| 10    | Visualizing relationship                              | 📆 Planned  |
-| 11    | Visualizing composition                               | 📆 Planned  |
-| 12    | Visualizing comparison                                | 📆 Planned  |
+| 09    | Visualizing distribution                              | ✅ Done     |
+| 10    | Regression Model                                      | ⏳ Progress |
 
 ---
 
@@ -321,14 +150,9 @@ ibm-analytics-attrition-eda/
 │   ├── 07-finding-outliers.ipynb
 │   ├── 08-finding-correlation.ipynb
 │   ├── 09-visualizing-distribution.ipynb
-│   ├── 10-visualizing-relationship.ipynb
-│   ├── 11-visualizing-composition.ipynb
-│   └── 12-visualizing-comparison.ipynb
+│   └── 10-regression-model.ipynb
 ├── dashboards/
-│   └── app/                  # Dash / Streamlit application
-├── reports/
-│   ├── figures/              # Exported charts, light and dark
-│   └── findings.md           # Ranked conclusions with caveats
+│   └── app/                  # Dash application
 ├── requirements.txt
 └── README.md
 ```
@@ -352,67 +176,7 @@ Notebooks are numerically prefixed and intended to be run in order.
 
 ---
 
-## Team Git Workflow
-
-### The loop
-
-**1 · Update `main` before starting.** - Before starting new work, make sure your local main is up to date.
-
-```bash
-git switch main
-git pull origin main
-```
-
-`--rebase` replays your local commits on top of the remote instead of manufacturing a "Merge branch 'main'" commit, which keeps the shared history readable.
-
-**2 · Branch for your work.** Do not commit directly to `main`.
-
-```bash
-git switch -c feat/04-attrition-by-segment
-```
-
-Branch naming mirrors the commit types below: `feat/…`, `fix/…`, `docs/…`, `chore/…`. Include the notebook or phase number when the work maps to one.
-
-**3 · Make your change on your branch.** Keep each branch focused on one task.
-
-For example:
-
-Good: Add attrition analysis by job role
-Avoid: Add attrition analysis + redesign README + update dependencies
-
-**4 · Stage the files you want to commit.** Add only the files related to your task.
-
-```bash
-git add notebooks/04-attrition-by-segment.ipynb
-git add reports/figures/attrition-by-role.png
-
-git diff --staged        # last look at exactly what will be committed
-```
-
-**5 · Commit with a real message.** Format and rationale in [Commit Message Convention](#commit-message-convention).
-
-```bash
-git commit -m "feat(04): add attrition rate by job role and level"
-```
-
-Commit in small, working steps. Several focused commits are easier to review — and to revert.
-
-**6 · Pull once more, then push.** Someone almost certainly pushed while you were working.
-
-```bash
-git pull origin main
-git push -u origin feat/04-attrition-by-segment
-```
-
-**7 · Open a pull request** against `main`, describe what changed. Merge after approval, then clean up:
-
-```bash
-git switch main
-git pull origin main
-git branch -d feat/04-attrition-by-segment
-```
-
-### When something goes wrong with Git
+## When something goes wrong with Git
 
 | Situation                             | Command                                                                                      |
 | :------------------------------------ | :------------------------------------------------------------------------------------------- |
@@ -459,33 +223,6 @@ Rules that make the format worth following:
 | `perf`     | Making something meaningfully faster                         | `perf(03): vectorise tenure banding instead of iterating rows`  |
 | `revert`   | Undoing a previous commit                                    | `revert: feat(08) flight-risk score prototype`                  |
 
-### Worked examples
-
-Good — scoped, imperative, one idea, and the body carries the reasoning:
-
-```
-feat(05): add within-role pay gap dumbbell chart
-
-Company-wide income comparison confounds pay with seniority, so the
-gap is computed inside each JobRole x JobLevel cell. Cells with fewer
-than 20 employees are flagged rather than plotted.
-```
-
-```
-fix(04): correct attrition rate denominator for job role
-
-Rates were dividing by total headcount instead of the role's own
-headcount, which understated every role. Sales Representative moves
-from 6.5% to 39.8%.
-```
-
-```
-docs(readme): document Colab data-loading routes
-```
-
-> [!TIP]
-> Before committing, read your message back as the sentence _"This commit will \_\_\_."_ If it does not complete that sentence, rewrite it.
-
 ---
 
 ## Technologies
@@ -531,15 +268,16 @@ Code and analysis are shared for educational reference. The underlying dataset r
 
 ## Author(S)
 
-| Author              | GitHub                                                                                                                                   |
-| :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------- |
-| **Amruta Atul**     | [![GitHub](https://img.shields.io/badge/GitHub-@amrutaatul2000-181717?style=flat-square&logo=github)](https://github.com/amrutaatul2000) |
-| **Asif Hassan**     | [![GitHub](https://img.shields.io/badge/GitHub-@asifhassan07-181717?style=flat-square&logo=github)](https://github.com/asifhassan07)     |
-| **Dhanan Thannoo**  | [![GitHub](https://img.shields.io/badge/GitHub-@ThannooDhanan-181717?style=flat-square&logo=github)](https://github.com/ThannooDhanan)   |
-| **Yunseo Jang**     | [![GitHub](https://img.shields.io/badge/GitHub-@Solcratic-181717?style=flat-square&logo=github)](https://github.com/Solcratic)           |
-| **Moustafa Ismail** | [![GitHub](https://img.shields.io/badge/GitHub-@mismail115-181717?style=flat-square&logo=github)](https://github.com/mismail115)         |
-| **Pablo Fiterman**  | [![GitHub](https://img.shields.io/badge/GitHub-@pfiterman-181717?style=flat-square&logo=github)](https://github.com/pfiterman)           |
-| **Tanvi Varshney**  | [![GitHub](https://img.shields.io/badge/GitHub-tanvivarshney7-181717?style=flat-square&logo=github)](https://github.com/tanvivarshney7)  |
+| Author                   | GitHub                                                                                                                                   |
+| :----------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| **Amruta Atul**          | [![GitHub](https://img.shields.io/badge/GitHub-@amrutaatul2000-181717?style=flat-square&logo=github)](https://github.com/amrutaatul2000) |
+| **Asif Hassan**          | [![GitHub](https://img.shields.io/badge/GitHub-@asifhassan07-181717?style=flat-square&logo=github)](https://github.com/asifhassan07)     |
+| **Dhanan Thannoo**       | [![GitHub](https://img.shields.io/badge/GitHub-@ThannooDhanan-181717?style=flat-square&logo=github)](https://github.com/ThannooDhanan)   |
+| **Yunseo Jang**          | [![GitHub](https://img.shields.io/badge/GitHub-@Solcratic-181717?style=flat-square&logo=github)](https://github.com/Solcratic)           |
+| **Moustafa Ismail**      | [![GitHub](https://img.shields.io/badge/GitHub-@mismail115-181717?style=flat-square&logo=github)](https://github.com/mismail115)         |
+| **Pablo Fiterman**       | [![GitHub](https://img.shields.io/badge/GitHub-@pfiterman-181717?style=flat-square&logo=github)](https://github.com/pfiterman)           |
+| **Stephanie Jivoderova** | [![GitHub](https://img.shields.io/badge/GitHub-@therealstephj-181717?style=flat-square&logo=github)](https://github.com/therealstephj)   |
+| **Tanvi Varshney**       | [![GitHub](https://img.shields.io/badge/GitHub-tanvivarshney7-181717?style=flat-square&logo=github)](https://github.com/tanvivarshney7)  |
 
 <div align="center">
 
