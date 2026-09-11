@@ -1,6 +1,7 @@
 .venv/
 .claude/
 __pycache__/
+build/
 *.pyc
 .ipynb_checkpoints/
 .env
