@@ -110,23 +110,50 @@ Grouped by the decision each one would inform.
 
 ## IBM Attrition Explorer Dashboard
 
+An interactive Dash app over the IBM HR Analytics dataset. Filter the workforce by
+job role, department, level and seven other attributes; every statistic, chart and
+table below the filter row re-reads the same slice.
+
+Libraries `dash` and `plotty` were added on top of the project's existing `requirements.txt`.
+Install the required libraries:
+
+```bash
+source .venv/bin/activate      # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+```bash
+# from the project root type
+(.venv) PS [YOUR WORK DIRECTORY]> python dashboards/app/app.py          # http://127.0.0.1:8050
+```
+
+Once Dash is running, open http://127.0.0.1:8050/ in your web browser to access the dashboard
+
+### What it shows
+
+The app reads **`data/raw/WA_Fn-UseC_-HR-Employee-Attrition.csv`** so all 35
+attributes stay available, drops the three constant columns (`EmployeeCount`,
+`Over18`, `StandardHours`), and re-derives the grouped features the notebooks use.
+`AgeGroup` and `TenureGroup` share the exact bin edges from
+`notebooks/04-data-wrangling.ipynb`, so a number here matches a number there.
+
 ---
 
 ## Roadmap
 
-| Phase | Deliverable                                           | Status      |
-| :---- | :---------------------------------------------------- | :---------- |
-| 00    | Exploring IBM HR Analytics Employee Attrition Dataset | ✅ Done     |
-| 01    | Handling duplicates values                            | ✅ Done     |
-| 02    | Handling missing values                               | ✅ Done     |
-| 03    | Normalizing Data                                      | ✅ Done     |
-| 04    | Data wrangling                                        | ✅ Done     |
-| 05    | Exploratory Data Analysis                             | ✅ Done     |
-| 06    | Finding how data is distributed                       | ✅ Done     |
-| 07    | Finding outliers                                      | ✅ Done     |
-| 08    | Finding correlation                                   | ⏳ Progress |
-| 09    | Visualizing distribution                              | ✅ Done     |
-| 10    | Regression Model                                      | ⏳ Progress |
+| Phase | Deliverable                                           | Status  |
+| :---- | :---------------------------------------------------- | :------ |
+| 00    | Exploring IBM HR Analytics Employee Attrition Dataset | ✅ Done |
+| 01    | Handling duplicates values                            | ✅ Done |
+| 02    | Handling missing values                               | ✅ Done |
+| 03    | Normalizing Data                                      | ✅ Done |
+| 04    | Data wrangling                                        | ✅ Done |
+| 05    | Exploratory Data Analysis                             | ✅ Done |
+| 06    | Finding how data is distributed                       | ✅ Done |
+| 07    | Finding outliers                                      | ✅ Done |
+| 08    | Finding correlation                                   | ✅ Done |
+| 09    | Visualizing distribution                              | ✅ Done |
+| 10    | Regression Model                                      | ✅ Done |
 
 ---
 
