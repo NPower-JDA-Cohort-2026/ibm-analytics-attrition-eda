@@ -18,7 +18,7 @@ import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 RAW_CSV = PROJECT_ROOT / "data" / "raw" / "WA_Fn-UseC_-HR-Employee-Attrition.csv"
-WRANGLED_CSV = PROJECT_ROOT / "data" / "HR_Employee_Attrition_Wrangled.csv"
+WRANGLED_CSV = PROJECT_ROOT / "data" / "wrangled" / "HR_Employee_Attrition_Wrangled.csv"
 
 # Columns with a single value across all 1,470 rows - they carry no information.
 CONSTANT_COLUMNS = ("EmployeeCount", "Over18", "StandardHours")

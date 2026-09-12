@@ -32,7 +32,7 @@ This project takes IBM's HR Analytics dataset — 1,470 employee records across 
 The framing is deliberately **diagnostic rather than predictive**. The primary question is not "can we guess who quits" but "which conditions are over-represented among leavers, by how much, and is the gap large enough to act on."
 
 > [!IMPORTANT]
-> This dataset is **fictional**, created by IBM data scientists to demonstrate HR analytics. It does not describe real employees and its rates are not industry benchmarks. Findings here demonstrate _method_ — they are not transferable HR conclusions. See [Caveats and Ethics](#caveats-and-ethics).
+> This dataset is **fictional**, created by IBM data scientists to demonstrate HR analytics. It does not describe real employees and its rates are not industry benchmarks. Findings here demonstrate _method_ — they are not transferable HR conclusions.
 
 ---
 
@@ -115,6 +115,7 @@ job role, department, level and seven other attributes; every statistic, chart a
 table below the filter row re-reads the same slice.
 
 Libraries `dash` and `plotty` were added on top of the project's existing `requirements.txt`.
+
 Install the required libraries:
 
 ```bash
@@ -122,9 +123,11 @@ source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+Open the terminal and type in your ibm-analytics-attrition-eda root directory:
+
 ```bash
 # from the project root type
-(.venv) PS [YOUR WORK DIRECTORY]> python dashboards/app/app.py          # http://127.0.0.1:8050
+(.venv) PS [PROJECT ROOT DIRECTORY]> python dashboards/app/app.py          # http://127.0.0.1:8050
 ```
 
 Once Dash is running, open http://127.0.0.1:8050/ in your web browser to access the dashboard
@@ -190,9 +193,11 @@ ibm-analytics-attrition-eda/
 
 **Clone and set up the environment.**
 
+In your work directory type:
+
 ```bash
 git clone https://github.com/NPower-JDA-Cohort-2026/ibm-analytics-attrition-eda.git
-cd [Work_Directory]/ibm-analytics-attrition-eda
+cd ibm-analytics-attrition-eda
 
 python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
@@ -200,55 +205,6 @@ pip install -r requirements.txt
 ```
 
 Notebooks are numerically prefixed and intended to be run in order.
-
----
-
-## When something goes wrong with Git
-
-| Situation                             | Command                                                                                      |
-| :------------------------------------ | :------------------------------------------------------------------------------------------- |
-| Push rejected — remote has new work   | `git pull --rebase origin main`, resolve, then push again                                    |
-| Staged a file by mistake              | `git restore --staged <file>` — unstages it, keeps your edits                                |
-| Discard uncommitted edits to a file   | `git restore <file>` — **destructive**, the edits are gone                                   |
-| Wrong commit message, not pushed yet  | `git commit --amend -m "<correct message>"`                                                  |
-| Undo the last commit, keep the work   | `git reset --soft HEAD~1`                                                                    |
-| Need to switch branches mid-change    | `git stash` → switch → `git stash pop`                                                       |
-| Notebook conflict you cannot untangle | Keep one version: `git checkout --theirs <notebook>` or `--ours`, re-run it, commit, explain |
-
----
-
-## Commit Message Convention
-
-This project follows [Conventional Commits](https://www.conventionalcommits.org/). The point is not ceremony — it is that `git log --oneline` becomes a readable changelog, and a reviewer can tell what a commit does before opening it.
-
-```
-<type>(<scope>): <short summary in the imperative mood>
-
-<optional body — why the change was made, not what it did>
-```
-
-Rules that make the format worth following:
-
-- **Type is lower-case and required.** Scope is optional but strongly encouraged — use the notebook number (`04`), the directory (`dashboards`), or the area (`readme`).
-- **Summary is imperative and under ~72 characters.** "add segment rates", not "added" or "adds".
-- **No trailing period.** No capital letter after the colon.
-- **One logical change per commit.** If the summary needs "and", split it.
-- **Use the body for the _why_.** The diff already shows what changed; it cannot show what you were thinking.
-
-### Types used by this team
-
-| Type       | Use it for                                                   | Example                                                         |
-| :--------- | :----------------------------------------------------------- | :-------------------------------------------------------------- |
-| `feat`     | New analysis, notebook, chart, KPI, or dashboard view        | `feat(05): add overtime attrition lift with baseline reference` |
-| `fix`      | Correcting a wrong result, broken code, or bad calculation   | `fix(04): use segment denominator instead of total headcount`   |
-| `docs`     | README, findings write-up, markdown cells, docstrings        | `docs(readme): add Google Colab setup instructions`             |
-| `refactor` | Restructuring code with no change to the output              | `refactor(02): extract ordinal decoding into a helper function` |
-| `style`    | Formatting, palette, labels, layout — nothing behavioural    | `style(06): apply colour-vision-safe palette to role charts`    |
-| `chore`    | Dependencies, `.gitignore`, repo scaffolding, housekeeping   | `chore: pin pandas to 3.0.5 in requirements.txt`                |
-| `data`     | Data acquisition, cleaning outputs, schema or codebook edits | `data(02): drop constant columns and write processed snapshot`  |
-| `test`     | Validation checks and assertions on the analysis             | `test(04): assert segment rates sum to the overall baseline`    |
-| `perf`     | Making something meaningfully faster                         | `perf(03): vectorise tenure banding instead of iterating rows`  |
-| `revert`   | Undoing a previous commit                                    | `revert: feat(08) flight-risk score prototype`                  |
 
 ---
 
@@ -265,23 +221,6 @@ Rules that make the format worth following:
 | **Microsoft Excel**                  | Pivot-table analysis and the first dashboard prototype |
 | **Plotly / Dash** _or_ **Streamlit** | Interactive dashboard and risk explorer                |
 | **scikit-learn**                     | Optional interpretable classifier                      |
-
----
-
-## Caveats and Ethics
-
-**The data is fictional.** IBM authored it as a teaching set. Nothing here describes real people, and no rate in it should be cited as an industry benchmark. Any conclusion stated in this repository is a statement about _this dataset_ and about the method used on it.
-
-**Correlation is not cause.** Overtime co-occurring with attrition does not establish that overtime causes attrition. With a single cross-sectional snapshot and no experiment, the honest ceiling is "this condition is over-represented among leavers by _n_ percentage points." Findings are worded that way throughout.
-
-**Attrition modelling on people is consequential.** Even as a portfolio exercise, an individual-level risk score is the kind of artefact that, in production, shapes who gets promoted, invested in, or quietly written off. This project therefore:
-
-- keeps `Gender`, `Age`, and `MaritalStatus` out of any model that scores individuals — using protected or proxy attributes to predict who might leave is both legally fraught and self-fulfilling;
-- retains those attributes in the **descriptive** analysis, because you cannot audit for disparity in a variable you refused to look at;
-- treats every score as an input to a conversation with a human, never as a decision;
-- reports segment sizes on every rate, so a finding built on eight people cannot masquerade as a pattern.
-
-**Reproducibility.** The raw CSV is not redistributed. Notebooks are committed with outputs so they can be read on GitHub, and every derived table is regenerable from `data/raw/` by running the notebooks in order.
 
 ---
 
