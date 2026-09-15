@@ -127,7 +127,7 @@ Open the terminal and type in your ibm-analytics-attrition-eda root directory:
 
 ```bash
 # from the project root type
-(.venv) PS ...\ibm-analytics-attrition-eda> python dashboards/app/app.py          # http://127.0.0.1:8050
+(.venv) PS ...\ibm-analytics-attrition-eda> python dashboards/app/app.py
 ```
 
 Once Dash is running, open http://127.0.0.1:8050/ in your web browser to access the dashboard
